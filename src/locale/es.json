@@ -1,0 +1,7 @@
+{
+    "translation": {
+        "header": "Nuestro encabezado",
+        "footer": "Pie de página {{year}}",
+        "select_language": "Seleccione el idioma"
+    }
+}
