@@ -1,7 +1,19 @@
 {
-    "translation": {
-        "header": "Nuestro encabezado",
-        "footer": "Pie de página {{year}}",
-        "select_language": "Seleccione el idioma"
-    }
+  "translation": {
+    "header": "Pedro Pizzi",
+    "select_language": "Selecciona el idioma:",
+    "projects_title": "Mis Proyectos",
+    "projects_desc": "Aquí encontrarás mis proyectos académicos, profesionales y personales.",
+    "about_title": "Sobre Mí",
+    "about_desc": "Perfil: Ingeniero en Computación",
+    "about_desc2": "Soy un desarrollador que siempre busca soluciones efectivas, innovadoras y creativas.",
+    "about_desc3": "Estoy en el décimo semestre de mi carrera de ingeniería en computación.",
+    "about_desc4": "Hablo cuatro idiomas diferentes y siempre me gusta aprender cosas nuevas.",
+    "contact_title": "Contacto",
+    "contact_desc": "Puedes encontrarme en GitHub, LinkedIn o enviarme un correo electrónico para colaboraciones o dudas.",
+    "footer_text": "Hecho con magia y café ☕",
+    "resume_title": "Currículum",
+    "resume_desc": "Aquí puedes ver o descargar mi currículum completo en formato PDF.",
+    "resume_button": "Ver Currículum"
+  }
 }

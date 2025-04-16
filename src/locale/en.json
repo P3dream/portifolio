@@ -1,6 +1,19 @@
 {
-    "translation": {
-        "header" : "Our header",
-        "footer" : "Footer {{year}}"
-    }
+  "translation": {
+    "header": "Pedro Pizzi",
+    "select_language": "Select language:",
+    "projects_title": "My Projects",
+    "projects_desc": "Here you will find my academic, professional, and personal projects.",
+    "about_title": "About Me",
+    "about_desc": "Profile: Computer Engineer",
+    "about_desc2": "I'm a developer who is always looking for effective, innovative, and creative solutions.",
+    "about_desc3": "I'm in the tenth semester of my computer engineering degree.",
+    "about_desc4": "I speak four different languages and always enjoy learning new things.",
+    "contact_title": "Contact",
+    "contact_desc": "You can find me on GitHub, LinkedIn or send me an email for collaborations or questions.",
+    "footer_text": "Made with magic and coffee ☕",
+    "resume_title": "Resume",
+    "resume_desc": "Here you can view or download my full resume in PDF format.",
+    "resume_button": "View Resume"
+  }
 }
