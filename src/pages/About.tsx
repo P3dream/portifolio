@@ -1,15 +1,25 @@
 import { useTranslation } from "react-i18next";
+import profilePhoto from "../assets/photo.png"; // ajuste o caminho se necessário
 
 const About = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="space-y-4">
-      <h2 className="text-3xl font-bold text-gray-100">{t("about_title")}</h2>
-      <p className="text-lg text-gray-300">{t("about_desc")}</p>
-      <p className="text-lg text-gray-300">{t("about_desc2")}</p>
-      <p className="text-lg text-gray-300">{t("about_desc3")}</p>
-      <p className="text-lg text-gray-300">{t("about_desc4")}</p>
+    <div className="space-y-4 px-4 sm:px-0">
+      <div className="flex flex-col items-center text-center sm:flex-row sm:items-start sm:text-left sm:gap-6 mb-6">
+        <img
+          src={profilePhoto}
+          alt="Pedro Pizzi"
+          className="w-50 h-50 rounded-full object-cover shadow-md border-4 border-slate-700"
+        />
+        <div className="mt-4 sm:mt-0">
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-100">{t("about_title")}</h2>
+          <p className="text-base sm:text-lg text-gray-300 mt-2">{t("about_desc")}</p>
+          <p className="text-base sm:text-lg text-gray-300">{t("about_desc2")}</p>
+          <p className="text-base sm:text-lg text-gray-300">{t("about_desc3")}</p>
+          <p className="text-base sm:text-lg text-gray-300">{t("about_desc4")}</p>
+        </div>
+      </div>
     </div>
   );
 };
