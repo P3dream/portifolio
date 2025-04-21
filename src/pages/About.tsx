@@ -14,7 +14,7 @@ const About = () => {
         />
         <div className="mt-4 sm:mt-0">
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-100">{t("about_title")}</h2>
-          <p className="text-base sm:text-lg text-gray-300 mt-2">{t("about_desc")}</p>
+          <p className="text-base sm:text-lg text-gray-300 mt-2 mb-3">{t("about_desc")}</p>
           <p className="text-base sm:text-lg text-gray-300">{t("about_desc2")}</p>
           <p className="text-base sm:text-lg text-gray-300">{t("about_desc3")}</p>
           <p className="text-base sm:text-lg text-gray-300">{t("about_desc4")}</p>
