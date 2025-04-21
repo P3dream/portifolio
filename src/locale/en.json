@@ -14,6 +14,16 @@
     "footer_text": "Made with magic and coffee ☕",
     "resume_title": "Resume",
     "resume_desc": "Here you can view or download my full resume in PDF format.",
-    "resume_button": "View Resume"
+    "resume_button": "View Resume",
+    "projects": [
+      {
+        "title": "DoS Attack Detection with Generative AI",
+        "description": "DoS attack detection using generative AI, my final project at Cefet/RJ"
+      },
+      {
+        "title": "Back-end with NestJS",
+        "description": "Base back-end project using NestJS, TypeORM, and PostgreSQL. Includes JWT authentication, email service, and entity operations."
+      }
+    ]
   }
 }

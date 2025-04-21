@@ -14,6 +14,16 @@
     "footer_text": "Fait avec magie et café ☕",
     "resume_title": "CV",
     "resume_desc": "Vous pouvez consulter ou télécharger mon CV complet au format PDF.",
-    "resume_button": "Voir le CV"
+    "resume_button": "Voir le CV",
+    "projects": [
+      {
+        "title": "Détection d'attaques DoS avec IA générative",
+        "description": "Détection d'attaques DoS à l'aide d'une IA générative, projet de fin d'études au Cefet/RJ"
+      },
+      {
+        "title": "Back-end avec NestJS",
+        "description": "Projet back-end de base utilisant NestJS, TypeORM et PostgreSQL. Comprend l'authentification JWT, le service d'e-mail et les opérations sur les entités."
+      }
+    ]
   }
 }

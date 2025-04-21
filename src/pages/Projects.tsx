@@ -6,14 +6,14 @@ const Projects = () => {
 
   const projectList = [
     {
-      title: "Detecção de ataques DoS usando IA generativa",
-      description: "Detecção de ataques DoS usando IA generativa, projeto do meu TCC no Cefet/Rj",
+      title: t("projects.0.title"),
+      description: t("projects.0.description"),
       image: "./assets/project-dos-image.png",
       path: "https://github.com/P3dream/detect-dos-attacks-with-llama"
     },
     {
-      title: "Back-end usando NestJS",
-      description: "Projeto base e exemplo de back-end usando NestJS",
+      title: t("projects.1.title"),
+      description: t("projects.1.description"),
       image: "/assets/nest-project.png",
       path: "https://github.com/P3dream/nest-back-end-project"
     }

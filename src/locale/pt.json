@@ -1,20 +1,29 @@
 {
-    "translation": {
-      "header": "Pedro Pizzi",
-      "select_language": "Selecione o idioma:",
-      "projects_title": "Meus Projetos",
-      "projects_desc": "Aqui você encontrará meus projetos acadêmicos, profissionais e pessoais.",
-      "about_title": "Sobre Mim",
-      "about_desc": "Perfil: Engenheiro de computação",
-      "about_desc2": "Sou um desenvolvedor que busca sempre pelas soluções efetivas, invadoras e criativas.",
-      "about_desc3": "Estou no décimo período da minha faculdade de engenharia de computação.",
-      "about_desc4": "Falo quatro diferentes idiomas e sempre gosto de aprender coisas novas",
-      "contact_title": "Contato",
-      "contact_desc": "Você pode me encontrar no GitHub, LinkedIn ou me enviar um e-mail para colaborações ou dúvidas.",
-      "footer_text": "Feito com magia e café ☕",
-      "resume_title": "Currículo",
-      "resume_desc": "Aqui você pode visualizar ou baixar meu currículo completo em PDF.",
-      "resume_button": "Ver Currículo"
-    }
+  "translation": {
+    "header": "Pedro Pizzi",
+    "select_language": "Selecione o idioma:",
+    "projects_title": "Meus Projetos",
+    "projects_desc": "Aqui você encontrará meus projetos acadêmicos, profissionais e pessoais.",
+    "about_title": "Sobre Mim",
+    "about_desc": "Perfil: Engenheiro de computação",
+    "about_desc2": "Sou um desenvolvedor que busca sempre pelas soluções efetivas, invadoras e criativas.",
+    "about_desc3": "Estou no décimo período da minha faculdade de engenharia de computação.",
+    "about_desc4": "Falo quatro diferentes idiomas e sempre gosto de aprender coisas novas",
+    "contact_title": "Contato",
+    "contact_desc": "Você pode me encontrar no GitHub, LinkedIn ou me enviar um e-mail para colaborações ou dúvidas.",
+    "footer_text": "Feito com magia e café ☕",
+    "resume_title": "Currículo",
+    "resume_desc": "Aqui você pode visualizar ou baixar meu currículo completo em PDF.",
+    "resume_button": "Ver Currículo",
+    "projects": [
+      {
+        "title": "Detecção de ataques DoS usando IA generativa",
+        "description": "Detecção de ataques DoS usando IA generativa, projeto do meu TCC no Cefet/Rj"
+      },
+      {
+        "title": "Back-end usando NestJS",
+        "description": "Projeto base de back-end utilizando NestJS, TypeORM e PostegreSQL. Autenticação JWT, Envio de email e operações com entidades."
+      }
+    ]
   }
-  
+}
