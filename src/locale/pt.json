@@ -25,7 +25,7 @@
         "description": "Projeto base de back-end utilizando NestJS, TypeORM e PostegreSQL. Autenticação JWT, Envio de email e operações com entidades."
       }
     ],
-    "blog_title": "Blog",
+    "blog_title": "Youtube Channel",
     "blog_desc": "Confira meus posts comentando vídeos tutoriais que publico no YouTube.",
     "blog_post_1_title": "Introdução ao Nest.js",
     "blog_post_1_desc": "Veja como configurar do zero um projeto Nest.js com boas práticas.",

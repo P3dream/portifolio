@@ -7,7 +7,7 @@ import Resume from "./pages/Resume";
 import { useTranslation } from "react-i18next";
 import "./App.css";
 import { Globe } from "lucide-react";
-import Blog from "./pages/Blog";
+import YoutubeChannel from "./pages/YoutubeChannel";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -44,7 +44,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Navigate to="/about" replace />} />
             <Route path="/about" element={<About />} />
-            <Route path="/blog" element={<Blog />} />
+            <Route path="/youtubeChannel" element={<YoutubeChannel/>} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/resume" element={<Resume />} />
           </Routes>
