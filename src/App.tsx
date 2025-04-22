@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope, FaYoutube } from 'react-icons/fa';
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -68,6 +68,14 @@ function App() {
               className="hover:text-gray-100"
             >
               <FaGithub className="w-6 h-6" />
+            </a>
+            <a
+              href="https://www.youtube.com/@PizziDev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-red-500"
+            >
+              <FaYoutube className="w-6 h-6" />
             </a>
             <a
               href="mailto:pedropizzi23@hotmail.com"
