@@ -7,6 +7,13 @@ const blogPosts = [
     descKey: "blog_post_1_desc",
     youtubeUrl: "https://youtu.be/zOOKUdEnuGY",
     imageUrl: "/assets/thumb-nest.png"
+  },
+  {
+    id: 2,
+    titleKey: "blog_post_2_title",
+    descKey: "blog_post_2_desc",
+    youtubeUrl: "https://youtu.be/DsYMY290uc4",
+    imageUrl: "public/assets/nest-project2.png"
   }
 ];
 

@@ -29,6 +29,8 @@
     "blog_desc": "Découvrez mes articles commentant des tutoriels vidéo que je publie sur YouTube.",
     "blog_post_1_title": "Introduction à Nest.js",
     "blog_post_1_desc": "Apprenez à configurer un projet Nest.js à partir de zéro en suivant les bonnes pratiques.",
+    "blog_post_2_title": "Démarrage de Notre Projet NestJS | Modélisation des Entités et Explication des Bases",
+    "blog_post_2_desc": "Premiers pas avec NestJS : création du projet, modélisation des premières entités et présentation des concepts de base du framework.",
     "watch_video": "Regarder la vidéo"
   }
 }
