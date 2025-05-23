@@ -31,6 +31,10 @@
       {
         "title": "Sistema de Biblioteca com Listas Encadeadas",
         "description": "Sistema para Linux desenvolvido em C utilizando listas encadeadas para gestão eficiente de memória. Controla alunos/livros/infraestrutura com operações de complexidade O(n)."
+      },
+      {
+      "title": "Produtor-Consumidor Paralelo com fork()",
+        "description": "Implementação em C exclusiva para Linux demonstrando paralelismo em nível de processos usando fork(). Inclui um produtor gerando dados e um consumidor processando-os via memória compartilhada, desenvolvido para exploração acadêmica de conceitos básicos de paralelização."
       }
     ],
     "blog_title": "Youtube Channel",

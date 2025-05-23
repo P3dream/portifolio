@@ -31,6 +31,10 @@
       {
         "title": "Linked List Library Management System",
         "description": "A Linux-based library system implemented in C using linked lists for efficient memory management. Features student/book/infrastructure tracking with O(n) complexity operations."
+      },
+      {
+        "title": "Parallel Producer-Consumer with fork()",
+        "description": "Linux-exclusive C implementation demonstrating process-level parallelism using fork(). Features a producer generating data and a consumer processing it through shared memory, developed for academic exploration of basic parallelization concepts."
       }
     ],
     "blog_title": "Youtube",

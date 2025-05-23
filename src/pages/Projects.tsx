@@ -29,6 +29,12 @@ const Projects = () => {
       image: "/assets/library-project.jpg",
       path: "https://github.com/P3dream/Sistema_biblioteca"
     },
+    {
+      title: t("projects.4.title"),
+      description: t("projects.4.description"),
+      image: "/assets/fork-project.jpg",
+      path: "https://github.com/P3dream/Problema-Produtor-Consumidor-usando-fork"
+    }
   ];
 
   return (

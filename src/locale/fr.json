@@ -31,6 +31,10 @@
       {
         "title": "Système de Bibliothèque avec Listes Chaînées",
         "description": "Système Linux développé en C utilisant des listes chaînées pour une gestion efficace de la mémoire. Suivi des étudiants/livres/infrastructures avec opérations de complexité O(n)."
+      },
+      {
+        "title": "Producteur-Consommateur Parallèle avec fork()",
+        "description": "Implémentation en C exclusive à Linux démontrant le parallélisme au niveau des processus utilisant fork(). Comprend un producteur générant des données et un consommateur les traitant via une mémoire partagée, développé pour l'exploration académique des concepts de base de parallélisation."
       }
     ],
     "blog_title": "Youtube Channel",
