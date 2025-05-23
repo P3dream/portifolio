@@ -16,7 +16,19 @@ const Projects = () => {
       description: t("projects.1.description"),
       image: "/assets/nest-project.jpg",
       path: "https://github.com/P3dream/nest-back-end-project"
-    }
+    },
+    {
+      title: t("projects.2.title"),
+      description: t("projects.2.description"),
+      image: "/assets/pacman-project.jpg",
+      path: "https://github.com/P3dream/PacmanAS"
+    },
+    {
+      title: t("projects.3.title"),
+      description: t("projects.3.description"),
+      image: "/assets/library-project.jpg",
+      path: "https://github.com/P3dream/Sistema_biblioteca"
+    },
   ];
 
   return (

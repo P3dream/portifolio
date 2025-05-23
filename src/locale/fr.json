@@ -23,6 +23,14 @@
       {
         "title": "Back-end avec NestJS",
         "description": "Projet back-end de base utilisant NestJS, TypeORM et PostgreSQL. Comprend l'authentification JWT, le service d'e-mail et les opérations sur les entités."
+      },
+      {
+      "title": "Pacman en Assembly P3",
+      "description": "Jeu Pacman développé par moi en Assembly P3, dans le cadre du cours d’Architecture des Ordinateurs au CEFET/RJ, pour le programme d’Ingénierie Informatique."
+      },
+      {
+        "title": "Système de Bibliothèque avec Listes Chaînées",
+        "description": "Système Linux développé en C utilisant des listes chaînées pour une gestion efficace de la mémoire. Suivi des étudiants/livres/infrastructures avec opérations de complexité O(n)."
       }
     ],
     "blog_title": "Youtube Channel",
