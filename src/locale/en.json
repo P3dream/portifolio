@@ -2,7 +2,7 @@
   "translation": {
     "header": "Pedro Pizzi",
     "select_language": "Select language:",
-    "projects_title": "My Projects",
+    "projects_title": "Projects",
     "projects_desc": "Here you will find my academic, professional, and personal projects.",
     "about_title": "About Me",
     "about_desc": "Profile: Computer Engineer",
@@ -25,7 +25,7 @@
         "description": "Base back-end project using NestJS, TypeORM, and PostgreSQL. Includes JWT authentication, email service, and entity operations."
       }
     ],
-    "blog_title": "Youtube Channel",
+    "blog_title": "Youtube",
     "blog_desc": "Check out my posts discussing tutorial videos I publish on YouTube.",
     "blog_post_1_title": "Presentation and why NEST.JS",
     "blog_post_1_desc": "A little self presentation and why nest.js was chosen over other frameworks",

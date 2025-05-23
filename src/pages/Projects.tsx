@@ -8,13 +8,13 @@ const Projects = () => {
     {
       title: t("projects.0.title"),
       description: t("projects.0.description"),
-      image: "./assets/project-dos-image.png",
+      image: "./assets/project-dos-image.jpg",
       path: "https://github.com/P3dream/detect-dos-attacks-with-llama"
     },
     {
       title: t("projects.1.title"),
       description: t("projects.1.description"),
-      image: "/assets/nest-project.png",
+      image: "/assets/nest-project.jpg",
       path: "https://github.com/P3dream/nest-back-end-project"
     }
   ];

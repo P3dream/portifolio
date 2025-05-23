@@ -6,14 +6,14 @@ const blogPosts = [
     titleKey: "blog_post_1_title",
     descKey: "blog_post_1_desc",
     youtubeUrl: "https://youtu.be/zOOKUdEnuGY",
-    imageUrl: "/assets/thumb-nest.png"
+    imageUrl: "/assets/thumb-nest.jpg"
   },
   {
     id: 2,
     titleKey: "blog_post_2_title",
     descKey: "blog_post_2_desc",
     youtubeUrl: "https://youtu.be/DsYMY290uc4",
-    imageUrl: "public/assets/nest-project2.png"
+    imageUrl: "public/assets/nest-project2.jpg"
   }
 ];
 
