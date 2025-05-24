@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-import profilePhoto from "../assets/photo.png"; // ajuste o caminho se necessário
 
 const About = () => {
   const { t } = useTranslation();
@@ -8,7 +7,7 @@ const About = () => {
     <div className="space-y-6 px-4 sm:px-0">
       <div className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-6 mb-6">
         <img
-          src={profilePhoto}
+          src={"/assets/photo.jpg"}
           alt="Pedro Pizzi"
           className="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover shadow-md border-4 border-slate-700"
         />
