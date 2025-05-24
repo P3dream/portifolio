@@ -44,5 +44,14 @@
     "blog_post_2_title": "Starting Our NestJS Project | Modeling Entities and Explaining Nest Basics",
     "blog_post_2_desc": "First steps with NestJS: project setup, modeling initial entities, and explaining the framework fundamentals.",
     "watch_video": "Watch video"
-  }
+  },
+  "recommendations_title": "Recommendation Letters",
+  "recommendations": [
+    {
+      "title": "Beeing built",
+      "description": "Beeing built",
+      "image": "/assets/recommendation1.jpg",
+      "path": "/docs/recommendation-joao.pdf"
+    }
+  ]
 }

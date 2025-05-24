@@ -2,7 +2,7 @@
   "translation": {
     "header": "Pedro Pizzi",
     "select_language": "Choisissez la langue :",
-    "projects_title": "Mes Projets",
+    "projects_title": "Projets",
     "projects_desc": "Vous trouverez ici mes projets académiques, professionnels et personnels.",
     "about_title": "À Propos de Moi",
     "about_desc": "Profil: Ingénieur en informatique",
@@ -37,7 +37,7 @@
         "description": "Implémentation en C exclusive à Linux démontrant le parallélisme au niveau des processus utilisant fork(). Comprend un producteur générant des données et un consommateur les traitant via une mémoire partagée, développé pour l'exploration académique des concepts de base de parallélisation."
       }
     ],
-    "blog_title": "Youtube Channel",
+    "blog_title": "Youtube",
     "blog_desc": "Découvrez mes articles commentant des tutoriels vidéo que je publie sur YouTube.",
     "blog_post_1_title": "Introduction à Nest.js",
     "blog_post_1_desc": "Apprenez à configurer un projet Nest.js à partir de zéro en suivant les bonnes pratiques.",

@@ -22,17 +22,17 @@ function App() {
         <Navbar />
         <div className="flex justify-end px-4 sm:px-6 pt-4">
           <div className="relative inline-block text-left">
-            <div className="flex items-center gap-2 bg-gray-100 hover:bg-gray-200 border border-gray-300 rounded-md px-3 py-2 shadow transition duration-200 cursor-pointer">
-              <Globe className="w-4 h-4 text-gray-700" />
+            <div className="flex items-center gap-2 bg-gray-800/80 hover:bg-gray-700/80 border border-gray-600 rounded-md px-3 py-2 shadow transition duration-200 cursor-pointer">
+              <Globe className="w-4 h-4 text-gray-200" />
               <select
                 onChange={handleChangeLanguage}
                 value={i18n.language}
-                className="appearance-none bg-transparent outline-none text-gray-900 font-medium pr-6 cursor-pointer"
+                className="appearance-none bg-gray-800/90 outline-none text-gray-100 font-medium pr-6 cursor-pointer hover:bg-gray-700/90"
               >
-                <option value="en">English</option>
-                <option value="pt">Português</option>
-                <option value="es">Español</option>
-                <option value="fr">Français</option>
+                <option value="en" className="bg-gray-800">English</option>
+                <option value="pt" className="bg-gray-800">Português</option>
+                <option value="es" className="bg-gray-800">Español</option>
+                <option value="fr" className="bg-gray-800">Français</option>
               </select>
             </div>
           </div>

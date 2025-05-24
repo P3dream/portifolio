@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import ProjectCard from "../components/ProjectCard";
+import Card from "../components/Card";
 
 const Projects = () => {
   const { t } = useTranslation();
@@ -44,7 +44,7 @@ const Projects = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {projectList.map((project) => (
-          <ProjectCard
+          <Card
             key={project.title}
             title={project.title}
             description={project.description}

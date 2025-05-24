@@ -1,7 +1,11 @@
 import { useTranslation } from "react-i18next";
+// import Carousel from "../components/Carousel";
+// import type { CardProps } from "../components/Card";
 
 const About = () => {
   const { t } = useTranslation();
+
+  // const recommendationCards = t("recommendations", { returnObjects: true }) as CardProps[];
 
   return (
     <div className="space-y-6 px-4 sm:px-0">
@@ -19,6 +23,13 @@ const About = () => {
           <p className="text-base sm:text-lg text-gray-300">{t("about_desc4")}</p>
         </div>
       </div>
+
+      {/* Seção de Cartas de Recomendação */}
+      {/* <div className="mt-10 space-y-4">
+        <h3 className="text-xl font-bold text-gray-100">{t("recommendations_title")}</h3>
+        <Carousel items={Array.isArray(recommendationCards) ? recommendationCards : []} />
+      </div> */}
+
     </div>
   );
 };
