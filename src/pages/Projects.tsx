@@ -38,7 +38,7 @@ const Projects = () => {
     {
       title: t("projects.5.title"),
       description: t("projects.5.description"),
-      image: "public/assets/portfolio.png",
+      image: "/assets/portfolio.png",
       path: "https://github.com/P3dream/portifolio"
     }
   ];
