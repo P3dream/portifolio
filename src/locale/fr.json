@@ -35,6 +35,10 @@
       {
         "title": "Producteur-Consommateur Parallèle avec fork()",
         "description": "Implémentation en C exclusive à Linux démontrant le parallélisme au niveau des processus utilisant fork(). Comprend un producteur générant des données et un consommateur les traitant via une mémoire partagée, développé pour l'exploration académique des concepts de base de parallélisation."
+      },
+      {
+        "title": "Projet de Portfolio Personnel",
+        "description": "Un portfolio personnel présentant mes compétences et projets utilisant React, TypeScript, Vite et i18n."
       }
     ],
     "blog_title": "Youtube",

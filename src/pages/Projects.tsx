@@ -34,6 +34,12 @@ const Projects = () => {
       description: t("projects.4.description"),
       image: "/assets/fork-project.jpg",
       path: "https://github.com/P3dream/Problema-Produtor-Consumidor-usando-fork"
+    },
+    {
+      title: t("projects.5.title"),
+      description: t("projects.5.description"),
+      image: "public/assets/portfolio.png",
+      path: "https://github.com/P3dream/portifolio"
     }
   ];
 
