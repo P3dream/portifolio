@@ -13,7 +13,7 @@ const blogPosts = [
     titleKey: "blog_post_2_title",
     descKey: "blog_post_2_desc",
     youtubeUrl: "https://youtu.be/DsYMY290uc4",
-    imageUrl: "public/assets/nest-project2.jpg"
+    imageUrl: "/assets/nest-project2.jpg"
   }
 ];
 
