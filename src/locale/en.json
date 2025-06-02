@@ -53,14 +53,33 @@
         "path": "https://github.com/P3dream/portifolio"
       }
     ],
-    "recomendations":[
-      {
-        "title": "Cristiano de Souza de Carvalho",
-        "description": "Doutor em Engenharia Mecânica e Professor de Engenharia de Computação na Faculdade Estadual de Tecnologia de Rio de Janeiro (CEFET/RJ).",
-        "image": "/assets/cristiano-preview.png",
-        "path": "recomendation-letters/recomendation-letter-cristiano-carvalho.pdf"
-      }
-    ],  
+    "recomendations": [
+    {
+      "title": "Dalbert Matos Mascarenhas",
+      "description": "PhD in Computer Science and Professor of Computer Engineering at the State College of Technology of Rio de Janeiro (CEFET/RJ).",
+      "image": "assets/dalbert-preview.png",
+      "path": "recomendation-letters/recomendation-letter-dalbert-mascarenhas.pdf"
+    },
+    {
+      "title": "Cristiano de Souza de Carvalho",
+      "description": "PhD in Mechanical Engineering and Professor of Computer Engineering at the State College of Technology of Rio de Janeiro (CEFET/RJ).",
+      "image": "/assets/cristiano-preview.png",
+      "path": "recomendation-letters/recomendation-letter-cristiano-carvalho.pdf"
+    },
+    {
+      "title": "Pedro Carlos da Silva Lara",
+      "description": "PhD in Computational Modeling and Professor of Computer Engineering at the State College of Technology of Rio de Janeiro (CEFET/RJ).",
+      "image": "/assets/pedro-lara-preview.png",
+      "path": "recomendation-letters/recomendation-letter-pedro-lara.pdf"
+    },
+    {
+      "title": "Luis Retondaro",
+      "description": "PhD in Systems and Computing Engineering and Professor of Computer Engineering at the State College of Technology of Rio de Janeiro (CEFET/RJ).",
+      "image": "/assets/luis-retondaro-preview.png",
+      "path": "recomendation-letters/recomendation-letter-pedro-lara.pdf"
+    }
+  ],
+ 
     "blog_title": "Youtube",
     "blog_desc": "Check out my posts discussing tutorial videos I publish on YouTube.",
     "blog_post_1_title": "Presentation and why NEST.JS",

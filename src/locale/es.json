@@ -53,6 +53,32 @@
         "path": "https://github.com/P3dream/portifolio"
       }
     ],
+    "recomendations": [
+      {
+        "title": "Dalbert Matos Mascarenhas",
+        "description": "Doctor en Computación y Profesor de Ingeniería de Computación en la Facultad Estatal de Tecnología de Río de Janeiro (CEFET/RJ).",
+        "image": "assets/dalbert-preview.png",
+        "path": "recomendation-letters/recomendation-letter-dalbert-mascarenhas.pdf"
+      },
+      {
+        "title": "Cristiano de Souza de Carvalho",
+        "description": "Doctor en Ingeniería Mecánica y Profesor de Ingeniería de Computación en la Facultad Estatal de Tecnología de Río de Janeiro (CEFET/RJ).",
+        "image": "/assets/cristiano-preview.png",
+        "path": "recomendation-letters/recomendation-letter-cristiano-carvalho.pdf"
+      },
+      {
+        "title": "Pedro Carlos da Silva Lara",
+        "description": "Doctor en Modelado Computacional y Profesor de Ingeniería de Computación en la Facultad Estatal de Tecnología de Río de Janeiro (CEFET/RJ).",
+        "image": "/assets/pedro-lara-preview.png",
+        "path": "recomendation-letters/recomendation-letter-pedro-lara.pdf"
+      },
+      {
+        "title": "Luis Retondaro",
+        "description": "Doctor en Ingeniería de Sistemas y Computación y Profesor de Ingeniería de Computación en la Facultad Estatal de Tecnología de Río de Janeiro (CEFET/RJ).",
+        "image": "/assets/luis-retondaro-preview.png",
+        "path": "recomendation-letters/recomendation-letter-pedro-lara.pdf"
+      }
+    ],
     "blog_title": "Youtube",
     "blog_desc": "Consulta mis publicaciones comentando videos tutoriales que publico en YouTube.",
     "blog_post_1_title": "Introducción a Nest.js",
