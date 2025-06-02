@@ -18,27 +18,39 @@
     "projects": [
       {
         "title": "Détection d'attaques DoS avec IA générative",
-        "description": "Détection d'attaques DoS à l'aide d'une IA générative, projet de fin d'études au Cefet/RJ"
+        "description": "Détection d'attaques DoS à l'aide d'une IA générative, projet de fin d'études au Cefet/RJ",
+        "image": "/assets/project-dos-image.jpg",
+        "path": "https://github.com/P3dream/detect-dos-attacks-with-llama"
       },
       {
         "title": "Back-end avec NestJS",
-        "description": "Projet back-end de base utilisant NestJS, TypeORM et PostgreSQL. Comprend l'authentification JWT, le service d'e-mail et les opérations sur les entités."
+        "description": "Projet back-end de base utilisant NestJS, TypeORM et PostgreSQL. Comprend l'authentification JWT, le service d'e-mail et les opérations sur les entités.",
+        "image": "/assets/nest-project.jpg",
+        "path": "https://github.com/P3dream/nest-back-end-project"
       },
       {
-      "title": "Pacman en Assembly P3",
-      "description": "Jeu Pacman développé par moi en Assembly P3, dans le cadre du cours d’Architecture des Ordinateurs au CEFET/RJ, pour le programme d’Ingénierie Informatique."
+        "title": "Pacman en Assembly P3",
+        "description": "Jeu Pacman développé par moi en Assembly P3, dans le cadre du cours d’Architecture des Ordinateurs au CEFET/RJ, pour le programme d’Ingénierie Informatique.",
+        "image": "/assets/pacman-project.jpg",
+        "path": "https://github.com/P3dream/PacmanAS"
       },
       {
         "title": "Système de Bibliothèque avec Listes Chaînées",
-        "description": "Système Linux développé en C utilisant des listes chaînées pour une gestion efficace de la mémoire. Suivi des étudiants/livres/infrastructures avec opérations de complexité O(n)."
+        "description": "Système Linux développé en C utilisant des listes chaînées pour une gestion efficace de la mémoire. Suivi des étudiants/livres/infrastructures avec opérations de complexité O(n).",
+        "image": "/assets/library-project.jpg",
+        "path": "https://github.com/P3dream/Sistema_biblioteca"
       },
       {
         "title": "Producteur-Consommateur Parallèle avec fork()",
-        "description": "Implémentation en C exclusive à Linux démontrant le parallélisme au niveau des processus utilisant fork(). Comprend un producteur générant des données et un consommateur les traitant via une mémoire partagée, développé pour l'exploration académique des concepts de base de parallélisation."
+        "description": "Implémentation en C exclusive à Linux démontrant le parallélisme au niveau des processus utilisant fork(). Comprend un producteur générant des données et un consommateur les traitant via une mémoire partagée, développé pour l'exploration académique des concepts de base de parallélisation.",
+        "image": "/assets/fork-project.jpg",
+        "path": "https://github.com/P3dream/Problema-Produtor-Consumidor-usando-fork"
       },
       {
         "title": "Projet de Portfolio Personnel",
-        "description": "Un portfolio personnel présentant mes compétences et projets utilisant React, TypeScript, Vite et i18n."
+        "description": "Un portfolio personnel présentant mes compétences et projets utilisant React, TypeScript, Vite et i18n.",
+        "image": "/assets/portfolio.png",
+        "path": "https://github.com/P3dream/portifolio"
       }
     ],
     "blog_title": "Youtube",
@@ -47,6 +59,8 @@
     "blog_post_1_desc": "Apprenez à configurer un projet Nest.js à partir de zéro en suivant les bonnes pratiques.",
     "blog_post_2_title": "Démarrage de Notre Projet NestJS | Modélisation des Entités et Explication des Bases",
     "blog_post_2_desc": "Premiers pas avec NestJS : création du projet, modélisation des premières entités et présentation des concepts de base du framework.",
-    "watch_video": "Regarder la vidéo"
+    "watch_video": "Regarder la vidéo",
+    "recommendations_title": "Lettres de Recommandation",
+    "recommendations_desc": "Dans cette section, je partage quelques lettres de recommandation écrites par des professeurs du CEFET/RJ qui ont suivi de près mon parcours académique. Je suis reconnaissant pour leur accompagnement et leur soutien. Ces lettres font partie de mon chemin et sont disponibles ici pour ceux qui souhaitent en savoir plus."
   }
 }

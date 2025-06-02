@@ -18,44 +18,57 @@
     "projects": [
       {
         "title": "DoS Attack Detection with Generative AI",
-        "description": "DoS attack detection using generative AI, my final project at Cefet/RJ"
+        "description": "DoS attack detection using generative AI, my final project at Cefet/RJ",
+        "image": "/assets/project-dos-image.jpg",
+        "path": "https://github.com/P3dream/detect-dos-attacks-with-llama"
       },
       {
         "title": "Back-end with NestJS",
-        "description": "Base back-end project using NestJS, TypeORM, and PostgreSQL. Includes JWT authentication, email service, and entity operations."
+        "description": "Base back-end project using NestJS, TypeORM, and PostgreSQL. Includes JWT authentication, email service, and entity operations.",
+        "image": "/assets/nest-project.jpg",
+        "path": "https://github.com/P3dream/nest-back-end-project"
       },
       {
-      "title": "Pacman in Assembly P3",
-      "description": "Pacman game developed by me in Assembly P3, as part of the Computer Architecture course at CEFET/RJ, for the Computer Engineering program."
+        "title": "Pacman in Assembly P3",
+        "description": "Pacman game developed by me in Assembly P3, as part of the Computer Architecture course at CEFET/RJ, for the Computer Engineering program.",
+        "image": "/assets/pacman-project.jpg",
+        "path": "https://github.com/P3dream/PacmanAS"
       },
       {
         "title": "Linked List Library Management System",
-        "description": "A Linux-based library system implemented in C using linked lists for efficient memory management. Features student/book/infrastructure tracking with O(n) complexity operations."
+        "description": "A Linux-based library system implemented in C using linked lists for efficient memory management. Features student/book/infrastructure tracking with O(n) complexity operations.",
+        "image": "/assets/library-project.jpg",
+        "path": "https://github.com/P3dream/Sistema_biblioteca"
       },
       {
         "title": "Parallel Producer-Consumer with fork()",
-        "description": "Linux-exclusive C implementation demonstrating process-level parallelism using fork(). Features a producer generating data and a consumer processing it through shared memory, developed for academic exploration of basic parallelization concepts."
+        "description": "Linux-exclusive C implementation demonstrating process-level parallelism using fork(). Features a producer generating data and a consumer processing it through shared memory, developed for academic exploration of basic parallelization concepts.",
+        "image": "/assets/fork-project.jpg",
+        "path": "https://github.com/P3dream/Problema-Produtor-Consumidor-usando-fork"
       },
       {
         "title": "Personal Portfolio Project",
-        "description": "A personal portfolio showcasing my skills and projects using React, TypeScript, Vite, and i18n."
+        "description": "A personal portfolio showcasing my skills and projects using React, TypeScript, Vite, and i18n.",
+        "image": "/assets/portfolio.png",
+        "path": "https://github.com/P3dream/portifolio"
       }
     ],
+    "recomendations":[
+      {
+        "title": "Cristiano de Souza de Carvalho",
+        "description": "Doutor em Engenharia Mecânica e Professor de Engenharia de Computação na Faculdade Estadual de Tecnologia de Rio de Janeiro (CEFET/RJ).",
+        "image": "/assets/cristiano-preview.png",
+        "path": "recomendation-letters/recomendation-letter-cristiano-carvalho.pdf"
+      }
+    ],  
     "blog_title": "Youtube",
     "blog_desc": "Check out my posts discussing tutorial videos I publish on YouTube.",
     "blog_post_1_title": "Presentation and why NEST.JS",
     "blog_post_1_desc": "A little self presentation and why nest.js was chosen over other frameworks",
     "blog_post_2_title": "Starting Our NestJS Project | Modeling Entities and Explaining Nest Basics",
     "blog_post_2_desc": "First steps with NestJS: project setup, modeling initial entities, and explaining the framework fundamentals.",
-    "watch_video": "Watch video"
-  },
-  "recommendations_title": "Recommendation Letters",
-  "recommendations": [
-    {
-      "title": "Beeing built",
-      "description": "Beeing built",
-      "image": "/assets/recommendation1.jpg",
-      "path": "/docs/recommendation-joao.pdf"
-    }
-  ]
+    "watch_video": "Watch video",
+    "recommendations_title": "Recommendation Letters",
+    "recommendations_desc": "In this section, I share a few recommendation letters written by professors from CEFET/RJ who closely followed my academic journey. I’m thankful for the guidance and support I’ve received over the years. These letters are a meaningful part of my path and are available here for those who wish to learn more about it."
+  }
 }

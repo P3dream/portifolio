@@ -18,27 +18,65 @@
     "projects": [
       {
         "title": "Detecção de ataques DoS usando IA generativa",
-        "description": "Detecção de ataques DoS usando IA generativa, projeto do meu TCC no Cefet/Rj"
+        "description": "Detecção de ataques DoS usando IA generativa, projeto do meu TCC no Cefet/RJ",
+        "image": "/assets/project-dos-image.jpg",
+        "path": "https://github.com/P3dream/detect-dos-attacks-with-llama"
       },
       {
         "title": "Back-end usando NestJS",
-        "description": "Projeto base de back-end utilizando NestJS, TypeORM e PostegreSQL. Autenticação JWT, Envio de email e operações com entidades."
+        "description": "Projeto base de back-end utilizando NestJS, TypeORM e PostgreSQL. Autenticação JWT, envio de e-mail e operações com entidades.",
+        "image": "/assets/nest-project.jpg",
+        "path": "https://github.com/P3dream/nest-back-end-project"
       },
       {
-      "title": "Pacman em Assembly P3",
-      "description": "Pacman desenvolvido por mim, em Assembly P3, na disciplina de Arquitetura de Computadores no CEFET/RJ, curso de Engenharia de Computação."
+        "title": "Pacman em Assembly P3",
+        "description": "Pacman desenvolvido por mim, em Assembly P3, na disciplina de Arquitetura de Computadores no CEFET/RJ, curso de Engenharia de Computação.",
+        "image": "/assets/pacman-project.jpg",
+        "path": "https://github.com/P3dream/PacmanAS"
       },
       {
         "title": "Sistema de Biblioteca com Listas Encadeadas",
-        "description": "Sistema para Linux desenvolvido em C utilizando listas encadeadas para gestão eficiente de memória. Controla alunos/livros/infraestrutura com operações de complexidade O(n)."
+        "description": "Sistema para Linux desenvolvido em C utilizando listas encadeadas para gestão eficiente de memória. Controla alunos/livros/infraestrutura com operações de complexidade O(n).",
+        "image": "/assets/library-project.jpg",
+        "path": "https://github.com/P3dream/Sistema_biblioteca"
       },
       {
-      "title": "Produtor-Consumidor Paralelo com fork()",
-        "description": "Implementação em C exclusiva para Linux demonstrando paralelismo em nível de processos usando fork(). Inclui um produtor gerando dados e um consumidor processando-os via memória compartilhada, desenvolvido para exploração acadêmica de conceitos básicos de paralelização."
+        "title": "Produtor-Consumidor Paralelo com fork()",
+        "description": "Implementação em C exclusiva para Linux demonstrando paralelismo em nível de processos usando fork(). Inclui um produtor gerando dados e um consumidor processando-os via memória compartilhada, desenvolvido para exploração acadêmica de conceitos básicos de paralelização.",
+        "image": "/assets/fork-project.jpg",
+        "path": "https://github.com/P3dream/Problema-Produtor-Consumidor-usando-fork"
       },
       {
         "title": "Projeto de Portfólio Pessoal",
-        "description": "Um portfólio pessoal apresentando minhas habilidades e projetos usando React, TypeScript, Vite e i18n."
+        "description": "Um portfólio pessoal apresentando minhas habilidades e projetos usando React, TypeScript, Vite e i18n.",
+        "image": "/assets/portfolio.png",
+        "path": "https://github.com/P3dream/portifolio"
+      }
+    ],
+    "recomendations":[
+      {
+        "title": "Dalbert Matos Mascarenhas",
+        "description": "Doutor em Computação e Professor de Engenharia de Computação na Faculdade Estadual de Tecnologia de Rio de Janeiro (CEFET/RJ).",
+        "image": "assets/dalbert-preview.png",
+        "path": "recomendation-letters/recomendation-letter-dalbert-mascarenhas.pdf"
+      },
+      {
+        "title": "Cristiano de Souza de Carvalho",
+        "description": "Doutor em Engenharia Mecânica e Professor de Engenharia de Computação na Faculdade Estadual de Tecnologia de Rio de Janeiro (CEFET/RJ).",
+        "image": "/assets/cristiano-preview.png",
+        "path": "recomendation-letters/recomendation-letter-cristiano-carvalho.pdf"
+      },
+      {
+        "title": "Pedro Carlos da Silva Lara",
+        "description": "Doutor em Modelagem Computacional e Professor de Engenharia de Computação na Faculdade Estadual de Tecnologia de Rio de Janeiro (CEFET/RJ).",
+        "image": "/assets/pedro-lara-preview.png",
+        "path": "recomendation-letters/recomendation-letter-pedro-lara.pdf"
+      },
+      {
+        "title": "Luis Retondaro",
+        "description": "Doutor em Engenharia de Sistemas e Computação e Professor de Engenharia de Computação na Faculdade Estadual de Tecnologia de Rio de Janeiro (CEFET/RJ).",
+        "image": "/assets/luis-retondaro-preview.png",
+        "path": "recomendation-letters/recomendation-letter-pedro-lara.pdf"
       }
     ],
     "blog_title": "Youtube",
@@ -47,6 +85,8 @@
     "blog_post_1_desc": "Veja como configurar do zero um projeto Nest.js com boas práticas.",
     "blog_post_2_title": "Iniciando Nosso Projeto com NestJS | Modelando Entidades e Explicando Conceitos Básicos",
     "blog_post_2_desc": "Primeiros passos com NestJS: criação do projeto, modelagem das entidades iniciais e explicação dos fundamentos do framework.",
-    "watch_video": "Assistir vídeo"
+    "watch_video": "Assistir vídeo",
+    "recommendations_title": "Cartas de Recomendação",
+    "recommendations_desc": "Nesta seção compartilho algumas cartas de recomendação escritas por professores do CEFET/RJ que acompanharam de perto minha trajetória acadêmica. Sou grato pela orientação e apoio que recebi ao longo dos anos. Essas cartas representam parte importante dessa caminhada e estão aqui caso queiram conhecer um pouco mais sobre meu percurso."
   }
 }

@@ -18,27 +18,39 @@
     "projects": [
       {
         "title": "Detección de ataques DoS con IA generativa",
-        "description": "Detección de ataques DoS utilizando IA generativa, proyecto final en Cefet/RJ"
+        "description": "Detección de ataques DoS utilizando IA generativa, proyecto final en Cefet/RJ",
+        "image": "/assets/project-dos-image.jpg",
+        "path": "https://github.com/P3dream/detect-dos-attacks-with-llama"
       },
       {
         "title": "Back-end con NestJS",
-        "description": "Proyecto base de back-end con NestJS, TypeORM y PostgreSQL. Incluye autenticación JWT, servicio de correo electrónico y operaciones con entidades."
+        "description": "Proyecto base de back-end con NestJS, TypeORM y PostgreSQL. Incluye autenticación JWT, servicio de correo electrónico y operaciones con entidades.",
+        "image": "/assets/nest-project.jpg",
+        "path": "https://github.com/P3dream/nest-back-end-project"
       },
       {
-      "title": "Pacman en Assembly P3",
-      "description": "Juego de Pacman desarrollado por mí en Assembly P3, en la asignatura de Arquitectura de Computadores del CEFET/RJ, para el curso de Ingeniería Informática."
+        "title": "Pacman en Assembly P3",
+        "description": "Juego de Pacman desarrollado por mí en Assembly P3, en la asignatura de Arquitectura de Computadores del CEFET/RJ, para el curso de Ingeniería Informática.",
+        "image": "/assets/pacman-project.jpg",
+        "path": "https://github.com/P3dream/PacmanAS"
       },
       {
         "title": "Sistema de Biblioteca con Listas Enlazadas",
-        "description": "Sistema para Linux desarrollado en C usando listas enlazadas para gestión eficiente de memoria. Gestiona estudiantes/libros/infraestructura con operaciones de complejidad O(n)."
+        "description": "Sistema para Linux desarrollado en C usando listas enlazadas para gestión eficiente de memoria. Gestiona estudiantes/libros/infraestructura con operaciones de complejidad O(n).",
+        "image": "/assets/library-project.jpg",
+        "path": "https://github.com/P3dream/Sistema_biblioteca"
       },
       {
         "title": "Productor-Consumidor Paralelo con fork()",
-        "description": "Implementación en C exclusiva para Linux que demuestra paralelismo a nivel de procesos usando fork(). Contiene un productor generando datos y un consumidor procesándolos mediante memoria compartida, desarrollado para exploración académica de conceptos básicos de paralelización."
+        "description": "Implementación en C exclusiva para Linux que demuestra paralelismo a nivel de procesos usando fork(). Contiene un productor generando datos y un consumidor procesándolos mediante memoria compartida, desarrollado para exploración académica de conceptos básicos de paralelización.",
+        "image": "/assets/fork-project.jpg",
+        "path": "https://github.com/P3dream/Problema-Produtor-Consumidor-usando-fork"
       },
       {
         "title": "Proyecto de Portafolio Personal",
-        "description": "Un portafolio personal que muestra mis habilidades y proyectos usando React, TypeScript, Vite e i18n."
+        "description": "Un portafolio personal que muestra mis habilidades y proyectos usando React, TypeScript, Vite e i18n.",
+        "image": "/assets/portfolio.png",
+        "path": "https://github.com/P3dream/portifolio"
       }
     ],
     "blog_title": "Youtube",
@@ -47,6 +59,9 @@
     "blog_post_1_desc": "Aprende a configurar un proyecto Nest.js desde cero con buenas prácticas.",
     "blog_post_2_title": "Iniciando Nuestro Proyecto con NestJS | Modelado de Entidades y Explicación de Conceptos Básicos",
     "blog_post_2_desc": "Primeros pasos con NestJS: creación del proyecto, modelado de entidades iniciales y explicación de los fundamentos del framework.",
-    "watch_video": "Ver video"
+    "watch_video": "Ver video",
+    "recommendations_title": "Cartas de Recomendación",
+    "recommendations_desc": "En esta sección comparto algunas cartas de recomendación escritas por profesores del CEFET/RJ que acompañaron de cerca mi formación académica. Estoy muy agradecido por la orientación y el apoyo que me brindaron. Estas cartas forman parte importante de mi camino y están aquí para quienes deseen conocerlo mejor."
+
   }
 }
