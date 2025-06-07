@@ -14,7 +14,6 @@ const Resume = () => {
       <p className="text-base sm:text-lg text-gray-300 mb-4">
         {t("resume_desc")}
       </p>
-      console.log(lang)
       <a
         href={`/curriculum/${fileName}`}
         download={fileName}
