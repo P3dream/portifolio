@@ -73,6 +73,12 @@
         "path": "recomendation-letters/recomendation-letter-pedro-lara.pdf"
       },
       {
+        "title": "Diego Barreto Haddad",
+        "description": "Docteur en Génie Électrique et Professeur d’Ingénierie Informatique à la Faculté d'État de Technologie de Rio de Janeiro (CEFET/RJ).",
+        "image": "/assets/diego-preview.png",
+        "path": "recomendation-letters/recomendation-letter-diego-barreto-haddad.pdf"
+      },
+      {
         "title": "Luis Retondaro",
         "description": "Docteur en Génie des Systèmes et Informatique et Professeur en Génie Informatique à la Faculté d'État de Technologie de Rio de Janeiro (CEFET/RJ).",
         "image": "/assets/luis-retondaro-preview.png",

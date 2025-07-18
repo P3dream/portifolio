@@ -73,6 +73,12 @@
         "path": "recomendation-letters/recomendation-letter-pedro-lara.pdf"
       },
       {
+        "title": "Diego Barreto Haddad",
+        "description": "Doutor em Engenharia Elétrica e Professor de Engenharia de Computação na Faculdade Estadual de Tecnologia de Rio de Janeiro (CEFET/RJ).",
+        "image": "/assets/diego-preview.png",
+        "path": "recomendation-letters/recomendation-letter-diego-barreto-haddad.pdf"
+      },
+      {
         "title": "Luis Retondaro",
         "description": "Doutor em Engenharia de Sistemas e Computação e Professor de Engenharia de Computação na Faculdade Estadual de Tecnologia de Rio de Janeiro (CEFET/RJ).",
         "image": "/assets/luis-retondaro-preview.png",
