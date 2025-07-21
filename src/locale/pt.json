@@ -58,31 +58,37 @@
         "title": "Dalbert Matos Mascarenhas",
         "description": "Doutor em Computação e Professor de Engenharia de Computação na Faculdade Estadual de Tecnologia de Rio de Janeiro (CEFET/RJ).",
         "image": "assets/dalbert-preview.png",
-        "path": "recomendation-letters/recomendation-letter-dalbert-mascarenhas.pdf"
+        "path": "recommendation-letters/recommendation-letter-dalbert-mascarenhas.pdf"
+      },
+      {
+        "title": "Laura Silva de Assis",
+        "description": "Doutora em Engenharia Elétrica e Professor de Engenharia de Computação na Faculdade Estadual de Tecnologia de Rio de Janeiro (CEFET/RJ).",
+        "image": "assets/laura-preview.png",
+        "path": "recommendation-letters/recommendation-letter-laura-assis.pdf"
       },
       {
         "title": "Cristiano de Souza de Carvalho",
         "description": "Doutor em Engenharia Mecânica e Professor de Engenharia de Computação na Faculdade Estadual de Tecnologia de Rio de Janeiro (CEFET/RJ).",
         "image": "/assets/cristiano-preview.png",
-        "path": "recomendation-letters/recomendation-letter-cristiano-carvalho.pdf"
+        "path": "recommendation-letters/recommendation-letter-cristiano-carvalho.pdf"
       },
       {
         "title": "Pedro Carlos da Silva Lara",
         "description": "Doutor em Modelagem Computacional e Professor de Engenharia de Computação na Faculdade Estadual de Tecnologia de Rio de Janeiro (CEFET/RJ).",
         "image": "/assets/pedro-lara-preview.png",
-        "path": "recomendation-letters/recomendation-letter-pedro-lara.pdf"
+        "path": "recommendation-letters/recommendation-letter-pedro-lara.pdf"
       },
       {
         "title": "Diego Barreto Haddad",
         "description": "Doutor em Engenharia Elétrica e Professor de Engenharia de Computação na Faculdade Estadual de Tecnologia de Rio de Janeiro (CEFET/RJ).",
         "image": "/assets/diego-preview.png",
-        "path": "recomendation-letters/recomendation-letter-diego-barreto-haddad.pdf"
+        "path": "recommendation-letters/recommendation-letter-diego-barreto-haddad.pdf"
       },
       {
         "title": "Luis Retondaro",
         "description": "Doutor em Engenharia de Sistemas e Computação e Professor de Engenharia de Computação na Faculdade Estadual de Tecnologia de Rio de Janeiro (CEFET/RJ).",
         "image": "/assets/luis-retondaro-preview.png",
-        "path": "recomendation-letters/recomendation-letter-pedro-lara.pdf"
+        "path": "recommendation-letters/recommendation-letter-pedro-lara.pdf"
       }
     ],
     "blog_title": "Youtube",
