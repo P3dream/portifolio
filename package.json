@@ -12,6 +12,7 @@
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "@tailwindcss/vite": "^4.1.4",
+    "framer-motion": "^12.23.12",
     "i18next": "^24.2.3",
     "lucide-react": "^0.488.0",
     "react": "^19.0.0",
