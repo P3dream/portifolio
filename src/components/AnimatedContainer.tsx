@@ -37,7 +37,7 @@ const AnimatedContainer = ({
       variants={container}
       initial="hidden"
       whileInView="show"
-      viewport={{ once, amount: 0.1 }}
+      viewport={{ once }}
       className={className}
     >
       {Array.isArray(children)
