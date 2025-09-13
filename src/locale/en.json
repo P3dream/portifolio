@@ -90,8 +90,7 @@
       "image": "/assets/luis-retondaro-preview.png",
       "path": "recommendation-letters/recommendation-letter-pedro-lara.pdf"
     }
-  ],
- 
+    ],
     "blog_title": "Youtube",
     "blog_desc": "Check out my posts discussing tutorial videos I publish on YouTube.",
     "blog_post_1_title": "Presentation and why NEST.JS",
@@ -100,6 +99,11 @@
     "blog_post_2_desc": "First steps with NestJS: project setup, modeling initial entities, and explaining the framework fundamentals.",
     "watch_video": "Watch video",
     "recommendations_title": "Recommendation Letters",
-    "recommendations_desc": "In this section, I share a few recommendation letters written by professors from CEFET/RJ who closely followed my academic journey. I’m thankful for the guidance and support I’ve received over the years. These letters are a meaningful part of my path and are available here for those who wish to learn more about it."
+    "recommendations_desc": "In this section, I share a few recommendation letters written by professors from CEFET/RJ who closely followed my academic journey. I’m thankful for the guidance and support I’ve received over the years. These letters are a meaningful part of my path and are available here for those who wish to learn more about it.",
+    "interchange": {
+      "title": "Approved for an International Exchange Program in Spain by CEFET-RJ",
+      "description": "Since September 2025, I am studying at the Universidad de Valladolid, improving my Spanish and English, and engaging with a diverse international community.",
+      "description2": "This experience is broadening my perspective, enhancing my adaptability and cross-cultural communication, and teaching me to collaborate effectively in international environments."
+    }
   }
 }

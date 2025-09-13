@@ -15,6 +15,11 @@
     "resume_title": "Currículo",
     "resume_desc": "Aqui você pode visualizar ou baixar meu currículo completo em PDF.",
     "resume_button": "Ver Currículo",
+    "interchange": {
+      "title": "Aprovado para um Programa de Intercâmbio Internacional na Espanha pelo CEFET-RJ",
+      "description": "Desde setembro de 2025, estou estudando na Universidad de Valladolid, aprimorando meu espanhol e inglês e interagindo com uma comunidade internacional diversificada.",
+      "description2": "Essa experiência está ampliando minha perspectiva, fortalecendo minha adaptabilidade e comunicação intercultural, e me ensinando a colaborar de forma eficaz em ambientes internacionais."
+    },
     "projects": [
       {
         "title": "Detecção de ataques DoS usando IA generativa",

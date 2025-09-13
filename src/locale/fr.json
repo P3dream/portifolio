@@ -15,6 +15,11 @@
     "resume_title": "CV",
     "resume_desc": "Vous pouvez consulter ou télécharger mon CV complet au format PDF.",
     "resume_button": "Voir le CV",
+    "interchange": {
+      "title": "Approuvé pour un Programme d'Échange International en Espagne par CEFET-RJ",
+      "description": "Depuis septembre 2025, j'étudie à l'Université de Valladolid, améliorant mon espagnol et mon anglais, et interagissant avec une communauté internationale diversifiée.",
+      "description2": "Cette expérience élargit ma perspective, renforce mon adaptabilité et ma communication interculturelle, et m'apprend à collaborer efficacement dans des environnements internationaux."
+    },
     "projects": [
       {
         "title": "Détection d'attaques DoS avec IA générative",
