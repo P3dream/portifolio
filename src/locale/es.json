@@ -22,6 +22,12 @@
     },
     "projects": [
       {
+        "title": "Monitoreo de Rendimiento",
+        "description": "Monitoreo de rendimiento utilizando Grafana, Prometheus y Nest.js",
+        "image": "/assets/project-prometheus.jpg",
+        "path": "https://github.com/P3dream/performance-monitoring"
+      },
+      {
         "title": "Detección de ataques DoS con IA generativa",
         "description": "Detección de ataques DoS utilizando IA generativa, proyecto final en Cefet/RJ",
         "image": "/assets/project-dos-image.jpg",

@@ -17,6 +17,12 @@
     "resume_button": "View Resume",
     "projects": [
       {
+        "title": "Performance monitoring",
+        "description": "Performance monotoring using grafana + prometheus and Nest.js",
+        "image": "/assets/project-prometheus.jpg",
+        "path": "https://github.com/P3dream/performance-monitoring"
+      },
+      {
         "title": "DoS Attack Detection with Generative AI",
         "description": "DoS attack detection using generative AI, my final project at Cefet/RJ",
         "image": "/assets/project-dos-image.jpg",

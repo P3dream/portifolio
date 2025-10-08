@@ -16,21 +16,32 @@ const Projects = () => {
         {t("projects_desc")}
       </p>
 
+      {/* grid ajustado com alinhamento e altura uniforme */}
       <div
-        className="grid gap-6"
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
-        }}
+        className="
+          grid 
+          grid-cols-[repeat(auto-fill,minmax(280px,1fr))] 
+          gap-8 
+          items-stretch
+        "
       >
         {projectList.map((project) => (
-          <Card
+          <div
             key={project.title}
-            title={project.title}
-            description={project.description}
-            image={project.image}
-            path={project.path}
-          />
+            className="
+              group relative 
+              transition-transform duration-300 ease-out 
+              hover:scale-105 hover:z-10
+              h-full
+            "
+          >
+            <Card
+              title={project.title}
+              description={project.description}
+              image={project.image}
+              path={project.path}
+            />
+          </div>
         ))}
       </div>
     </AnimatedContainer>
