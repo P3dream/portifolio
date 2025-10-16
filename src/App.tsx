@@ -39,7 +39,6 @@ function App() {
         </div>
 
 
-        {/* Conteúdo principal */}
         <main className="px-4 sm:px-6 py-8 max-w-6xl mx-auto">
           <Routes>
             <Route path="/" element={<Navigate to="/about" replace />} />
@@ -50,7 +49,6 @@ function App() {
           </Routes>
         </main>
 
-        {/* Footer responsivo */}
         <footer className="mt-12 py-6 text-center text-sm text-gray-400 border-t border-gray-600 px-4">
           <div className="flex justify-center flex-wrap gap-4 mb-4">
             <a
