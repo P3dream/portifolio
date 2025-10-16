@@ -4,8 +4,6 @@ import PersonalRecommendations from "../components/PersonalRecommendations";
 import Resume from "./Resume";
 import AnimatedContainer from "../components/AnimatedContainer";
 import Interchange from "../components/Interchange";
-import { certificates } from "../data/certificates";
-import CertificateCarousel from "../components/CertificateCarousel";
 
 const About = () => {
   return (
@@ -14,7 +12,6 @@ const About = () => {
       <Interchange/>
       <TechStack />
       <PersonalRecommendations />
-      <CertificateCarousel certificates={certificates} autoPlayInterval={5000} />
       <Resume />
     </AnimatedContainer>
   );

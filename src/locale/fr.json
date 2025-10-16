@@ -102,7 +102,9 @@
         "path": "recommendation-letters/recommendation-letter-pedro-lara.pdf"
       }
     ],
+    "certificates_title": "Certificats",
     "blog_title": "Youtube",
+    "certificates_desc": "Voici quelques-uns de mes certificats obtenus au cours de mon parcours.",
     "blog_desc": "Découvrez mes articles commentant des tutoriels vidéo que je publie sur YouTube.",
     "blog_post_1_title": "Introduction à Nest.js",
     "blog_post_1_desc": "Apprenez à configurer un projet Nest.js à partir de zéro en suivant les bonnes pratiques.",

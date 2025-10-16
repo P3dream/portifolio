@@ -8,6 +8,7 @@ import { useTranslation } from "react-i18next";
 import "./App.css";
 import { Globe } from "lucide-react";
 import YoutubeChannel from "./pages/YoutubeChannel";
+import CertificatesPage from "./pages/Certificates";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -46,6 +47,7 @@ function App() {
             <Route path="/youtubeChannel" element={<YoutubeChannel/>} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/resume" element={<Resume />} />
+            <Route path="/certificates" element={<CertificatesPage />} />
           </Routes>
         </main>
 
