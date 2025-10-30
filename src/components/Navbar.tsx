@@ -16,14 +16,14 @@ const Navbar = () => {
         <Link to="/about" className="hover:text-white hover:underline transition">
           {t("about_title")}
         </Link>
-        <Link to="/youtubeChannel" className="hover:text-white hover:underline transition">
-          {t("blog_title")}
-        </Link>
         <Link to="/projects" className="hover:text-white hover:underline transition">
           {t("projects_title")}
         </Link>
         <Link to="/certificates" className="hover:text-white hover:underline transition">
           {t("certificates_title")}
+        </Link>
+        <Link to="/youtubeChannel" className="hover:text-white hover:underline transition">
+          {t("blog_title")}
         </Link>
         <Link to="/resume" className="hover:text-white hover:underline transition">
           {t("resume_title")}
