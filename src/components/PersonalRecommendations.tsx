@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import Card from "./Card"; // ajuste o caminho conforme sua estrutura
-import Recomendations from "../model/Recomendations"; // se estiver usando TypeScript
+import Card from "./Card";
+import Recomendations from "../model/Recomendations";
 
 const PersonalRecommendations = () => {
   const { t } = useTranslation();
