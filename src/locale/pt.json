@@ -20,6 +20,21 @@
       "description": "Desde setembro de 2025, estou estudando na Universidad de Valladolid, aprimorando meu espanhol e inglês e interagindo com uma comunidade internacional diversificada.",
       "description2": "Essa experiência está ampliando minha perspectiva, fortalecendo minha adaptabilidade e comunicação intercultural, e me ensinando a colaborar de forma eficaz em ambientes internacionais."
     },
+    "badges_section_title": "Bolsas de Estudo Internacionais",
+    "badges": {
+      "cefet_exchange": {
+        "title": "Programa de Intercâmbio CEFET-RJ (2025)",
+        "description": "Aprovado no programa de intercâmbio do CEFET-RJ via edital oficial. Seleção baseada no desempenho acadêmico."
+      },
+      "cefet_scholarship": {
+        "title": "Bolsa de Intercâmbio Internacional CEFET-RJ (2025)",
+        "description": "Concedida como parte do programa de intercâmbio do CEFET-RJ para apoiar os custos durante a mobilidade internacional. Seleção baseada no desempenho acadêmico."
+      },
+      "santander_exchange": {
+        "title": "Bolsa de Mobilidade Internacional Incoming Santander (2025)",
+        "description": "Selecionado pelo programa Santander Open Academy para intercâmbio na Espanha. Inscrição baseada no desempenho acadêmico."
+      }
+    },
     "projects": [
       {
         "title": "Monitoramento de desempenho",
@@ -64,7 +79,7 @@
         "path": "https://github.com/P3dream/portifolio"
       }
     ],
-    "recomendations":[
+    "recomendations": [
       {
         "title": "Dalbert Matos Mascarenhas",
         "description": "Doutor em Computação e Professor de Engenharia de Computação na Faculdade Estadual de Tecnologia de Rio de Janeiro (CEFET/RJ).",

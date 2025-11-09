@@ -64,6 +64,21 @@
         "path": "https://github.com/P3dream/portifolio"
       }
     ],
+    "badges_section_title": "Bourses d'Études Internationales",
+    "badges": {
+      "cefet_exchange": {
+        "title": "Programme d'Échange CEFET-RJ (2025)",
+        "description": "Approuvé pour le programme d'échange du CEFET-RJ via appel officiel. Sélection basée sur les résultats académiques."
+      },
+      "cefet_scholarship": {
+        "title": "Bourse d'Échange International CEFET-RJ (2025)",
+        "description": "Attribuée dans le cadre du programme d'échange du CEFET-RJ pour soutenir les coûts lors de la mobilité internationale. Sélection basée sur les résultats académiques."
+      },  
+      "santander_exchange": {
+        "title": "Bourse deMobilité Internationale Entrante Santander (2025)",
+        "description": "Sélectionné via le programme Santander Open Academy pour un échange en Espagne. Candidature basée sur les résultats académiques."
+      }
+    },
     "recomendations": [
       {
         "title": "Dalbert Matos Mascarenhas",

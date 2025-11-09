@@ -64,6 +64,21 @@
         "path": "https://github.com/P3dream/portifolio"
       }
     ],
+    "badges_section_title": "Becas de Estudio Internacionales",
+    "badges": {
+      "cefet_exchange": {
+        "title": "Programa de Intercambio CEFET-RJ (2025)",
+        "description": "Aprobado en el programa de intercambio de CEFET-RJ mediante convocatoria oficial. Selección basada en el desempeño académico."
+      },
+      "cefet_scholarship": {
+        "title": "Beca de Intercambio Internacional CEFET-RJ (2025)",
+        "description": "Otorgada como parte del programa de intercambio de CEFET-RJ para cubrir los gastos durante la movilidad internacional. Selección basada en el desempeño académico."
+      },
+      "santander_exchange": {
+        "title": "Beca de Movilidad Internacional Incoming Santander (2025)",
+        "descriptidon": "Seleccionado a través del programa Santander Open Academy para un intercambio en España. Solicitud basada en el desempeño académico."
+      }
+    },
     "recomendations": [
       {
         "title": "Dalbert Matos Mascarenhas",
@@ -103,7 +118,7 @@
       }
     ],
     "certificates_title": "Certificados",
-      "certificates_desc": "Aquí están algunos de mis certificados obtenidos a lo largo de mi trayectoria.",
+    "certificates_desc": "Aquí están algunos de mis certificados obtenidos a lo largo de mi trayectoria.",
     "blog_title": "Youtube",
     "blog_desc": "Consulta mis publicaciones comentando videos tutoriales que publico en YouTube.",
     "blog_post_1_title": "Introducción a Nest.js",
@@ -113,6 +128,5 @@
     "watch_video": "Ver video",
     "recommendations_title": "Cartas de Recomendación",
     "recommendations_desc": "En esta sección comparto algunas cartas de recomendación escritas por profesores del CEFET/RJ que acompañaron de cerca mi formación académica. Estoy muy agradecido por la orientación y el apoyo que me brindaron. Estas cartas forman parte importante de mi camino y están aquí para quienes deseen conocerlo mejor."
-
   }
 }

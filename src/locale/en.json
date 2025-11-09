@@ -60,42 +60,42 @@
       }
     ],
     "recomendations": [
-    {
-      "title": "Dalbert Matos Mascarenhas",
-      "description": "PhD in Computer Science and Professor of Computer Engineering at the State College of Technology of Rio de Janeiro (CEFET/RJ).",
-      "image": "assets/dalbert-preview.png",
-      "path": "recommendation-letters/recommendation-letter-dalbert-mascarenhas.pdf"
-    },
-    {
-      "title": "Laura Silva de Assis",
-      "description": "PhD in Electrical Engineering and Professor of Computer Engineering at the State College of Technology of Rio de Janeiro (CEFET/RJ).",
-      "image": "assets/laura-preview.png",
-      "path": "recommendation-letters/recommendation-letter-laura-assis.pdf"
-    },
-    {
-      "title": "Cristiano de Souza de Carvalho",
-      "description": "PhD in Mechanical Engineering and Professor of Computer Engineering at the State College of Technology of Rio de Janeiro (CEFET/RJ).",
-      "image": "/assets/cristiano-preview.png",
-      "path": "recommendation-letters/recommendation-letter-cristiano-carvalho.pdf"
-    },
-    {
-      "title": "Pedro Carlos da Silva Lara",
-      "description": "PhD in Computational Modeling and Professor of Computer Engineering at the State College of Technology of Rio de Janeiro (CEFET/RJ).",
-      "image": "/assets/pedro-lara-preview.png",
-      "path": "recommendation-letters/recommendation-letter-pedro-lara.pdf"
-    },
-    {
-      "title": "Diego Barreto Haddad",
-      "description": "PhD in Electrical Engineering and Professor of Computer Engineering at the State College of Technology of Rio de Janeiro (CEFET/RJ).",
-      "image": "/assets/diego-preview.png",
-      "path": "recommendation-letters/recommendation-letter-diego-barreto-haddad.pdf"
-    },
-    {
-      "title": "Luis Retondaro",
-      "description": "PhD in Systems and Computing Engineering and Professor of Computer Engineering at the State College of Technology of Rio de Janeiro (CEFET/RJ).",
-      "image": "/assets/luis-retondaro-preview.png",
-      "path": "recommendation-letters/recommendation-letter-pedro-lara.pdf"
-    }
+      {
+        "title": "Dalbert Matos Mascarenhas",
+        "description": "PhD in Computer Science and Professor of Computer Engineering at the State College of Technology of Rio de Janeiro (CEFET/RJ).",
+        "image": "assets/dalbert-preview.png",
+        "path": "recommendation-letters/recommendation-letter-dalbert-mascarenhas.pdf"
+      },
+      {
+        "title": "Laura Silva de Assis",
+        "description": "PhD in Electrical Engineering and Professor of Computer Engineering at the State College of Technology of Rio de Janeiro (CEFET/RJ).",
+        "image": "assets/laura-preview.png",
+        "path": "recommendation-letters/recommendation-letter-laura-assis.pdf"
+      },
+      {
+        "title": "Cristiano de Souza de Carvalho",
+        "description": "PhD in Mechanical Engineering and Professor of Computer Engineering at the State College of Technology of Rio de Janeiro (CEFET/RJ).",
+        "image": "/assets/cristiano-preview.png",
+        "path": "recommendation-letters/recommendation-letter-cristiano-carvalho.pdf"
+      },
+      {
+        "title": "Pedro Carlos da Silva Lara",
+        "description": "PhD in Computational Modeling and Professor of Computer Engineering at the State College of Technology of Rio de Janeiro (CEFET/RJ).",
+        "image": "/assets/pedro-lara-preview.png",
+        "path": "recommendation-letters/recommendation-letter-pedro-lara.pdf"
+      },
+      {
+        "title": "Diego Barreto Haddad",
+        "description": "PhD in Electrical Engineering and Professor of Computer Engineering at the State College of Technology of Rio de Janeiro (CEFET/RJ).",
+        "image": "/assets/diego-preview.png",
+        "path": "recommendation-letters/recommendation-letter-diego-barreto-haddad.pdf"
+      },
+      {
+        "title": "Luis Retondaro",
+        "description": "PhD in Systems and Computing Engineering and Professor of Computer Engineering at the State College of Technology of Rio de Janeiro (CEFET/RJ).",
+        "image": "/assets/luis-retondaro-preview.png",
+        "path": "recommendation-letters/recommendation-letter-pedro-lara.pdf"
+      }
     ],
     "certificates_title": "Certificates",
     "certificates_desc": "Here are some of my certificates obtained throughout my journey.",
@@ -112,6 +112,21 @@
       "title": "Approved for an International Exchange Program in Spain by CEFET-RJ",
       "description": "Since September 2025, I am studying at the Universidad de Valladolid, improving my Spanish and English, and engaging with a diverse international community.",
       "description2": "This experience is broadening my perspective, enhancing my adaptability and cross-cultural communication, and teaching me to collaborate effectively in international environments."
+    },
+    "badges_section_title": "International Study Scholarships",
+    "badges": {
+      "cefet_exchange": {
+        "title": "CEFET-RJ Exchange Program (2025)",
+        "description": "Approved for the CEFET-RJ exchange program via official call. Selection based on academic performance."
+      },
+      "cefet_scholarship": {
+        "title": "CEFET-RJ International Exchange Scholarship (2025)",
+        "description": "Awarded as part of the CEFET-RJ exchange program to support costs during the international mobility. Selection based on academic performance."
+      },
+      "santander_exchange": {
+        "title": "Santander International Mobility Incoming Scholarship (2025)",
+        "description": "Selected through the Santander Open Academy program for an international exchange in Spain. Application based on academic performance."
+      }
     }
   }
 }
