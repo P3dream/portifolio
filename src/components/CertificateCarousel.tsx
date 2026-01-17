@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import Certificate from "../model/certificate";
+import Certificate from "../model/Certificate";
 
 type CarouselProps = {
   certificates: Certificate[];
