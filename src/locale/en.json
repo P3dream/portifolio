@@ -19,43 +19,43 @@
       {
         "title": "Performance monitoring",
         "description": "Performance monotoring using grafana + prometheus and Nest.js",
-        "image": "/assets/project-prometheus.jpg",
+        "image": "/assets/projects/project-prometheus.jpg",
         "path": "https://github.com/P3dream/performance-monitoring"
       },
       {
         "title": "DoS Attack Detection with Generative AI",
         "description": "DoS attack detection using generative AI, my final project at Cefet/RJ",
-        "image": "/assets/project-dos-image.jpg",
+        "image": "/assets/projects/project-dos-image.jpg",
         "path": "https://github.com/P3dream/detect-dos-attacks-with-llama"
       },
       {
         "title": "Back-end with NestJS",
         "description": "Base back-end project using NestJS, TypeORM, and PostgreSQL. Includes JWT authentication, email service, and entity operations.",
-        "image": "/assets/nest-project.jpg",
+        "image": "/assets/projects/nest-project.jpg",
         "path": "https://github.com/P3dream/nest-back-end-project"
       },
       {
         "title": "Pacman in Assembly P3",
         "description": "Pacman game developed by me in Assembly P3, as part of the Computer Architecture course at CEFET/RJ, for the Computer Engineering program.",
-        "image": "/assets/pacman-project.jpg",
+        "image": "/assets/projects/pacman-project.jpg",
         "path": "https://github.com/P3dream/PacmanAS"
       },
       {
         "title": "Linked List Library Management System",
         "description": "A Linux-based library system implemented in C using linked lists for efficient memory management. Features student/book/infrastructure tracking with O(n) complexity operations.",
-        "image": "/assets/library-project.jpg",
+        "image": "/assets/projects/library-project.jpg",
         "path": "https://github.com/P3dream/Sistema_biblioteca"
       },
       {
         "title": "Parallel Producer-Consumer with fork()",
         "description": "Linux-exclusive C implementation demonstrating process-level parallelism using fork(). Features a producer generating data and a consumer processing it through shared memory, developed for academic exploration of basic parallelization concepts.",
-        "image": "/assets/fork-project.jpg",
+        "image": "/assets/projects/projects/fork-project.jpg",
         "path": "https://github.com/P3dream/Problema-Produtor-Consumidor-usando-fork"
       },
       {
         "title": "Personal Portfolio Project",
         "description": "A personal portfolio showcasing my skills and projects using React, TypeScript, Vite, and i18n.",
-        "image": "/assets/portfolio.png",
+        "image": "/assets/projects/portfolio.png",
         "path": "https://github.com/P3dream/portifolio"
       }
     ],
