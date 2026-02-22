@@ -54,7 +54,7 @@
       {
         "title": "Producteur-Consommateur Parallèle avec fork()",
         "description": "Implémentation en C exclusive à Linux démontrant le parallélisme au niveau des processus utilisant fork(). Comprend un producteur générant des données et un consommateur les traitant via une mémoire partagée, développé pour l'exploration académique des concepts de base de parallélisation.",
-        "image": "/assets/fork-project.jpg",
+        "image": "/assets/projects/fork-project.jpg",
         "path": "https://github.com/P3dream/Problema-Produtor-Consumidor-usando-fork"
       },
       {
