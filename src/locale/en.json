@@ -63,37 +63,37 @@
       {
         "title": "Dalbert Matos Mascarenhas",
         "description": "PhD in Computer Science and Professor of Computer Engineering at the State College of Technology of Rio de Janeiro (CEFET/RJ).",
-        "image": "assets/dalbert-preview.png",
+        "image": "assets/recommendation-letters/dalbert-preview.png",
         "path": "recommendation-letters/recommendation-letter-dalbert-mascarenhas.pdf"
       },
       {
         "title": "Laura Silva de Assis",
         "description": "PhD in Electrical Engineering and Professor of Computer Engineering at the State College of Technology of Rio de Janeiro (CEFET/RJ).",
-        "image": "assets/laura-preview.png",
+        "image": "assets/recommendation-letters/laura-preview.png",
         "path": "recommendation-letters/recommendation-letter-laura-assis.pdf"
       },
       {
         "title": "Cristiano de Souza de Carvalho",
         "description": "PhD in Mechanical Engineering and Professor of Computer Engineering at the State College of Technology of Rio de Janeiro (CEFET/RJ).",
-        "image": "/assets/cristiano-preview.png",
+        "image": "/assets/recommendation-letters/cristiano-preview.png",
         "path": "recommendation-letters/recommendation-letter-cristiano-carvalho.pdf"
       },
       {
         "title": "Pedro Carlos da Silva Lara",
         "description": "PhD in Computational Modeling and Professor of Computer Engineering at the State College of Technology of Rio de Janeiro (CEFET/RJ).",
-        "image": "/assets/pedro-lara-preview.png",
+        "image": "/assets/recommendation-letters/pedro-lara-preview.png",
         "path": "recommendation-letters/recommendation-letter-pedro-lara.pdf"
       },
       {
         "title": "Diego Barreto Haddad",
         "description": "PhD in Electrical Engineering and Professor of Computer Engineering at the State College of Technology of Rio de Janeiro (CEFET/RJ).",
-        "image": "/assets/diego-preview.png",
+        "image": "/assets/recommendation-letters/diego-preview.png",
         "path": "recommendation-letters/recommendation-letter-diego-barreto-haddad.pdf"
       },
       {
         "title": "Luis Retondaro",
         "description": "PhD in Systems and Computing Engineering and Professor of Computer Engineering at the State College of Technology of Rio de Janeiro (CEFET/RJ).",
-        "image": "/assets/luis-retondaro-preview.png",
+        "image": "/assets/recommendation-letters/luis-retondaro-preview.png",
         "path": "recommendation-letters/recommendation-letter-pedro-lara.pdf"
       }
     ],

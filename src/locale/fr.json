@@ -83,37 +83,37 @@
       {
         "title": "Dalbert Matos Mascarenhas",
         "description": "Docteur en Informatique et Professeur en Génie Informatique à la Faculté d'État de Technologie de Rio de Janeiro (CEFET/RJ).",
-        "image": "assets/dalbert-preview.png",
+        "image": "assets/recommendation-letters/dalbert-preview.png",
         "path": "recommendation-letters/recommendation-letter-dalbert-mascarenhas.pdf"
       },
       {
         "title": "Laura Silva de Assis",
         "description": "Docteure en Génie Électrique et Professeure en Génie Informatique à la Faculté d'État de Technologie de Rio de Janeiro (CEFET/RJ).",
-        "image": "assets/laura-preview.png",
+        "image": "assets/recommendation-letters/laura-preview.png",
         "path": "recommendation-letters/recommendation-letter-laura-assis.pdf"
       },
       {
         "title": "Cristiano de Souza de Carvalho",
         "description": "Docteur en Génie Mécanique et Professeur en Génie Informatique à la Faculté d'État de Technologie de Rio de Janeiro (CEFET/RJ).",
-        "image": "/assets/cristiano-preview.png",
+        "image": "/assets/recommendation-letters/cristiano-preview.png",
         "path": "recommendation-letters/recommendation-letter-cristiano-carvalho.pdf"
       },
       {
         "title": "Pedro Carlos da Silva Lara",
         "description": "Docteur en Modélisation Computationnelle et Professeur en Génie Informatique à la Faculté d'État de Technologie de Rio de Janeiro (CEFET/RJ).",
-        "image": "/assets/pedro-lara-preview.png",
+        "image": "/assets/recommendation-letters/pedro-lara-preview.png",
         "path": "recommendation-letters/recommendation-letter-pedro-lara.pdf"
       },
       {
         "title": "Diego Barreto Haddad",
         "description": "Docteur en Génie Électrique et Professeur d’Ingénierie Informatique à la Faculté d'État de Technologie de Rio de Janeiro (CEFET/RJ).",
-        "image": "/assets/diego-preview.png",
+        "image": "/assets/recommendation-letters/diego-preview.png",
         "path": "recommendation-letters/recommendation-letter-diego-barreto-haddad.pdf"
       },
       {
         "title": "Luis Retondaro",
         "description": "Docteur en Génie des Systèmes et Informatique et Professeur en Génie Informatique à la Faculté d'État de Technologie de Rio de Janeiro (CEFET/RJ).",
-        "image": "/assets/luis-retondaro-preview.png",
+        "image": "/assets/recommendation-letters/luis-retondaro-preview.png",
         "path": "recommendation-letters/recommendation-letter-pedro-lara.pdf"
       }
     ],
