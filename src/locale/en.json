@@ -17,16 +17,16 @@
     "resume_button": "View Resume",
     "projects": [
       {
-        "title": "Performance monitoring",
-        "description": "Performance monotoring using grafana + prometheus and Nest.js",
-        "image": "/assets/projects/project-prometheus.jpg",
-        "path": "https://github.com/P3dream/performance-monitoring"
-      },
-      {
         "title": "DoS Attack Detection with Generative AI",
         "description": "DoS attack classification using LLMs, fine-tuned with QLoRA for efficient and scalable inference. Final project at Cefet/RJ.",
         "image": "/assets/projects/project-dos-image.jpg",
         "path": "https://github.com/P3dream/detect-dos-attacks-with-llama"
+      },
+      {
+        "title": "Performance monitoring",
+        "description": "Performance monotoring using grafana + prometheus and Nest.js",
+        "image": "/assets/projects/project-prometheus.jpg",
+        "path": "https://github.com/P3dream/performance-monitoring"
       },
       {
         "title": "Back-end with NestJS",

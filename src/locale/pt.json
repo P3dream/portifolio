@@ -37,16 +37,16 @@
     },
     "projects": [
       {
-        "title": "Monitoramento de desempenho",
-        "description": "Monitoramento de desempenho usando Grafana, Prometheus e Nest.js",
-        "image": "/assets/project-prometheus.jpg",
-        "path": "https://github.com/P3dream/performance-monitoring"
-      },
-      {
         "title": "Detecção de ataques DoS com LLMs",
         "description": "Classificação de ataques DoS usando LLMs, com fine-tuning via QLoRA para inferência eficiente e escalável. Projeto de TCC no Cefet/RJ.",
         "image": "/assets/project-dos-image.jpg",
         "path": "https://github.com/P3dream/detect-dos-attacks-with-llama"
+      },
+      {
+        "title": "Monitoramento de desempenho",
+        "description": "Monitoramento de desempenho usando Grafana, Prometheus e Nest.js",
+        "image": "/assets/project-prometheus.jpg",
+        "path": "https://github.com/P3dream/performance-monitoring"
       },
       {
         "title": "Back-end usando NestJS",
