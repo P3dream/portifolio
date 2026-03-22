@@ -5,10 +5,10 @@
     "projects_title": "Projets",
     "projects_desc": "Vous trouverez ici mes projets académiques, professionnels et personnels.",
     "about_title": "À Propos de Moi",
-    "about_desc": "Profil : Ingénieur en Informatique, Développeur Fullstack",
-    "about_desc2": "Je suis ingénieur en informatique avec 5 ans d'expérience, dont 4 ans consacrés au développement full stack. Je suis passionné par la création de solutions efficaces et sécurisées, en utilisant des technologies modernes et des pratiques DevOps.",
-    "about_desc3": "Je cherche constamment à améliorer mes compétences en architecture logicielle, en sécurité et en automatisation, en alignant toujours la technologie sur les objectifs commerciaux. Mon travail est axé sur la performance, l’évolutivité et l’innovation, en livrant des produits à fort impact.",
-    "about_desc4": "Je parle quatre langues : portugais, espagnol, anglais et français. J’aime toujours apprendre de nouvelles choses.",
+    "about_desc": "Profil : Ingénieur en informatique, Développeur Full Stack",
+    "about_desc2": "Je suis ingénieur en informatique avec 5 ans d'expérience, dont 4 ans en développement full stack, en travaillant sur des applications scalables et performantes.",
+    "about_desc3": "J'ai de l'expérience dans la conception et le développement de solutions end-to-end, avec un focus sur l'architecture logicielle, la sécurité et les pratiques DevOps. J’ai également travaillé sur des projets d’IA, notamment le fine-tuning de LLMs avec QLoRA pour la classification d’attaques DDoS.",
+    "about_desc4": "Je parle portugais, espagnol, anglais et français, et j’aime apprendre de nouvelles technologies et résoudre des problèmes complexes.",
     "contact_title": "Contact",
     "contact_desc": "Vous pouvez me trouver sur GitHub, LinkedIn ou m'envoyer un e-mail pour des collaborations ou des questions.",
     "footer_text": "Fait avec magie et café ☕",
@@ -28,8 +28,8 @@
         "path": "https://github.com/P3dream/performance-monitoring"
       },
       {
-        "title": "Détection d'attaques DoS avec IA générative",
-        "description": "Détection d'attaques DoS à l'aide d'une IA générative, projet de fin d'études au Cefet/RJ",
+        "title": "Détection d'attaques DoS avec des LLMs",
+        "description": "Classification d'attaques DoS à l'aide de LLMs, avec fine-tuning via QLoRA pour une inférence efficace et scalable. Projet de fin d'études au Cefet/RJ.",
         "image": "/assets/project-dos-image.jpg",
         "path": "https://github.com/P3dream/detect-dos-attacks-with-llama"
       },

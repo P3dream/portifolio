@@ -6,12 +6,12 @@
     "projects_desc": "Aquí encontrarás mis proyectos académicos, profesionales y personales.",
     "about_title": "Sobre Mí",
     "about_desc": "Perfil: Ingeniero en Computación, Desarrollador Fullstack",
-    "about_desc2": "Soy ingeniero en computación con 5 años de experiencia, incluidos 4 años enfocados en el desarrollo full stack. Me apasiona crear soluciones eficientes y seguras utilizando tecnologías modernas y prácticas DevOps.",
-    "about_desc3": "Busco mejorar continuamente mis habilidades en arquitectura de software, seguridad y automatización, siempre alineando la tecnología con los objetivos del negocio. Trabajo con enfoque en rendimiento, escalabilidad e innovación, entregando productos que generan un impacto real.",
-    "about_desc4": "Hablo cuatro idiomas: portugués, español, inglés y francés. Siempre estoy dispuesto a aprender cosas nuevas.",
+    "about_desc2": "Soy ingeniero en computación con 5 años de experiencia, incluidos 4 años trabajando con desarrollo full stack, construyendo aplicaciones escalables y de alto rendimiento.",
+    "about_desc3": "Tengo experiencia diseñando y desarrollando soluciones end-to-end, con enfoque en arquitectura de software, seguridad y prácticas DevOps. También he trabajado en proyectos de IA, incluyendo el fine-tuning de LLMs usando QLoRA para la clasificación de ataques DDoS.",
+    "about_desc4": "Hablo portugués, español, inglés y francés, y disfruto aprender nuevas tecnologías y resolver problemas complejos.",
     "contact_title": "Contacto",
     "contact_desc": "Puedes encontrarme en GitHub, LinkedIn o enviarme un correo electrónico para colaboraciones o dudas.",
-    "footer_text": "Hecho con magia y café ☕",
+    "footer_text": "Diseñado y desarrollado por Pedro Pizzi.",
     "resume_title": "Currículum",
     "resume_desc": "Aquí puedes ver o descargar mi currículum completo en formato PDF.",
     "resume_button": "Ver Currículum",
@@ -28,8 +28,8 @@
         "path": "https://github.com/P3dream/performance-monitoring"
       },
       {
-        "title": "Detección de ataques DoS con IA generativa",
-        "description": "Detección de ataques DoS utilizando IA generativa, proyecto final en Cefet/RJ",
+        "title": "Detección de ataques DoS con LLMs",
+        "description": "Clasificación de ataques DoS utilizando LLMs, con fine-tuning mediante QLoRA para una inferencia eficiente y escalable. Proyecto final en Cefet/RJ.",
         "image": "/assets/project-dos-image.jpg",
         "path": "https://github.com/P3dream/detect-dos-attacks-with-llama"
       },
