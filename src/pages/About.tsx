@@ -6,6 +6,7 @@ import AnimatedContainer from "../components/AnimatedContainer";
 import Interchange from "../components/Interchange";
 import Badges from "../components/Badges";
 import {badges} from "../data/badges";
+import WorkExperience from "../components/WorkExperience";
 
 const About = () => {
   return (
@@ -14,6 +15,7 @@ const About = () => {
       <Interchange/>
       <Badges badges={badges}/>
       <TechStack />
+      <WorkExperience />
       <PersonalRecommendations />
       <Resume />
     </AnimatedContainer>

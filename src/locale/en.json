@@ -114,7 +114,8 @@
     "blog_post_2_desc": "First steps with NestJS: project setup, modeling initial entities, and explaining the framework fundamentals.",
     "watch_video": "Watch video",
     "recommendations_title": "Recommendation Letters",
-    "recommendations_desc": "In this section, I share a few recommendation letters written by professors from CEFET/RJ who closely followed my academic journey. I’m thankful for the guidance and support I’ve received over the years. These letters are a meaningful part of my path and are available here for those who wish to learn more about it.",
+    "recommendations_desc": "Click to expand and see my recommendation letters.",
+    "recommendations_desc_open": "In this section, I share a few recommendation letters written by professors from CEFET/RJ who closely followed my academic journey. I’m thankful for the guidance and support I’ve received over the years. These letters are a meaningful part of my path and are available here for those who wish to learn more about it.",
     "interchange": {
       "title": "International Exchange Program in Spain by CEFET-RJ",
       "description": "Studied at Universidad de Valladolid from September 2025 to February 2026, improving Spanish and English while engaging with a diverse international community.",
@@ -134,6 +135,84 @@
         "title": "Santander International Mobility Incoming Scholarship (2025)",
         "description": "Selected through the Santander Open Academy program for an international exchange in Spain. Application based on academic performance."
       }
-    }
+    },
+    "workExperience": [
+      {
+        "role": "Fullstack Software Developer",
+        "company": "GE Aerospace",
+        "period": "May 2023 - August 2025",
+        "location": "Rio de Janeiro, Brazil",
+        "description": [
+          "Implemented features across multiple applications, ensuring performance, scalability, and security.",
+          "Rewrote backend of a system with over 1,000 users, reducing vulnerabilities from 800 to 0 and transforming it into a global tool.",
+          "Implemented secure authentication using OAuth 2.0 and optimized SAP HANA queries for better performance.",
+          "Configured system monitoring with Grafana and Prometheus for real-time metrics and logging."
+        ],
+        "stack": ["Vue.js", "Nest.js", "React.js", "Python", "Flask", "Postgres", "SAP HANA", "SQLite"]
+      },
+      {
+        "role": "Fullstack Software Developer",
+        "company": "DUONEX",
+        "period": "December 2025 - January 2026",
+        "location": "Valladolid, Castilla and Leon, Spain",
+        "description": [
+          "Developed new features as a Full Stack Developer using AdonisJS and Angular.",
+          "Backend development following separation of concerns for maintainable code.",
+          "Frontend development with Angular, RxJS, pipes, and dynamic forms to create responsive UIs.",
+          "Collaborated with the team to deliver features efficiently while maintaining code structure and clarity."
+        ],
+        "stack": ["AdonisJS", "Angular", "RxJS"]
+      },
+      {
+        "role": "Software Developer",
+        "company": "Advice Compliance Solutions",
+        "period": "December 2021 - January 2023",
+        "location": "Remote",
+        "description": [
+          "Internship developing systems in C#, .NET, SQL, JavaScript, HTML and REST APIs.",
+          "Developed skills in full stack system development and API integration."
+        ],
+        "stack": ["C#", ".NET", "SQL", "JavaScript", "HTML", "REST APIs"]
+      },
+      {
+        "role": "Internship",
+        "company": "Orange Business Services",
+        "period": "November 2020 - November 2021",
+        "location": "Remote",
+        "description": [
+          "Worked in the LDM/NAM team handling circuit ordering, facility scheduling, and order management for North America."
+        ],
+        "stack": ["Operations", "Order Management"]
+      }
+    ],
+    "academicExperience": [
+      {
+        "role": "Undergraduate Student Researcher",
+        "company": "Cefet/RJ",
+        "period": "July 2024 - December 2024",
+        "location": "Rio de Janeiro, Brazil",
+        "description": [
+          "Conducted research in Generative AI and LLMs for cybersecurity applications.",
+          "Provided foundation for undergraduate thesis project GenGuardian focused on DDoS attack detection."
+        ],
+        "stack": ["Python", "LLaMA models"]
+      },
+      {
+        "role": "Cybersecurity Capture The Flag (CTF) Participant",
+        "company": "Cefet/RJ",
+        "period": "March 2026 - Present",
+        "location": "Rio de Janeiro, Brazil",
+        "description": [
+          "Participating in a cybersecurity Capture The Flag (CTF) team focused on vulnerability discovery and exploitation.",
+          "Solving challenges involving Web security, Reverse engineering, Network analysis, Binary exploitation, Cryptography.",
+          "Collaborating with participants to analyze systems, identify vulnerabilities, and develop exploitation strategies."
+        ],
+        "stack": ["Cybersecurity", "CTF", "Vulnerability Analysis"]
+      }
+    ],
+    "work_experience_title": "Professional Experience",
+    "work_experience_desc": "Click to expand and see more about my professional experiences.",
+    "academic_experience_title": "Academic Experience & Research",
+    "academic_experience_desc": "Highlights of my research and academic projects in AI, cybersecurity, and system development."
   }
 }

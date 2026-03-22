@@ -134,6 +134,56 @@
     "blog_post_2_desc": "Primeros pasos con NestJS: creación del proyecto, modelado de entidades iniciales y explicación de los fundamentos del framework.",
     "watch_video": "Ver video",
     "recommendations_title": "Cartas de Recomendación",
-    "recommendations_desc": "En esta sección comparto algunas cartas de recomendación escritas por profesores del CEFET/RJ que acompañaron de cerca mi formación académica. Estoy muy agradecido por la orientación y el apoyo que me brindaron. Estas cartas forman parte importante de mi camino y están aquí para quienes deseen conocerlo mejor."
+    "recommendations_desc": "Haz clic para expandir y ver mis cartas de recomendación.",
+    "recommendations_desc_open": "En esta sección, comparto algunas cartas de recomendación escritas por profesores del CEFET/RJ que siguieron de cerca mi trayectoria académica. Estoy agradecido por la orientación y el apoyo que recibí a lo largo de los años. Estas cartas son una parte significativa de mi camino y están disponibles aquí para quienes deseen conocerlas mejor.",
+    "workExperience": [
+      {
+        "role": "Desarrollador de Software Fullstack",
+        "company": "GE Aerospace",
+        "period": "Mayo 2023 - Agosto 2025",
+        "location": "Río de Janeiro, Brasil",
+        "description": [
+          "Implementé funcionalidades en múltiples aplicaciones, asegurando rendimiento, escalabilidad y seguridad.",
+          "Reescribí el backend de un sistema con más de 1.000 usuarios, reduciendo vulnerabilidades de 800 a 0 y transformándolo en una herramienta global.",
+          "Implementé autenticación segura usando OAuth 2.0 y optimicé consultas SAP HANA para mejorar el rendimiento.",
+          "Configuré monitoreo del sistema con Grafana y Prometheus para métricas en tiempo real y logging."
+        ],
+        "stack": ["Vue.js", "Nest.js", "React.js", "Python", "Flask", "Postgres", "SAP HANA", "SQLite"]
+      },
+      {
+        "role": "Desarrollador de Software Fullstack",
+        "company": "DUONEX",
+        "period": "Diciembre 2025 - Enero 2026",
+        "location": "Valladolid, Castilla y León, España",
+        "description": [
+          "Desarrollé nuevas funcionalidades como Full Stack Developer usando AdonisJS y Angular.",
+          "Desarrollo de backend siguiendo principios de separación de responsabilidades para un código más mantenible.",
+          "Desarrollo de frontend con Angular, RxJS, pipes y formularios dinámicos para crear interfaces responsivas.",
+          "Colaboré con el equipo para entregar funcionalidades de manera eficiente manteniendo estructura y claridad del código."
+        ],
+        "stack": ["AdonisJS", "Angular", "RxJS"]
+      },
+      {
+        "role": "Desarrollador de Software",
+        "company": "Advice Compliance Solutions",
+        "period": "Diciembre 2021 - Enero 2023",
+        "location": "Remoto",
+        "description": [
+          "Pasantía desarrollando sistemas en C#, .NET, SQL, JavaScript, HTML y APIs REST.",
+          "Desarrollé habilidades en desarrollo fullstack e integración de APIs."
+        ],
+        "stack": ["C#", ".NET", "SQL", "JavaScript", "HTML", "REST APIs"]
+      },
+      {
+        "role": "Pasantía",
+        "company": "Orange Business Services",
+        "period": "Noviembre 2020 - Noviembre 2021",
+        "location": "Remoto",
+        "description": [
+          "Trabajé en el equipo LDM/NAM gestionando pedidos de circuitos, programación de instalaciones y gestión de pedidos para América del Norte."
+        ],
+        "stack": ["Operaciones", "Gestión de Pedidos"]
+      }
+    ]
   }
 }
