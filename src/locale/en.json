@@ -187,15 +187,36 @@
     ],
     "academicExperience": [
       {
+        "role": "Bachelor's Degree in Computer Engineering",
+        "company": "Cefet/RJ - Federal Center for Technological Education Celso Suckow da Fonseca",
+        "period": "February 2020 - December 2026",
+        "location": "Rio de Janeiro, Brazil",
+        "description": [
+          "Bachelor's in Computer Engineering with a focus on software development, embedded systems, and artificial intelligence."
+        ],
+        "stack": ["C", "C++", "Python", "MPI", "CUDA", "Embedded Systems", "AI"]
+      },
+      {
+        "role": "International Academic Exchange – Computer Engineering",
+        "company": "Universidad de Valladolid",
+        "period": "August 2025 - February 2026",
+        "location": "Valladolid, Spain",
+        "description": [
+          "Participated in an academic exchange program focused on software engineering and cybersecurity projects.",
+          "Gained international experience in collaboration and technological innovation."
+        ],
+        "stack": ["Software Engineering", "International Projects", "Technological Innovation"]
+      },
+      {
         "role": "Undergraduate Student Researcher",
         "company": "Cefet/RJ",
         "period": "July 2024 - December 2024",
         "location": "Rio de Janeiro, Brazil",
         "description": [
           "Conducted research in Generative AI and LLMs for cybersecurity applications.",
-          "Provided foundation for undergraduate thesis project GenGuardian focused on DDoS attack detection."
+          "Provided the foundation for the undergraduate thesis project GenGuardian, focused on DDoS attack detection."
         ],
-        "stack": ["Python", "LLaMA models"]
+        "stack": ["Python", "LLaMA Models", "Quantization", "Fine-tuning", "Generative AI", "LLMs"]
       },
       {
         "role": "Cybersecurity Capture The Flag (CTF) Participant",
@@ -203,16 +224,16 @@
         "period": "March 2026 - Present",
         "location": "Rio de Janeiro, Brazil",
         "description": [
-          "Participating in a cybersecurity Capture The Flag (CTF) team focused on vulnerability discovery and exploitation.",
-          "Solving challenges involving Web security, Reverse engineering, Network analysis, Binary exploitation, Cryptography.",
-          "Collaborating with participants to analyze systems, identify vulnerabilities, and develop exploitation strategies."
+          "Participate in a Capture The Flag (CTF) team focused on discovering and exploiting vulnerabilities.",
+          "Solve challenges involving web security, reverse engineering, network analysis, binary exploitation, and cryptography.",
+          "Collaborate with team members to analyze systems, identify vulnerabilities, and develop exploitation strategies."
         ],
         "stack": ["Cybersecurity", "CTF", "Vulnerability Analysis"]
       }
     ],
     "work_experience_title": "Professional Experience",
     "work_experience_desc": "Click to expand and see more about my professional experiences.",
-    "academic_experience_title": "Academic Experience & Research",
-    "academic_experience_desc": "Highlights of my research and academic projects in AI, cybersecurity, and system development."
+    "academic_experience_title": "Research and Academic Experience",
+    "academic_experience_desc": "Highlighted research, projects, and academic experiences during my undergraduate studies."
   }
 }

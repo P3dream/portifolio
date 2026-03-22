@@ -184,6 +184,52 @@
         ],
         "stack": ["Opérations", "Gestion des commandes"]
       }
+    ],
+    "academicExperience": [
+      {
+        "role": "Licence en Génie Informatique",
+        "company": "Cefet/RJ - Centre Fédéral d'Éducation Technologique Celso Suckow da Fonseca",
+        "period": "Février 2020 - Décembre 2026",
+        "location": "Rio de Janeiro, Brésil",
+        "description": [
+          "Licence en Génie Informatique axée sur le développement de logiciels, les systèmes embarqués et l'intelligence artificielle."
+        ],
+        "stack": ["C", "C++", "Python", "MPI", "CUDA", "Systèmes Embarqués", "IA"]
+      },
+      {
+        "role": "Échange Académique International – Génie Informatique",
+        "company": "Universidad de Valladolid",
+        "period": "Août 2025 - Février 2026",
+        "location": "Valladolid, Espagne",
+        "description": [
+          "Participation à un programme d'échange académique axé sur des projets de génie logiciel et cybersécurité.",
+          "Expérience internationale en collaboration et innovation technologique."
+        ],
+        "stack": ["Génie Logiciel", "Projets Internationaux", "Innovation Technologique"]
+      },
+      {
+        "role": "Chercheur en Projet de Recherche",
+        "company": "Cefet/RJ",
+        "period": "Juillet 2024 - Décembre 2024",
+        "location": "Rio de Janeiro, Brésil",
+        "description": [
+          "J'ai mené des recherches en Intelligence Artificielle Générative et LLMs pour des applications en cybersécurité.",
+          "J'ai fourni la base pour le projet de mémoire de fin d'études GenGuardian, axé sur la détection des attaques DDoS."
+        ],
+        "stack": ["Python", "Modèles LLaMA", "Quantification", "Fine-tuning", "IA Générative", "LLMs"]
+      },
+      {
+        "role": "Participant au Capture The Flag (CTF) en Cybersécurité",
+        "company": "Cefet/RJ",
+        "period": "Mars 2026 - Présent",
+        "location": "Rio de Janeiro, Brésil",
+        "description": [
+          "Je participe à une équipe de Capture The Flag (CTF) axée sur la découverte et l'exploitation de vulnérabilités.",
+          "Je résous des défis liés à la sécurité web, l'ingénierie inverse, l'analyse réseau, l'exploitation binaire et la cryptographie.",
+          "Je collabore avec les participants pour analyser les systèmes, identifier les vulnérabilités et développer des stratégies d'exploitation."
+        ],
+        "stack": ["Cybersécurité", "CTF", "Analyse de Vulnérabilités"]
+      }
     ]
   }
 }
