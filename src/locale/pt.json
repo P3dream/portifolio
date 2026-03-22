@@ -136,6 +136,8 @@
     "recommendations_title": "Cartas de Recomendação",
     "recommendations_desc": "Clique para expandir e ver minhas cartas de recomendação.",
     "recommendations_desc_open": "Nesta seção, compartilho algumas cartas de recomendação escritas por professores do CEFET/RJ que acompanharam de perto minha trajetória acadêmica. Sou grato pela orientação e apoio que recebi ao longo dos anos. Essas cartas são uma parte importante do meu caminho e estão disponíveis aqui para quem quiser conhecê-las melhor.",
+    "work_experience_title": "Experiência Profissional",
+    "work_experience_desc": "Clique para expandir e ver mais sobre minhas experiências profissionais.",
     "workExperience": [
       {
         "role": "Desenvolvedor de Software Fullstack",
