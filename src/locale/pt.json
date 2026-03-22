@@ -194,8 +194,7 @@
       "period": "Fevereiro 2020 - Dezembro 2026",
       "location": "Rio de Janeiro, Brasil",
       "description": [
-        "Graduação em Engenharia de Computação com foco em desenvolvimento de software, sistemas embarcados e inteligência artificial.",
-        "Participação em projetos acadêmicos e experiências práticas em cibersegurança e programação avançada."
+        "Graduação em Engenharia de Computação com foco em desenvolvimento de software, sistemas embarcados e inteligência artificial."
       ],
       "stack": ["C", "C++", "Python", "MPI", "CUDA", "Sistemas Embarcados", "IA"]
     },
@@ -233,7 +232,7 @@
       ],
       "stack": ["Cibersegurança", "CTF", "Análise de Vulnerabilidades"]
     }
-  ],
+    ],
     "academic_experience_title": "Pesquisa e Formação Acadêmica",
     "academic_experience_desc": "Principais pesquisas, projetos e experiências acadêmicas durante minha graduação."
   }
