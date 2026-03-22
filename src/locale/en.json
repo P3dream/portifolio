@@ -17,42 +17,49 @@
     "resume_button": "View Resume",
     "projects": [
       {
+        "id": "dos_detection",
         "title": "DoS Attack Detection with Generative AI",
         "description": "DoS attack classification using LLMs, fine-tuned with QLoRA for efficient and scalable inference. Final project at Cefet/RJ.",
         "image": "/assets/projects/project-dos-image.jpg",
         "path": "https://github.com/P3dream/detect-dos-attacks-with-llama"
       },
       {
+        "id": "performance_monitoring",
         "title": "Performance monitoring",
-        "description": "Performance monotoring using grafana + prometheus and Nest.js",
+        "description": "Performance monitoring using Grafana, Prometheus and Nest.js",
         "image": "/assets/projects/project-prometheus.jpg",
         "path": "https://github.com/P3dream/performance-monitoring"
       },
       {
+        "id": "nestjs_backend",
         "title": "Back-end with NestJS",
         "description": "Base back-end project using NestJS, TypeORM, and PostgreSQL. Includes JWT authentication, email service, and entity operations.",
         "image": "/assets/projects/nest-project.jpg",
         "path": "https://github.com/P3dream/nest-back-end-project"
       },
       {
+        "id": "pacman_assembly",
         "title": "Pacman in Assembly P3",
         "description": "Pacman game developed by me in Assembly P3, as part of the Computer Architecture course at CEFET/RJ, for the Computer Engineering program.",
         "image": "/assets/projects/pacman-project.jpg",
         "path": "https://github.com/P3dream/PacmanAS"
       },
       {
+        "id": "library_system",
         "title": "Linked List Library Management System",
         "description": "A Linux-based library system implemented in C using linked lists for efficient memory management. Features student/book/infrastructure tracking with O(n) complexity operations.",
         "image": "/assets/projects/library-project.jpg",
         "path": "https://github.com/P3dream/Sistema_biblioteca"
       },
       {
+        "id": "producer_consumer_fork",
         "title": "Parallel Producer-Consumer with fork()",
         "description": "Linux-exclusive C implementation demonstrating process-level parallelism using fork(). Features a producer generating data and a consumer processing it through shared memory, developed for academic exploration of basic parallelization concepts.",
         "image": "/assets/projects/fork-project.jpg",
         "path": "https://github.com/P3dream/Problema-Produtor-Consumidor-usando-fork"
       },
       {
+        "id": "portfolio",
         "title": "Personal Portfolio Project",
         "description": "A personal portfolio showcasing my skills and projects using React, TypeScript, Vite, and i18n.",
         "image": "/assets/projects/portfolio.png",

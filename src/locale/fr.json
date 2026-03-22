@@ -22,43 +22,50 @@
     },
     "projects": [
       {
+        "id": "dos_detection",
         "title": "Détection d'attaques DoS avec des LLMs",
         "description": "Classification d'attaques DoS à l'aide de LLMs, avec fine-tuning via QLoRA pour une inférence efficace et scalable. Projet de fin d'études au Cefet/RJ.",
         "image": "/assets/project-dos-image.jpg",
         "path": "https://github.com/P3dream/detect-dos-attacks-with-llama"
       },
       {
-        "title": "Surveillance des Performances",
+        "id": "performance_monitoring",
+        "title": "Surveillance des performances",
         "description": "Surveillance des performances avec Grafana, Prometheus et Nest.js",
         "image": "/assets/project-prometheus.jpg",
         "path": "https://github.com/P3dream/performance-monitoring"
       },
       {
+        "id": "nestjs_backend",
         "title": "Back-end avec NestJS",
         "description": "Projet back-end de base utilisant NestJS, TypeORM et PostgreSQL. Comprend l'authentification JWT, le service d'e-mail et les opérations sur les entités.",
         "image": "/assets/nest-project.jpg",
         "path": "https://github.com/P3dream/nest-back-end-project"
       },
       {
+        "id": "pacman_assembly",
         "title": "Pacman en Assembly P3",
         "description": "Jeu Pacman développé par moi en Assembly P3, dans le cadre du cours d’Architecture des Ordinateurs au CEFET/RJ, pour le programme d’Ingénierie Informatique.",
         "image": "/assets/pacman-project.jpg",
         "path": "https://github.com/P3dream/PacmanAS"
       },
       {
-        "title": "Système de Bibliothèque avec Listes Chaînées",
+        "id": "library_system",
+        "title": "Système de bibliothèque avec listes chaînées",
         "description": "Système Linux développé en C utilisant des listes chaînées pour une gestion efficace de la mémoire. Suivi des étudiants/livres/infrastructures avec opérations de complexité O(n).",
         "image": "/assets/library-project.jpg",
         "path": "https://github.com/P3dream/Sistema_biblioteca"
       },
       {
-        "title": "Producteur-Consommateur Parallèle avec fork()",
+        "id": "producer_consumer_fork",
+        "title": "Producteur-consommateur parallèle avec fork()",
         "description": "Implémentation en C exclusive à Linux démontrant le parallélisme au niveau des processus utilisant fork(). Comprend un producteur générant des données et un consommateur les traitant via une mémoire partagée, développé pour l'exploration académique des concepts de base de parallélisation.",
         "image": "/assets/projects/fork-project.jpg",
         "path": "https://github.com/P3dream/Problema-Produtor-Consumidor-usando-fork"
       },
       {
-        "title": "Projet de Portfolio Personnel",
+        "id": "portfolio",
+        "title": "Projet de portfolio personnel",
         "description": "Un portfolio personnel présentant mes compétences et projets utilisant React, TypeScript, Vite et i18n.",
         "image": "/assets/portfolio.png",
         "path": "https://github.com/P3dream/portifolio"

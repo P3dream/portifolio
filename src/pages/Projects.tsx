@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import Card from "../components/Card";
 import Project from "../model/Projects";
 import AnimatedContainer from "../components/AnimatedContainer";
+import { analytics } from "../analytics/events";
 
 const Projects = () => {
   const { t } = useTranslation();
@@ -16,7 +17,6 @@ const Projects = () => {
         {t("projects_desc")}
       </p>
 
-      {/* grid ajustado com alinhamento e altura uniforme */}
       <div
         className="
           grid 
@@ -27,7 +27,7 @@ const Projects = () => {
       >
         {projectList.map((project) => (
           <div
-            key={project.title}
+            key={project.id}
             className="
               group relative 
               transition-transform duration-300 ease-out 
@@ -40,6 +40,7 @@ const Projects = () => {
               description={project.description}
               image={project.image}
               path={project.path}
+              onClick={() => analytics.clickProject(project.id)}
             />
           </div>
         ))}

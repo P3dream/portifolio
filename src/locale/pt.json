@@ -37,42 +37,49 @@
     },
     "projects": [
       {
+        "id": "dos_detection",
         "title": "Detecção de ataques DoS com LLMs",
         "description": "Classificação de ataques DoS usando LLMs, com fine-tuning via QLoRA para inferência eficiente e escalável. Projeto de TCC no Cefet/RJ.",
         "image": "/assets/project-dos-image.jpg",
         "path": "https://github.com/P3dream/detect-dos-attacks-with-llama"
       },
       {
+        "id": "performance_monitoring",
         "title": "Monitoramento de desempenho",
         "description": "Monitoramento de desempenho usando Grafana, Prometheus e Nest.js",
         "image": "/assets/project-prometheus.jpg",
         "path": "https://github.com/P3dream/performance-monitoring"
       },
       {
+        "id": "nestjs_backend",
         "title": "Back-end usando NestJS",
         "description": "Projeto base de back-end utilizando NestJS, TypeORM e PostgreSQL. Autenticação JWT, envio de e-mail e operações com entidades.",
         "image": "/assets/nest-project.jpg",
         "path": "https://github.com/P3dream/nest-back-end-project"
       },
       {
+        "id": "pacman_assembly",
         "title": "Pacman em Assembly P3",
         "description": "Pacman desenvolvido por mim, em Assembly P3, na disciplina de Arquitetura de Computadores no CEFET/RJ, curso de Engenharia de Computação.",
         "image": "/assets/pacman-project.jpg",
         "path": "https://github.com/P3dream/PacmanAS"
       },
       {
+        "id": "library_system",
         "title": "Sistema de Biblioteca com Listas Encadeadas",
         "description": "Sistema para Linux desenvolvido em C utilizando listas encadeadas para gestão eficiente de memória. Controla alunos/livros/infraestrutura com operações de complexidade O(n).",
         "image": "/assets/library-project.jpg",
         "path": "https://github.com/P3dream/Sistema_biblioteca"
       },
       {
+        "id": "producer_consumer_fork",
         "title": "Produtor-Consumidor Paralelo com fork()",
         "description": "Implementação em C exclusiva para Linux demonstrando paralelismo em nível de processos usando fork(). Inclui um produtor gerando dados e um consumidor processando-os via memória compartilhada, desenvolvido para exploração acadêmica de conceitos básicos de paralelização.",
         "image": "/assets/projects/fork-project.jpg",
         "path": "https://github.com/P3dream/Problema-Produtor-Consumidor-usando-fork"
       },
       {
+        "id": "portfolio",
         "title": "Projeto de Portfólio Pessoal",
         "description": "Um portfólio pessoal apresentando minhas habilidades e projetos usando React, TypeScript, Vite e i18n.",
         "image": "/assets/portfolio.png",

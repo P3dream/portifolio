@@ -3,11 +3,17 @@ export interface CardProps {
   description: string;
   image: string;
   path: string;
+  onClick?: () => void;
 }
 
-const Card: React.FC<CardProps> = ({ title, description, image, path }) => {
+const Card: React.FC<CardProps> = ({ title, description, image, path, onClick }) => {
   return (
-    <a href={path} target="_blank" rel="noopener noreferrer">
+    <a
+      href={path}
+      target="_blank"
+      rel="noopener noreferrer"
+      onClick={onClick}
+    >
       <div
         className="
           transform transition-transform duration-300

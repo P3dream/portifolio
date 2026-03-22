@@ -9,6 +9,9 @@ import "./App.css";
 import { Globe } from "lucide-react";
 import YoutubeChannel from "./pages/YoutubeChannel";
 import CertificatesPage from "./pages/Certificates";
+import { Analytics } from '@vercel/analytics/react';
+import PageTracker from "./analytics/PageTracker";
+import { analytics } from "./analytics/events";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -19,6 +22,7 @@ function App() {
 
   return (
     <Router>
+      <PageTracker />
       <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700 text-gray-100 font-sans">
         <Navbar />
         <div className="flex justify-end px-4 sm:px-6 pt-4">
@@ -55,6 +59,7 @@ function App() {
           <div className="flex justify-center flex-wrap gap-4 mb-4">
             <a
               href="https://www.linkedin.com/in/pedrocarneiropizzi/"
+              onClick={analytics.clickLinkedin}
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-100"
@@ -63,6 +68,7 @@ function App() {
             </a>
             <a
               href="https://github.com/P3dream"
+              onClick={analytics.clickGithub}
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-100"
@@ -71,6 +77,7 @@ function App() {
             </a>
             <a
               href="https://www.youtube.com/@PizziDev"
+              onClick={analytics.clickYoutube}
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-red-500"
@@ -79,6 +86,7 @@ function App() {
             </a>
             <a
               href="mailto:pedropizzi23@hotmail.com"
+              onClick={analytics.clickEmail}
               className="hover:text-gray-100"
             >
               <FaEnvelope className="w-6 h-6" />
@@ -87,6 +95,7 @@ function App() {
           <p className="text-xs sm:text-sm">© {new Date().getFullYear()} - {t("footer_text")}</p>
         </footer>
       </div>
+      <Analytics />
     </Router>
   );
 }
