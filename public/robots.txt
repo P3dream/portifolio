@@ -2,4 +2,40 @@ User-agent: *
 Allow: /
 Disallow: /youtubeChannel
 
+User-agent: GPTBot
+Allow: /
+Disallow: /youtubeChannel
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /youtubeChannel
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /youtubeChannel
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /youtubeChannel
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /youtubeChannel
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /youtubeChannel
+
+User-agent: Claude-Web
+Allow: /
+Disallow: /youtubeChannel
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /youtubeChannel
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /youtubeChannel
+
 Sitemap: https://www.pedropizzi.com/sitemap.xml

@@ -1,0 +1,83 @@
+# Pedro Pizzi
+
+> Computer Engineer and Full Stack Developer with 5 years of experience building scalable, high-performance applications. Focus on software architecture, security, DevOps, and applied AI (LLM fine-tuning with QLoRA).
+
+Pedro Pizzi is a Brazilian Computer Engineer based in Rio de Janeiro, currently completing a Bachelor's in Computer Engineering at CEFET/RJ (Federal Center for Technological Education Celso Suckow da Fonseca), with an international academic exchange at Universidad de Valladolid in Spain (Aug 2025 – Feb 2026). He speaks Portuguese, Spanish, English, and French.
+
+His professional experience spans full stack development (Vue.js, React, Angular, Nest.js, AdonisJS, Flask, .NET), data layers (PostgreSQL, SAP HANA, SQLite), authentication (OAuth 2.0), observability (Grafana, Prometheus), and applied AI research (DDoS attack classification using fine-tuned LLaMA models with QLoRA).
+
+## Pages
+
+- [About](https://www.pedropizzi.com/about): Profile, professional summary, work experience, academic experience, and recommendation letters.
+- [Projects](https://www.pedropizzi.com/projects): Academic, professional, and personal projects with links to source code on GitHub.
+- [Resume](https://www.pedropizzi.com/resume): Full resume available as PDF in English, Portuguese, Spanish, and French.
+- [Certificates](https://www.pedropizzi.com/certificates): Professional certifications and international scholarship badges.
+
+## Resume (PDF, multilingual)
+
+- [English](https://www.pedropizzi.com/curriculum/Pedro-Pizzi-en.pdf)
+- [Portuguese](https://www.pedropizzi.com/curriculum/Pedro-Pizzi-pt.pdf)
+- [Spanish](https://www.pedropizzi.com/curriculum/Pedro-Pizzi-es.pdf)
+- [French](https://www.pedropizzi.com/curriculum/Pedro-Pizzi-fr.pdf)
+
+## Professional Experience
+
+### Fullstack Software Developer — GE Aerospace (May 2023 – August 2025, Rio de Janeiro, Brazil)
+- Implemented features across multiple applications, ensuring performance, scalability, and security.
+- Rewrote backend of a system with over 1,000 users, reducing vulnerabilities from 800 to 0 and transforming it into a global tool.
+- Implemented secure authentication using OAuth 2.0 and optimized SAP HANA queries for better performance.
+- Configured system monitoring with Grafana and Prometheus for real-time metrics and logging.
+- Stack: Vue.js, Nest.js, React.js, Python, Flask, Postgres, SAP HANA, SQLite.
+
+### Fullstack Software Developer — DUONEX (December 2025 – January 2026, Valladolid, Spain)
+- Developed new features as Full Stack Developer using AdonisJS and Angular.
+- Backend development following separation of concerns for maintainable code.
+- Frontend with Angular, RxJS, pipes, and dynamic forms for responsive UIs.
+- Stack: AdonisJS, Angular, RxJS.
+
+### Software Developer — Advice Compliance Solutions (December 2021 – January 2023, Remote)
+- Internship developing systems in C#, .NET, SQL, JavaScript, HTML, and REST APIs.
+- Stack: C#, .NET, SQL, JavaScript, HTML, REST APIs.
+
+### Internship — Orange Business Services (November 2020 – November 2021, Remote)
+- Worked in the LDM/NAM team handling circuit ordering, facility scheduling, and order management for North America.
+
+## Academic Experience
+
+### Bachelor's in Computer Engineering — CEFET/RJ (February 2020 – December 2026, Rio de Janeiro, Brazil)
+Focus on software development, embedded systems, and artificial intelligence. Stack: C, C++, Python, MPI, CUDA, Embedded Systems, AI.
+
+### International Academic Exchange — Universidad de Valladolid (August 2025 – February 2026, Valladolid, Spain)
+Academic exchange focused on software engineering and cybersecurity projects.
+
+### Undergraduate Student Researcher — CEFET/RJ (July 2024 – December 2024)
+Research in Generative AI and LLMs for cybersecurity applications. Foundation for the undergraduate thesis "GenGuardian", focused on DDoS attack detection. Stack: Python, LLaMA Models, Quantization, Fine-tuning, Generative AI, LLMs.
+
+### Cybersecurity Capture The Flag (CTF) — CEFET/RJ (March 2026 – Present)
+Participates in a CTF team focused on web security, reverse engineering, network analysis, binary exploitation, and cryptography.
+
+## Selected Projects
+
+- [DoS Attack Detection with Generative AI](https://github.com/P3dream/detect-dos-attacks-with-llama) — DoS attack classification using LLMs, fine-tuned with QLoRA. Final undergraduate project at CEFET/RJ.
+- [Performance Monitoring](https://github.com/P3dream/performance-monitoring) — Performance monitoring stack using Grafana, Prometheus, and Nest.js.
+- [NestJS Back-end Project](https://github.com/P3dream/nest-back-end-project) — Base back-end with NestJS, TypeORM, PostgreSQL, JWT auth, and email service.
+- [Pacman in Assembly P3](https://github.com/P3dream/PacmanAS) — Pacman built in Assembly P3 for the Computer Architecture course at CEFET/RJ.
+- [Linked List Library Management System](https://github.com/P3dream/Sistema_biblioteca) — Linux-based library system in C using linked lists.
+- [Producer-Consumer with fork()](https://github.com/P3dream/Problema-Produtor-Consumidor-usando-fork) — C implementation demonstrating process-level parallelism via fork() and shared memory.
+- [Personal Portfolio](https://github.com/P3dream/portifolio) — This portfolio (React, TypeScript, Vite, i18n).
+
+## Scholarships and Awards
+
+- CEFET-RJ International Exchange Scholarship (2025) — academic-merit-based scholarship for international mobility.
+- Santander International Mobility Incoming Scholarship (2025) — selected through Santander Open Academy for international exchange in Spain.
+
+## Recommendation Letters
+
+Six recommendation letters from professors at CEFET/RJ (Dalbert Matos Mascarenhas, Laura Silva de Assis, Cristiano de Souza de Carvalho, Pedro Carlos da Silva Lara, Diego Barreto Haddad, Luis Retondaro). Available as PDFs under `/recommendation-letters/`.
+
+## Contact
+
+- Email: pedropizzi23@hotmail.com
+- LinkedIn: https://www.linkedin.com/in/pedrocarneiropizzi/
+- GitHub: https://github.com/P3dream
+- Website: https://www.pedropizzi.com
