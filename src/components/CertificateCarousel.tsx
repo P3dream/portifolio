@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Certificate from "../model/Certificate";
@@ -15,12 +15,12 @@ const CertificateCarousel = ({
   const [currentIndex, setCurrentIndex] = useState(0);
   const intervalRef = useRef<number | null>(null);
 
-  const resetAutoplay = () => {
+  const resetAutoplay = useCallback(() => {
     if (intervalRef.current) clearInterval(intervalRef.current);
     intervalRef.current = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % certificates.length);
     }, autoPlayInterval);
-  };
+  }, [certificates.length, autoPlayInterval]);
 
   useEffect(() => {
     setCurrentIndex(0);
@@ -28,11 +28,11 @@ const CertificateCarousel = ({
     return () => {
       if (intervalRef.current) clearInterval(intervalRef.current);
     };
-  }, [certificates.length, autoPlayInterval]);
+  }, [resetAutoplay]);
 
   useEffect(() => {
     resetAutoplay();
-  }, [currentIndex]);
+  }, [currentIndex, resetAutoplay]);
 
   const goToSlide = (index: number) => setCurrentIndex(index);
   const nextSlide = () =>
@@ -58,22 +58,29 @@ const CertificateCarousel = ({
           />
         </AnimatePresence>
         <button
+          type="button"
           onClick={prevSlide}
+          aria-label="Previous certificate"
           className="absolute left-3 top-1/2 -translate-y-1/2 bg-black/40 hover:bg-black/60 text-white rounded-full p-2 transition"
         >
-          <ChevronLeft className="w-6 h-6" />
+          <ChevronLeft className="w-6 h-6" aria-hidden="true" />
         </button>
         <button
+          type="button"
           onClick={nextSlide}
+          aria-label="Next certificate"
           className="absolute right-3 top-1/2 -translate-y-1/2 bg-black/40 hover:bg-black/60 text-white rounded-full p-2 transition"
         >
-          <ChevronRight className="w-6 h-6" />
+          <ChevronRight className="w-6 h-6" aria-hidden="true" />
         </button>
       </div>
       <div className="flex justify-center gap-2 mb-4">
-        {certificates.map((_, index) => (
+        {certificates.map((cert, index) => (
           <button
-            key={index}
+            key={cert.id}
+            type="button"
+            aria-label={`Go to slide ${index + 1}`}
+            aria-current={index === currentIndex}
             className={`w-3 h-3 rounded-full transition-all ${
               index === currentIndex
                 ? "bg-blue-600 scale-110"
@@ -85,17 +92,25 @@ const CertificateCarousel = ({
       </div>
       <div className="flex justify-center gap-2 overflow-x-auto pb-2">
         {certificates.map((cert, index) => (
-          <img
+          <button
             key={cert.id}
-            src={cert.imageUrl}
-            alt=""
-            className={`w-20 h-12 object-cover rounded cursor-pointer border-2 transition-all ${
-              index === currentIndex
-                ? "border-blue-600 scale-105"
-                : "border-transparent hover:scale-105"
-            }`}
+            type="button"
             onClick={() => goToSlide(index)}
-          />
+            aria-label={`Show certificate ${index + 1}`}
+            aria-current={index === currentIndex}
+            className="p-0 border-0 bg-transparent"
+          >
+            <img
+              src={cert.imageUrl}
+              alt=""
+              loading="lazy"
+              className={`w-20 h-12 object-cover rounded cursor-pointer border-2 transition-all ${
+                index === currentIndex
+                  ? "border-blue-600 scale-105"
+                  : "border-transparent hover:scale-105"
+              }`}
+            />
+          </button>
         ))}
       </div>
     </div>

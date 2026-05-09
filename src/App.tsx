@@ -1,5 +1,6 @@
+import { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import { FaLinkedin, FaGithub, FaEnvelope, FaYoutube } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope /* , FaYoutube */ } from 'react-icons/fa';
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -16,6 +17,10 @@ import { analytics } from "./analytics/events";
 function App() {
   const { t, i18n } = useTranslation();
 
+  useEffect(() => {
+    document.documentElement.lang = i18n.resolvedLanguage ?? i18n.language;
+  }, [i18n.resolvedLanguage, i18n.language]);
+
   const handleChangeLanguage = (event: React.ChangeEvent<HTMLSelectElement>) => {
     i18n.changeLanguage(event.target.value);
   };
@@ -28,10 +33,15 @@ function App() {
         <div className="flex justify-end px-4 sm:px-6 pt-4">
           <div className="relative inline-block text-left">
             <div className="flex items-center gap-2 bg-gray-800/80 hover:bg-gray-700/80 border border-gray-600 rounded-md px-3 py-2 shadow transition duration-200 cursor-pointer">
-              <Globe className="w-4 h-4 text-gray-200" />
+              <Globe className="w-4 h-4 text-gray-200" aria-hidden="true" />
+              <label htmlFor="language-select" className="sr-only">
+                {t("select_language")}
+              </label>
               <select
+                id="language-select"
                 onChange={handleChangeLanguage}
-                value={i18n.language}
+                value={i18n.resolvedLanguage ?? i18n.language}
+                aria-label={t("select_language")}
                 className="appearance-none bg-gray-800/90 outline-none text-gray-100 font-medium pr-6 cursor-pointer hover:bg-gray-700/90"
               >
                 <option value="en" className="bg-gray-800">English</option>
@@ -62,34 +72,38 @@ function App() {
               onClick={analytics.clickLinkedin}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={t("aria_linkedin")}
               className="hover:text-gray-100"
             >
-              <FaLinkedin className="w-6 h-6" />
+              <FaLinkedin className="w-6 h-6" aria-hidden="true" />
             </a>
             <a
               href="https://github.com/P3dream"
               onClick={analytics.clickGithub}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={t("aria_github")}
               className="hover:text-gray-100"
             >
-              <FaGithub className="w-6 h-6" />
+              <FaGithub className="w-6 h-6" aria-hidden="true" />
             </a>
-            <a
+            {/* <a
               href="https://www.youtube.com/@PizziDev"
               onClick={analytics.clickYoutube}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={t("aria_youtube")}
               className="hover:text-red-500"
             >
-              <FaYoutube className="w-6 h-6" />
-            </a>
+              <FaYoutube className="w-6 h-6" aria-hidden="true" />
+            </a> */}
             <a
               href="mailto:pedropizzi23@hotmail.com"
               onClick={analytics.clickEmail}
+              aria-label={t("aria_email")}
               className="hover:text-gray-100"
             >
-              <FaEnvelope className="w-6 h-6" />
+              <FaEnvelope className="w-6 h-6" aria-hidden="true" />
             </a>
           </div>
           <p className="text-xs sm:text-sm">© {new Date().getFullYear()} - {t("footer_text")}</p>

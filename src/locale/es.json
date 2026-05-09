@@ -2,6 +2,10 @@
   "translation": {
     "header": "Pedro Pizzi",
     "select_language": "Selecciona el idioma:",
+    "aria_linkedin": "LinkedIn (se abre en una nueva pestaña)",
+    "aria_github": "GitHub (se abre en una nueva pestaña)",
+    "aria_youtube": "YouTube (se abre en una nueva pestaña)",
+    "aria_email": "Enviar correo a Pedro Pizzi",
     "projects_title": "Proyectos",
     "projects_desc": "Aquí encontrarás mis proyectos académicos, profesionales y personales.",
     "about_title": "Sobre Mí",
@@ -73,17 +77,13 @@
     ],
     "badges_section_title": "Becas de Estudio Internacionales",
     "badges": {
-      "cefet_exchange": {
-        "title": "Programa de Intercambio CEFET-RJ (2025)",
-        "description": "Aprobado en el programa de intercambio de CEFET-RJ mediante convocatoria oficial. Selección basada en el desempeño académico."
-      },
       "cefet_scholarship": {
         "title": "Beca de Intercambio Internacional CEFET-RJ (2025)",
         "description": "Otorgada como parte del programa de intercambio de CEFET-RJ para cubrir los gastos durante la movilidad internacional. Selección basada en el desempeño académico."
       },
       "santander_exchange": {
         "title": "Beca de Movilidad Internacional Incoming Santander (2025)",
-        "descriptidon": "Seleccionado a través del programa Santander Open Academy para un intercambio en España. Solicitud basada en el desempeño académico."
+        "description": "Seleccionado a través del programa Santander Open Academy para un intercambio en España. Solicitud basada en el desempeño académico."
       }
     },
     "recomendations": [
@@ -121,7 +121,7 @@
         "title": "Luis Retondaro",
         "description": "Doctor en Ingeniería de Sistemas y Computación y Profesor de Ingeniería de Computación en la Facultad Estatal de Tecnología de Río de Janeiro (CEFET/RJ).",
         "image": "/assets/recommendation-letters/luis-retondaro-preview.png",
-        "path": "recommendation-letters/recommendation-letter-pedro-lara.pdf"
+        "path": "recommendation-letters/recommendation-letter-luis-retondaro.pdf"
       }
     ],
     "certificates_title": "Certificados",

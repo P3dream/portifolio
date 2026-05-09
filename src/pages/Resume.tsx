@@ -1,9 +1,13 @@
 import { useTranslation } from "react-i18next";
 import AnimatedContainer from "../components/AnimatedContainer";
+import { SUPPORTED_LANGUAGES } from "../lib/i18n";
 
 const Resume = () => {
   const { t, i18n } = useTranslation();
-  const lang = i18n.language;
+  const resolved = (i18n.resolvedLanguage ?? i18n.language ?? "en").split("-")[0];
+  const lang = (SUPPORTED_LANGUAGES as readonly string[]).includes(resolved)
+    ? resolved
+    : "en";
 
   const fileName = `Pedro-Pizzi-${lang}.pdf`;
 

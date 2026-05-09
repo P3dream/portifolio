@@ -10,6 +10,8 @@ const Interchange = () => {
       <img
         src={interchangePhoto}
         alt="Intercâmbio"
+        loading="lazy"
+        decoding="async"
         className="absolute inset-0 w-full h-full object-cover"
       />
 

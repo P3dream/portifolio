@@ -3,10 +3,11 @@ import Card from "../components/Card";
 import Project from "../model/Projects";
 import AnimatedContainer from "../components/AnimatedContainer";
 import { analytics } from "../analytics/events";
+import { useTranslatedArray } from "../lib/useTranslatedArray";
 
 const Projects = () => {
   const { t } = useTranslation();
-  const projectList = t("projects", { returnObjects: true }) as Project[];
+  const projectList = useTranslatedArray<Project>("projects");
 
   return (
     <AnimatedContainer className="mx-auto px-4 sm:px-6 py-6 bg-slate-800 bg-opacity-70 rounded-xl shadow-lg backdrop-blur text-gray-100 max-w-screen-2xl">

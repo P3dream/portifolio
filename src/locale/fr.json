@@ -2,6 +2,10 @@
   "translation": {
     "header": "Pedro Pizzi",
     "select_language": "Choisissez la langue :",
+    "aria_linkedin": "LinkedIn (ouvre dans un nouvel onglet)",
+    "aria_github": "GitHub (ouvre dans un nouvel onglet)",
+    "aria_youtube": "YouTube (ouvre dans un nouvel onglet)",
+    "aria_email": "Envoyer un e-mail à Pedro Pizzi",
     "projects_title": "Projets",
     "projects_desc": "Vous trouverez ici mes projets académiques, professionnels et personnels.",
     "about_title": "À Propos de Moi",
@@ -73,10 +77,6 @@
     ],
     "badges_section_title": "Bourses d'Études Internationales",
     "badges": {
-      "cefet_exchange": {
-        "title": "Programme d'Échange CEFET-RJ (2025)",
-        "description": "Approuvé pour le programme d'échange du CEFET-RJ via appel officiel. Sélection basée sur les résultats académiques."
-      },
       "cefet_scholarship": {
         "title": "Bourse d'Échange International CEFET-RJ (2025)",
         "description": "Attribuée dans le cadre du programme d'échange du CEFET-RJ pour soutenir les coûts lors de la mobilité internationale. Sélection basée sur les résultats académiques."
@@ -121,7 +121,7 @@
         "title": "Luis Retondaro",
         "description": "Docteur en Génie des Systèmes et Informatique et Professeur en Génie Informatique à la Faculté d'État de Technologie de Rio de Janeiro (CEFET/RJ).",
         "image": "/assets/recommendation-letters/luis-retondaro-preview.png",
-        "path": "recommendation-letters/recommendation-letter-pedro-lara.pdf"
+        "path": "recommendation-letters/recommendation-letter-luis-retondaro.pdf"
       }
     ],
     "certificates_title": "Certificats",

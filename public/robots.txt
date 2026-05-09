@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /youtubeChannel
+
+Sitemap: https://www.pedropizzi.com/sitemap.xml

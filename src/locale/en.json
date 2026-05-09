@@ -2,6 +2,10 @@
   "translation": {
     "header": "Pedro Pizzi",
     "select_language": "Select language:",
+    "aria_linkedin": "LinkedIn (opens in a new tab)",
+    "aria_github": "GitHub (opens in a new tab)",
+    "aria_youtube": "YouTube (opens in a new tab)",
+    "aria_email": "Send email to Pedro Pizzi",
     "projects_title": "Projects",
     "projects_desc": "Here you will find my academic, professional, and personal projects.",
     "about_title": "About Me",
@@ -101,7 +105,7 @@
         "title": "Luis Retondaro",
         "description": "PhD in Systems and Computing Engineering and Professor of Computer Engineering at the State College of Technology of Rio de Janeiro (CEFET/RJ).",
         "image": "/assets/recommendation-letters/luis-retondaro-preview.png",
-        "path": "recommendation-letters/recommendation-letter-pedro-lara.pdf"
+        "path": "recommendation-letters/recommendation-letter-luis-retondaro.pdf"
       }
     ],
     "certificates_title": "Certificates",
@@ -123,10 +127,6 @@
     },
     "badges_section_title": "International Study Scholarships",
     "badges": {
-      "cefet_exchange": {
-        "title": "CEFET-RJ Exchange Program (2025)",
-        "description": "Approved for the CEFET-RJ exchange program via official call. Selection based on academic performance."
-      },
       "cefet_scholarship": {
         "title": "CEFET-RJ International Exchange Scholarship (2025)",
         "description": "Awarded as part of the CEFET-RJ exchange program to support costs during the international mobility. Selection based on academic performance."

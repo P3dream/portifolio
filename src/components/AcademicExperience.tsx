@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import CollapsibleSection from "./CollapsibleSection";
+import { useTranslatedArray } from "../lib/useTranslatedArray";
 
 interface AcademicExperienceItem {
   role: string;
@@ -12,7 +13,7 @@ interface AcademicExperienceItem {
 
 const AcademicExperience = () => {
   const { t } = useTranslation();
-  const experiences = t("academicExperience", { returnObjects: true }) as AcademicExperienceItem[];
+  const experiences = useTranslatedArray<AcademicExperienceItem>("academicExperience");
 
   return (
     <CollapsibleSection

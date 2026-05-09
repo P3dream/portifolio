@@ -2,10 +2,11 @@ import { useTranslation } from "react-i18next";
 import Card from "./Card";
 import Recomendations from "../model/Recomendations";
 import CollapsibleSection from "./CollapsibleSection";
+import { useTranslatedArray } from "../lib/useTranslatedArray";
 
 const PersonalRecommendations = () => {
   const { t } = useTranslation();
-  const recomendationList = t("recomendations", { returnObjects: true }) as Recomendations[];
+  const recomendationList = useTranslatedArray<Recomendations>("recomendations");
 
   return (
     <CollapsibleSection
