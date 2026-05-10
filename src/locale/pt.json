@@ -10,54 +10,54 @@
     "projects_desc": "Aqui você encontrará meus projetos acadêmicos, profissionais e pessoais.",
     "research_nav_title": "Research & Engineering",
     "research": {
-      "eyebrow": "IA aplicada, ciberseguranca e engenharia de sistemas",
+      "eyebrow": "IA aplicada, cibersegurança e engenharia de sistemas",
       "title": "Research & Engineering",
-      "description": "Trabalhos de pesquisa em que conecto investigacao academica com software funcional. O principal projeto e o GenGuardian, meu TCC sobre deteccao e mitigacao de ataques DDoS usando modelos LLaMA compactos ajustados com QLoRA.",
+      "description": "Trabalhos de pesquisa em que conecto investigação acadêmica com software funcional. O principal projeto é o GenGuardian, meu TCC sobre detecção e mitigação de ataques DDoS usando modelos LLaMA compactos ajustados com QLoRA.",
       "full_paper_button": "Ler TCC completo",
-      "repository_button": "Ver codigo-fonte",
-      "thesis_title": "GenGuardian: deteccao de DDoS com modelos LLaMA otimizados",
-      "thesis_summary": "O TCC avalia o Llama 3.2-1B como classificador local de trafego de rede. O trabalho compara zero-shot, prompt engineering e fine-tuning supervisionado, depois integra o modelo ajustado em um pipeline modular com estilo IPS usando captura de trafego, FastAPI, Ollama e bloqueio automatico via iptables.",
+      "repository_button": "Ver código-fonte",
+      "thesis_title": "GenGuardian: detecção de DDoS com modelos LLaMA otimizados",
+      "thesis_summary": "O TCC avalia o Llama 3.2-1B como classificador local de tráfego de rede. O trabalho compara zero-shot, prompt engineering e fine-tuning supervisionado, depois integra o modelo ajustado em um pipeline modular com estilo IPS usando captura de tráfego, FastAPI, Ollama e bloqueio automático via iptables.",
       "highlights_title": "O que o trabalho demonstra",
       "highlights": [
-        "Um modelo LLaMA compacto de 1 bilhao de parametros pode ser adaptado a dados estruturados de ciberseguranca quando ajustado com metodos eficientes em parametros.",
-        "QLoRA e quantizacao em 4 bits tornaram o modelo pratico para execucao local, com modelo GGUF exportado em torno de 807 MB.",
-        "O desenho do sistema vai alem de um notebook: os fluxos de rede sao extraidos com CICFlowMeter, processados por uma API, classificados localmente via Ollama e conectados a logica de mitigacao.",
-        "A pesquisa compara a abordagem com LLM a resultados de machine learning classico, posicionando o GenGuardian como alternativa reproduzivel e controlada localmente."
+        "Um modelo LLaMA compacto de 1 bilhão de parâmetros pode ser adaptado a dados estruturados de cibersegurança quando ajustado com métodos eficientes em parâmetros.",
+        "QLoRA e quantização em 4 bits tornaram o modelo prático para execução local, com modelo GGUF exportado em torno de 807 MB.",
+        "O desenho do sistema vai além de um notebook: os fluxos de rede são extraídos com CICFlowMeter, processados por uma API, classificados localmente via Ollama e conectados à lógica de mitigação.",
+        "A pesquisa compara a abordagem com LLM a resultados de machine learning clássico, posicionando o GenGuardian como alternativa reproduzível e controlada localmente."
       ],
       "metrics_title": "Resultados experimentais",
       "metrics": [
         {
           "label": "SYN Flood",
           "value": "99,90%",
-          "detail": "Acuracia apos fine-tuning supervisionado no CICDDoS2019."
+          "detail": "Acurácia após fine-tuning supervisionado no CICDDoS2019."
         },
         {
           "label": "UDPLag",
           "value": "98,53%",
-          "detail": "Acuracia em um segundo cenario de ataque com dataset balanceado menor."
+          "detail": "Acurácia em um segundo cenário de ataque com dataset balanceado menor."
         },
         {
           "label": "Multiclasse",
           "value": "98%",
-          "detail": "Acuracia entre classes de trafego BENIGN, UDP, UDPLag e SYN."
+          "detail": "Acurácia entre classes de tráfego BENIGN, UDP, UDPLag e SYN."
         },
         {
-          "label": "Inferencia",
+          "label": "Inferência",
           "value": "~300 ms",
-          "detail": "Inferencia local de baixa latencia com uso moderado de CPU, RAM e GPU."
+          "detail": "Inferência local de baixa latência com uso moderado de CPU, RAM e GPU."
         }
       ],
       "artifacts_title": "Artefatos",
       "artifacts": [
         {
           "title": "TCC completo",
-          "description": "Versao completa em PDF do TCC do GenGuardian, com fundamentacao, metodologia, ambiente experimental, resultados e trabalhos futuros.",
+          "description": "Versão completa em PDF do TCC do GenGuardian, com fundamentação, metodologia, ambiente experimental, resultados e trabalhos futuros.",
           "href": "/TCC_Pedro_Pizzi_final.pdf",
           "kind": "paper"
         },
         {
-          "title": "Repositorio GenGuardian",
-          "description": "Repositorio do projeto com preparacao de dados, notebooks de fine-tuning e recursos de implementacao para deteccao de DDoS com LLaMA.",
+          "title": "Repositório GenGuardian",
+          "description": "Repositório do projeto com preparação de dados, notebooks de fine-tuning e recursos de implementação para detecção de DDoS com LLaMA.",
           "href": "https://github.com/P3dream/detect-dos-attacks-with-llama",
           "kind": "code"
         }
@@ -66,7 +66,7 @@
     "about_title": "Sobre Mim",
     "about_desc": "Perfil: Engenheiro de Computação, Desenvolvedor Fullstack",
     "about_desc2": "Sou engenheiro de computação com 5 anos de experiência, sendo 4 trabalhando com desenvolvimento full stack, construindo aplicações escaláveis e de alto desempenho.",
-    "about_desc3": "Tenho experiência no desenvolvimento de soluções end-to-end, com foco em arquitetura de software, segurança e práticas de DevOps. Também trabalhei em projetos de IA, incluindo o fine-tuning de LLMs com QLoRA para classificação de ataques DDoS.",
+    "about_desc3": "Tenho experiência no desenvolvimento de soluções de ponta a ponta, com foco em arquitetura de software, segurança e práticas de DevOps. Também trabalhei em projetos de IA, incluindo o fine-tuning de LLMs com QLoRA para classificação de ataques DDoS.",
     "about_desc4": "Falo português, espanhol, inglês e francês e gosto de aprender novas tecnologias e resolver problemas complexos.",
     "contact_title": "Contato",
     "contact_desc": "Você pode me encontrar no GitHub, LinkedIn ou me enviar um e-mail para colaborações ou dúvidas.",
