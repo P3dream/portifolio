@@ -103,15 +103,21 @@ const ResearchEngineering = () => {
         <h3 className="text-xl font-semibold text-gray-100 mb-4">
           {t("research.metrics_title")}
         </h3>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="overflow-hidden rounded-lg border border-slate-600/80 bg-slate-800/70 shadow-md sm:grid sm:gap-4 sm:border-0 sm:bg-transparent sm:shadow-none sm:grid-cols-2 lg:grid-cols-4">
           {metrics.map((metric) => (
             <div
               key={metric.label}
-              className="rounded-lg border border-slate-600/80 bg-slate-800/70 p-4 shadow-md"
+              className="border-b border-slate-600/70 p-4 last:border-b-0 sm:rounded-lg sm:border sm:border-slate-600/80 sm:bg-slate-800/70 sm:shadow-md"
             >
-              <p className="text-sm text-gray-400">{metric.label}</p>
-              <p className="mt-2 text-2xl font-bold text-gray-100">{metric.value}</p>
-              <p className="mt-2 text-sm text-gray-300">{metric.detail}</p>
+              <div className="flex items-baseline justify-between gap-3 sm:block">
+                <p className="text-sm font-medium text-gray-300 sm:text-gray-400">
+                  {metric.label}
+                </p>
+                <p className="shrink-0 text-xl font-bold text-gray-100 sm:mt-2 sm:text-2xl">
+                  {metric.value}
+                </p>
+              </div>
+              <p className="mt-2 text-sm leading-relaxed text-gray-300">{metric.detail}</p>
             </div>
           ))}
         </div>

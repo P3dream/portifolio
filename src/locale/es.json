@@ -2,6 +2,8 @@
   "translation": {
     "header": "Pedro Pizzi",
     "select_language": "Selecciona el idioma:",
+    "open_navigation_menu": "Abrir menu de navegacion",
+    "close_navigation_menu": "Cerrar menu de navegacion",
     "aria_linkedin": "LinkedIn (se abre en una nueva pestaña)",
     "aria_github": "GitHub (se abre en una nueva pestaña)",
     "aria_youtube": "YouTube (se abre en una nueva pestaña)",
