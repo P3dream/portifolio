@@ -28,11 +28,13 @@ const ResearchEngineering = () => {
   };
 
   return (
-    <AnimatedContainer className="mx-auto px-4 sm:px-6 py-6 bg-slate-800 bg-opacity-70 rounded-xl shadow-lg backdrop-blur text-gray-100 max-w-screen-2xl">
+    <AnimatedContainer className="mx-auto max-w-screen-2xl overflow-hidden rounded-xl border border-slate-600/80 bg-slate-900/75 px-4 py-5 text-gray-100 shadow-lg backdrop-blur sm:px-6 sm:py-6">
       <div className="grid gap-8 lg:grid-cols-[1.15fr_0.85fr] lg:items-start">
         <section>
-          <div className="flex items-center gap-3 text-cyan-300 mb-3">
-            <ShieldCheck className="w-6 h-6" aria-hidden="true" />
+          <div className="mb-3 flex items-center gap-3 text-gray-200">
+            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md border border-slate-500/80 bg-slate-800/80">
+              <ShieldCheck className="h-5 w-5" aria-hidden="true" />
+            </span>
             <span className="text-sm font-semibold uppercase tracking-wide">
               {t("research.eyebrow")}
             </span>
@@ -52,7 +54,7 @@ const ResearchEngineering = () => {
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => handleArtifactClick("GenGuardian thesis")}
-              className="inline-flex items-center gap-2 rounded-md bg-cyan-500 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:bg-cyan-400"
+              className="inline-flex min-h-10 items-center gap-2 rounded-md border border-slate-300 bg-gray-100 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:bg-white"
             >
               <FileText className="w-4 h-4" aria-hidden="true" />
               {t("research.full_paper_button")}
@@ -71,7 +73,7 @@ const ResearchEngineering = () => {
           </div>
         </section>
 
-        <section className="rounded-lg border border-slate-600 bg-slate-900/60 p-5">
+        <section className="rounded-lg border border-slate-600 bg-slate-800/70 p-5 shadow-md">
           <h3 className="text-lg font-semibold text-gray-100 mb-3">
             {t("research.thesis_title")}
           </h3>
@@ -89,7 +91,7 @@ const ResearchEngineering = () => {
           {highlights.map((highlight) => (
             <div
               key={highlight}
-              className="rounded-lg border border-slate-600 bg-slate-700/50 p-4 text-sm leading-relaxed text-gray-200"
+              className="rounded-lg border border-slate-600/80 bg-slate-700/70 p-4 text-sm leading-relaxed text-gray-200 shadow-md"
             >
               {highlight}
             </div>
@@ -105,10 +107,10 @@ const ResearchEngineering = () => {
           {metrics.map((metric) => (
             <div
               key={metric.label}
-              className="rounded-lg border border-slate-600 bg-slate-900/50 p-4"
+              className="rounded-lg border border-slate-600/80 bg-slate-800/70 p-4 shadow-md"
             >
               <p className="text-sm text-gray-400">{metric.label}</p>
-              <p className="mt-2 text-2xl font-bold text-cyan-300">{metric.value}</p>
+              <p className="mt-2 text-2xl font-bold text-gray-100">{metric.value}</p>
               <p className="mt-2 text-sm text-gray-300">{metric.detail}</p>
             </div>
           ))}
@@ -127,10 +129,10 @@ const ResearchEngineering = () => {
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => handleArtifactClick(artifact.title)}
-              className="group rounded-lg border border-slate-600 bg-slate-700/50 p-5 transition hover:border-cyan-300 hover:bg-slate-700"
+              className="group rounded-lg border border-slate-600/80 bg-slate-700/70 p-5 shadow-md transition hover:-translate-y-0.5 hover:border-sky-300/55 hover:bg-slate-700/90 hover:shadow-xl"
             >
               <div className="flex items-start justify-between gap-4">
-                <div className="flex items-center gap-3 text-cyan-300">
+                <div className="flex items-center gap-3 text-sky-100">
                   {artifact.kind === "paper" ? (
                     <FileText className="w-5 h-5" aria-hidden="true" />
                   ) : (
@@ -139,7 +141,7 @@ const ResearchEngineering = () => {
                   <h4 className="font-semibold text-gray-100">{artifact.title}</h4>
                 </div>
                 <ExternalLink
-                  className="w-4 h-4 shrink-0 text-gray-400 transition group-hover:text-cyan-300"
+                  className="w-4 h-4 shrink-0 text-gray-400 transition group-hover:text-sky-100"
                   aria-hidden="true"
                 />
               </div>

@@ -5,24 +5,29 @@ const AboutMe = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="space-y-6 px-4 sm:px-6 py-6 bg-slate-800 rounded-xl">
-      <div className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-6 mb-6">
-        <img
-          src={photo}
-          alt="Pedro Pizzi"
-          className="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover shadow-md border-4 border-slate-700"
-        />
-        <div className="space-y-3">
+    <section className="mx-auto max-w-screen-2xl overflow-hidden rounded-xl border border-slate-600/80 bg-slate-800/80 px-4 py-6 text-gray-100 shadow-lg backdrop-blur sm:px-6">
+      <div className="flex flex-col items-center gap-6 text-center sm:flex-row sm:items-start sm:text-left">
+        <div className="shrink-0 rounded-full border border-slate-500/80 bg-slate-700/60 p-2 shadow-lg">
+          <img
+            src={photo}
+            alt="Pedro Pizzi"
+            className="h-32 w-32 rounded-full border-4 border-slate-800 object-cover shadow-md sm:h-40 sm:w-40"
+          />
+        </div>
+
+        <div className="min-w-0 space-y-3">
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-100">
             {t("about_title")}
           </h2>
-          <p className="text-base sm:text-lg text-gray-300">{t("about_desc")}</p>
-          <p className="text-base sm:text-lg text-gray-300">{t("about_desc2")}</p>
-          <p className="text-base sm:text-lg text-gray-300">{t("about_desc3")}</p>
-          <p className="text-base sm:text-lg text-gray-300">{t("about_desc4")}</p>
+          <p className="text-base font-medium text-gray-100 sm:text-lg">{t("about_desc")}</p>
+          <div className="space-y-3 text-base leading-7 text-gray-300 sm:text-lg">
+            <p>{t("about_desc2")}</p>
+            <p>{t("about_desc3")}</p>
+            <p>{t("about_desc4")}</p>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
     );
 };
 

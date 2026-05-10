@@ -1,12 +1,14 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { ChevronDown } from "lucide-react";
 
 interface CollapsibleSectionProps {
   title: string;
-  description?: string;        // texto curto, mostrado quando fechado
-  descriptionOpen?: string;    // texto longo, mostrado quando aberto
+  description?: string;
+  descriptionOpen?: string;
   children: React.ReactNode;
   defaultOpen?: boolean;
+  variant?: "default" | "academic" | "recommendations" | "work";
 }
 
 const CollapsibleSection = ({
@@ -15,32 +17,55 @@ const CollapsibleSection = ({
   descriptionOpen,
   children,
   defaultOpen = false,
+  variant = "default",
 }: CollapsibleSectionProps) => {
   const [isOpen, setIsOpen] = useState(defaultOpen);
+  const variantStyles = {
+    default: {
+      section: "border-slate-700/70 bg-slate-800/70",
+      icon: "text-gray-300",
+    },
+    academic: {
+      section: "border-slate-600/80 bg-slate-900/80",
+      icon: "text-gray-300",
+    },
+    recommendations: {
+      section: "border-slate-600/80 bg-slate-900/75",
+      icon: "text-sky-100",
+    },
+    work: {
+      section: "border-slate-600/80 bg-slate-900/72",
+      icon: "text-gray-300",
+    },
+  }[variant];
 
   return (
-    <div className="mx-auto px-4 sm:px-6 py-6 bg-slate-800 bg-opacity-70 rounded-xl shadow-lg backdrop-blur text-gray-100 max-w-screen-2xl">
-      {/* Header com título e descrição */}
-      <div
-        className="flex justify-between items-center cursor-pointer"
+    <section
+      className={`mx-auto max-w-screen-2xl overflow-hidden rounded-xl border px-4 py-5 text-gray-100 shadow-lg backdrop-blur sm:px-6 sm:py-6 ${variantStyles.section}`}
+    >
+      <button
+        type="button"
+        className="flex w-full cursor-pointer items-start justify-between gap-4 text-left"
         onClick={() => setIsOpen(!isOpen)}
+        aria-expanded={isOpen}
       >
-        <div>
-          <h2 className="text-2xl sm:text-3xl font-bold">{title}</h2>
+        <div className="min-w-0">
+          <h2 className="text-2xl font-bold leading-tight sm:text-3xl">{title}</h2>
           {description && (
-            <p className="text-gray-300 mt-1">
+            <p className="mt-2 max-w-4xl text-sm leading-6 text-gray-300 sm:text-base">
               {isOpen && descriptionOpen ? descriptionOpen : description}
             </p>
           )}
         </div>
 
-        {/* Ícone de expandir/fechar */}
-        <span className="text-gray-300 text-2xl select-none">
-          {isOpen ? "−" : "+"}
+        <span className={`mt-1 flex h-10 w-10 shrink-0 items-center justify-center rounded-md border border-white/10 bg-slate-950/30 ${variantStyles.icon}`}>
+          <ChevronDown
+            className={`h-5 w-5 transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}
+            aria-hidden="true"
+          />
         </span>
-      </div>
+      </button>
 
-      {/* Conteúdo animado */}
       <AnimatePresence initial={false}>
         {isOpen && (
           <motion.div
@@ -48,13 +73,13 @@ const CollapsibleSection = ({
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.4 }}
-            className="overflow-hidden mt-4 space-y-4"
+            className="mt-5 overflow-hidden space-y-4"
           >
             {children}
           </motion.div>
         )}
       </AnimatePresence>
-    </div>
+    </section>
   );
 };
 

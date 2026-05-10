@@ -44,13 +44,13 @@ const CertificateCarousel = ({
 
   return (
     <div className="w-full flex flex-col items-center bg-transparent">
-      <div className="relative w-full max-w-[900px] aspect-[4/3] flex items-center justify-center overflow-hidden rounded-xl shadow-lg mb-4 bg-transparent">
+      <div className="relative mb-4 flex aspect-[4/3] w-full max-w-[900px] items-center justify-center overflow-hidden rounded-lg border border-slate-500/80 bg-slate-700/80 p-3 shadow-lg sm:p-5">
         <AnimatePresence mode="wait">
           <motion.img
             key={certificates[currentIndex].id}
             src={certificates[currentIndex].imageUrl}
             alt=""
-            className="w-full h-full object-contain"
+            className="h-full w-full rounded-md object-contain"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -61,7 +61,7 @@ const CertificateCarousel = ({
           type="button"
           onClick={prevSlide}
           aria-label="Previous certificate"
-          className="absolute left-3 top-1/2 -translate-y-1/2 bg-black/40 hover:bg-black/60 text-white rounded-full p-2 transition"
+          className="absolute left-3 top-1/2 -translate-y-1/2 rounded-md border border-slate-500/80 bg-slate-900/75 p-2 text-white shadow transition hover:bg-slate-800"
         >
           <ChevronLeft className="w-6 h-6" aria-hidden="true" />
         </button>
@@ -69,7 +69,7 @@ const CertificateCarousel = ({
           type="button"
           onClick={nextSlide}
           aria-label="Next certificate"
-          className="absolute right-3 top-1/2 -translate-y-1/2 bg-black/40 hover:bg-black/60 text-white rounded-full p-2 transition"
+          className="absolute right-3 top-1/2 -translate-y-1/2 rounded-md border border-slate-500/80 bg-slate-900/75 p-2 text-white shadow transition hover:bg-slate-800"
         >
           <ChevronRight className="w-6 h-6" aria-hidden="true" />
         </button>
@@ -81,10 +81,10 @@ const CertificateCarousel = ({
             type="button"
             aria-label={`Go to slide ${index + 1}`}
             aria-current={index === currentIndex}
-            className={`w-3 h-3 rounded-full transition-all ${
+            className={`h-2.5 rounded-full transition-all ${
               index === currentIndex
-                ? "bg-blue-600 scale-110"
-                : "bg-gray-400 hover:bg-gray-500"
+                ? "w-7 bg-gray-100"
+                : "w-2.5 bg-slate-500 hover:bg-slate-400"
             }`}
             onClick={() => goToSlide(index)}
           />
@@ -104,10 +104,10 @@ const CertificateCarousel = ({
               src={cert.imageUrl}
               alt=""
               loading="lazy"
-              className={`w-20 h-12 object-cover rounded cursor-pointer border-2 transition-all ${
+              className={`h-14 w-24 cursor-pointer rounded-md border object-cover transition-all ${
                 index === currentIndex
-                  ? "border-blue-600 scale-105"
-                  : "border-transparent hover:scale-105"
+                  ? "border-slate-200 opacity-100"
+                  : "border-slate-700 opacity-65 hover:border-slate-400 hover:opacity-100"
               }`}
             />
           </button>

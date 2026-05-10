@@ -1,38 +1,55 @@
-import { Link } from "react-router-dom";
+import type { ReactNode } from "react";
+import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
-const Navbar = () => {
+type NavbarProps = {
+  languageSelector?: ReactNode;
+};
+
+const Navbar = ({ languageSelector }: NavbarProps) => {
   const { t } = useTranslation();
+  const navItems = [
+    { to: "/about", label: t("about_title") },
+    { to: "/projects", label: t("projects_title") },
+    { to: "/research-engineering", label: t("research_nav_title") },
+    { to: "/certificates", label: t("certificates_title") },
+    { to: "/resume", label: t("resume_title") },
+  ];
 
   return (
-    <nav className="bg-slate-800 text-gray-100 px-4 py-6 shadow-md rounded-xl mb-8 flex flex-col items-center text-center">
-      {/* Nome (título) */}
-      <h1 className="text-2xl font-bold tracking-wide mb-4">
-        {t("header")}
-      </h1>
+    <header className="relative z-50 px-4 pt-4 text-gray-100 sm:px-6">
+      <nav className="relative mx-auto flex max-w-6xl flex-col gap-4 rounded-xl border border-slate-600/80 bg-slate-800/70 px-4 py-4 shadow-lg backdrop-blur sm:px-6 lg:flex-row lg:items-center lg:justify-between">
+        <div className="flex items-center justify-between gap-4">
+          <NavLink to="/about" className="text-xl font-semibold tracking-wide text-gray-50">
+            {t("header")}
+          </NavLink>
+          <div className="lg:hidden">{languageSelector}</div>
+        </div>
 
-      {/* Links */}
-      <div className="flex flex-wrap justify-center gap-4 text-sm font-medium">
-        <Link to="/about" className="hover:text-white hover:underline transition">
-          {t("about_title")}
-        </Link>
-        <Link to="/projects" className="hover:text-white hover:underline transition">
-          {t("projects_title")}
-        </Link>
-        <Link to="/research-engineering" className="hover:text-white hover:underline transition">
-          {t("research_nav_title")}
-        </Link>
-        <Link to="/certificates" className="hover:text-white hover:underline transition">
-          {t("certificates_title")}
-        </Link>
-        {/* <Link to="/youtubeChannel" className="hover:text-white hover:underline transition">
-          {t("blog_title")}
-        </Link> */}
-        <Link to="/resume" className="hover:text-white hover:underline transition">
-          {t("resume_title")}
-        </Link>
-      </div>
-    </nav>
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between lg:justify-end">
+          <div className="flex flex-wrap gap-2 text-sm font-medium">
+            {navItems.map((item) => (
+              <NavLink
+                key={item.to}
+                to={item.to}
+                className={({ isActive }) =>
+                  [
+                    "rounded-md px-3 py-2 transition",
+                    isActive
+                      ? "bg-slate-700 text-white"
+                      : "text-gray-300 hover:bg-slate-700/70 hover:text-white",
+                  ].join(" ")
+                }
+              >
+                {item.label}
+              </NavLink>
+            ))}
+          </div>
+
+          <div className="hidden lg:block">{languageSelector}</div>
+        </div>
+      </nav>
+    </header>
   );
 };
 
