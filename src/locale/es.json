@@ -8,6 +8,61 @@
     "aria_email": "Enviar correo a Pedro Pizzi",
     "projects_title": "Proyectos",
     "projects_desc": "Aquí encontrarás mis proyectos académicos, profesionales y personales.",
+    "research_nav_title": "Research & Engineering",
+    "research": {
+      "eyebrow": "IA aplicada, ciberseguridad e ingenieria de sistemas",
+      "title": "Research & Engineering",
+      "description": "Trabajos de investigacion donde conecto investigacion academica con software funcional. El proyecto principal es GenGuardian, mi trabajo final sobre deteccion y mitigacion de ataques DDoS usando modelos LLaMA compactos ajustados con QLoRA.",
+      "full_paper_button": "Leer tesis completa",
+      "repository_button": "Ver codigo fuente",
+      "thesis_title": "GenGuardian: deteccion de DDoS con modelos LLaMA optimizados",
+      "thesis_summary": "La tesis evalua Llama 3.2-1B como clasificador local de trafico de red. Compara zero-shot, prompt engineering y fine-tuning supervisado, y luego integra el modelo ajustado en un pipeline modular de estilo IPS con captura de trafico, FastAPI, Ollama y bloqueo automatico mediante iptables.",
+      "highlights_title": "Que demuestra el trabajo",
+      "highlights": [
+        "Un modelo LLaMA compacto de 1 billon de parametros puede adaptarse a datos estructurados de ciberseguridad cuando se ajusta con metodos eficientes en parametros.",
+        "QLoRA y la cuantizacion de 4 bits hicieron que el modelo fuera practico para ejecucion local, con un modelo GGUF exportado de alrededor de 807 MB.",
+        "El diseno del sistema va mas alla de un notebook: los flujos de red se extraen con CICFlowMeter, se procesan con una API, se clasifican localmente mediante Ollama y se conectan a logica de mitigacion.",
+        "La investigacion compara el enfoque basado en LLM con resultados de machine learning clasico, posicionando GenGuardian como una alternativa reproducible y controlada localmente."
+      ],
+      "metrics_title": "Resultados experimentales",
+      "metrics": [
+        {
+          "label": "SYN Flood",
+          "value": "99,90%",
+          "detail": "Exactitud despues del fine-tuning supervisado en CICDDoS2019."
+        },
+        {
+          "label": "UDPLag",
+          "value": "98,53%",
+          "detail": "Exactitud en un segundo escenario de ataque con un dataset balanceado mas pequeno."
+        },
+        {
+          "label": "Multiclase",
+          "value": "98%",
+          "detail": "Exactitud entre las clases de trafico BENIGN, UDP, UDPLag y SYN."
+        },
+        {
+          "label": "Inferencia",
+          "value": "~300 ms",
+          "detail": "Inferencia local de baja latencia con uso moderado de CPU, RAM y GPU."
+        }
+      ],
+      "artifacts_title": "Artefactos",
+      "artifacts": [
+        {
+          "title": "Tesis completa",
+          "description": "Version completa en PDF de la tesis de GenGuardian, con fundamentos, metodologia, entorno experimental, resultados y trabajo futuro.",
+          "href": "/TCC_Pedro_Pizzi_final.pdf",
+          "kind": "paper"
+        },
+        {
+          "title": "Repositorio GenGuardian",
+          "description": "Repositorio del proyecto con preparacion de datos, notebooks de fine-tuning y recursos de implementacion para deteccion de DDoS con LLaMA.",
+          "href": "https://github.com/P3dream/detect-dos-attacks-with-llama",
+          "kind": "code"
+        }
+      ]
+    },
     "about_title": "Sobre Mí",
     "about_desc": "Perfil: Ingeniero en Computación, Desarrollador Fullstack",
     "about_desc2": "Soy ingeniero en computación con 5 años de experiencia, incluidos 4 años trabajando con desarrollo full stack, construyendo aplicaciones escalables y de alto rendimiento.",
@@ -29,35 +84,35 @@
         "id": "dos_detection",
         "title": "Detección de ataques DoS con LLMs",
         "description": "Clasificación de ataques DoS utilizando LLMs, con fine-tuning mediante QLoRA para una inferencia eficiente y escalable. Proyecto final en Cefet/RJ.",
-        "image": "/assets/project-dos-image.jpg",
+        "image": "/assets/projects/project-dos-image.jpg",
         "path": "https://github.com/P3dream/detect-dos-attacks-with-llama"
       },
       {
         "id": "performance_monitoring",
         "title": "Monitoreo de rendimiento",
         "description": "Monitoreo de rendimiento utilizando Grafana, Prometheus y Nest.js",
-        "image": "/assets/project-prometheus.jpg",
+        "image": "/assets/projects/project-prometheus.jpg",
         "path": "https://github.com/P3dream/performance-monitoring"
       },
       {
         "id": "nestjs_backend",
         "title": "Back-end con NestJS",
         "description": "Proyecto base de back-end con NestJS, TypeORM y PostgreSQL. Incluye autenticación JWT, servicio de correo electrónico y operaciones con entidades.",
-        "image": "/assets/nest-project.jpg",
+        "image": "/assets/projects/nest-project.jpg",
         "path": "https://github.com/P3dream/nest-back-end-project"
       },
       {
         "id": "pacman_assembly",
         "title": "Pacman en Assembly P3",
         "description": "Juego de Pacman desarrollado por mí en Assembly P3, en la asignatura de Arquitectura de Computadores del CEFET/RJ, para el curso de Ingeniería Informática.",
-        "image": "/assets/pacman-project.jpg",
+        "image": "/assets/projects/pacman-project.jpg",
         "path": "https://github.com/P3dream/PacmanAS"
       },
       {
         "id": "library_system",
         "title": "Sistema de biblioteca con listas enlazadas",
         "description": "Sistema para Linux desarrollado en C usando listas enlazadas para gestión eficiente de memoria. Gestiona estudiantes/libros/infraestructura con operaciones de complejidad O(n).",
-        "image": "/assets/library-project.jpg",
+        "image": "/assets/projects/library-project.jpg",
         "path": "https://github.com/P3dream/Sistema_biblioteca"
       },
       {
@@ -71,7 +126,7 @@
         "id": "portfolio",
         "title": "Proyecto de portafolio personal",
         "description": "Un portafolio personal que muestra mis habilidades y proyectos usando React, TypeScript, Vite e i18n.",
-        "image": "/assets/portfolio.png",
+        "image": "/assets/projects/portfolio.png",
         "path": "https://github.com/P3dream/portifolio"
       }
     ],
@@ -230,6 +285,11 @@
         ],
         "stack": ["Ciberseguridad", "CTF", "Análisis de Vulnerabilidades"]
       }
-    ]
+    ],
+    "academic_experience_title": "Investigación y Experiencia Académica",
+    "academic_experience_desc": "Experiencias académicas, proyectos e investigaciones destacadas durante mi carrera.",
+    "research_cta_title": "Proyecto de investigación GenGuardian",
+    "research_cta_desc": "Consulta la página dedicada de Research & Engineering con tesis, código fuente, arquitectura y resultados experimentales.",
+    "research_cta_button": "Abrir GenGuardian"
   }
 }

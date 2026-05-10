@@ -10,6 +10,7 @@ import "./App.css";
 import { Globe } from "lucide-react";
 import YoutubeChannel from "./pages/YoutubeChannel";
 import CertificatesPage from "./pages/Certificates";
+import ResearchEngineering from "./pages/ResearchEngineering";
 import { Analytics } from '@vercel/analytics/react';
 import PageTracker from "./analytics/PageTracker";
 import { analytics } from "./analytics/events";
@@ -59,6 +60,7 @@ function App() {
             <Route path="/" element={<Navigate to="/about" replace />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/research-engineering" element={<ResearchEngineering />} />
             <Route path="/youtubeChannel" element={<YoutubeChannel/>} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/certificates" element={<CertificatesPage />} />

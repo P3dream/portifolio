@@ -8,6 +8,61 @@
     "aria_email": "Send email to Pedro Pizzi",
     "projects_title": "Projects",
     "projects_desc": "Here you will find my academic, professional, and personal projects.",
+    "research_nav_title": "Research & Engineering",
+    "research": {
+      "eyebrow": "Applied AI, cybersecurity and systems engineering",
+      "title": "Research & Engineering",
+      "description": "Selected research work where I connect academic investigation with working software. The main project is GenGuardian, my undergraduate thesis on DDoS detection and mitigation using compact LLaMA models fine-tuned with QLoRA.",
+      "full_paper_button": "Read full thesis",
+      "repository_button": "View source code",
+      "thesis_title": "GenGuardian: DDoS detection using optimized LLaMA models",
+      "thesis_summary": "The thesis evaluates Llama 3.2-1B as a local network-traffic classifier. It compares zero-shot prompting, prompt engineering and supervised fine-tuning, then integrates the fine-tuned model into a modular IPS-style pipeline with traffic capture, FastAPI, Ollama and automatic blocking through iptables.",
+      "highlights_title": "What the work demonstrates",
+      "highlights": [
+        "A compact 1B-parameter LLaMA model can be adapted to structured cybersecurity data when fine-tuned with parameter-efficient methods.",
+        "QLoRA and 4-bit quantization made the model practical for local execution, with an exported GGUF model around 807 MB.",
+        "The system design goes beyond a notebook: network flows are extracted with CICFlowMeter, processed by an API, classified locally through Ollama and connected to mitigation logic.",
+        "The research compares the LLM approach with classical machine learning results, positioning GenGuardian as a reproducible, locally controlled alternative."
+      ],
+      "metrics_title": "Experimental results",
+      "metrics": [
+        {
+          "label": "SYN Flood",
+          "value": "99.90%",
+          "detail": "Accuracy after supervised fine-tuning on CICDDoS2019."
+        },
+        {
+          "label": "UDPLag",
+          "value": "98.53%",
+          "detail": "Accuracy in a second attack scenario with a smaller balanced dataset."
+        },
+        {
+          "label": "Multiclass",
+          "value": "98%",
+          "detail": "Accuracy across BENIGN, UDP, UDPLag and SYN traffic classes."
+        },
+        {
+          "label": "Inference",
+          "value": "~300 ms",
+          "detail": "Low-latency local inference with modest CPU, RAM and GPU usage."
+        }
+      ],
+      "artifacts_title": "Artifacts",
+      "artifacts": [
+        {
+          "title": "Full undergraduate thesis",
+          "description": "Complete PDF version of the GenGuardian thesis, including background, methodology, experimental setup, results and future work.",
+          "href": "/TCC_Pedro_Pizzi_final.pdf",
+          "kind": "paper"
+        },
+        {
+          "title": "GenGuardian repository",
+          "description": "Project repository with data preparation, fine-tuning notebooks and implementation resources for DDoS detection with LLaMA.",
+          "href": "https://github.com/P3dream/detect-dos-attacks-with-llama",
+          "kind": "code"
+        }
+      ]
+    },
     "about_title": "About Me",
     "about_desc": "Profile: Computer Engineer, Full Stack Developer",
     "about_desc2": "I'm a Computer Engineer with 5 years of experience, including 4 years working with full stack development, building scalable and high-performance applications.",
@@ -234,6 +289,9 @@
     "work_experience_title": "Professional Experience",
     "work_experience_desc": "Click to expand and see more about my professional experiences.",
     "academic_experience_title": "Research and Academic Experience",
-    "academic_experience_desc": "Highlighted research, projects, and academic experiences during my undergraduate studies."
+    "academic_experience_desc": "Highlighted research, projects, and academic experiences during my undergraduate studies.",
+    "research_cta_title": "GenGuardian research project",
+    "research_cta_desc": "Read the dedicated Research & Engineering page with the thesis, source code, architecture and experimental results.",
+    "research_cta_button": "Open GenGuardian"
   }
 }

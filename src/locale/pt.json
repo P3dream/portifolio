@@ -8,6 +8,61 @@
     "aria_email": "Enviar e-mail para Pedro Pizzi",
     "projects_title": "Projetos",
     "projects_desc": "Aqui você encontrará meus projetos acadêmicos, profissionais e pessoais.",
+    "research_nav_title": "Research & Engineering",
+    "research": {
+      "eyebrow": "IA aplicada, ciberseguranca e engenharia de sistemas",
+      "title": "Research & Engineering",
+      "description": "Trabalhos de pesquisa em que conecto investigacao academica com software funcional. O principal projeto e o GenGuardian, meu TCC sobre deteccao e mitigacao de ataques DDoS usando modelos LLaMA compactos ajustados com QLoRA.",
+      "full_paper_button": "Ler TCC completo",
+      "repository_button": "Ver codigo-fonte",
+      "thesis_title": "GenGuardian: deteccao de DDoS com modelos LLaMA otimizados",
+      "thesis_summary": "O TCC avalia o Llama 3.2-1B como classificador local de trafego de rede. O trabalho compara zero-shot, prompt engineering e fine-tuning supervisionado, depois integra o modelo ajustado em um pipeline modular com estilo IPS usando captura de trafego, FastAPI, Ollama e bloqueio automatico via iptables.",
+      "highlights_title": "O que o trabalho demonstra",
+      "highlights": [
+        "Um modelo LLaMA compacto de 1 bilhao de parametros pode ser adaptado a dados estruturados de ciberseguranca quando ajustado com metodos eficientes em parametros.",
+        "QLoRA e quantizacao em 4 bits tornaram o modelo pratico para execucao local, com modelo GGUF exportado em torno de 807 MB.",
+        "O desenho do sistema vai alem de um notebook: os fluxos de rede sao extraidos com CICFlowMeter, processados por uma API, classificados localmente via Ollama e conectados a logica de mitigacao.",
+        "A pesquisa compara a abordagem com LLM a resultados de machine learning classico, posicionando o GenGuardian como alternativa reproduzivel e controlada localmente."
+      ],
+      "metrics_title": "Resultados experimentais",
+      "metrics": [
+        {
+          "label": "SYN Flood",
+          "value": "99,90%",
+          "detail": "Acuracia apos fine-tuning supervisionado no CICDDoS2019."
+        },
+        {
+          "label": "UDPLag",
+          "value": "98,53%",
+          "detail": "Acuracia em um segundo cenario de ataque com dataset balanceado menor."
+        },
+        {
+          "label": "Multiclasse",
+          "value": "98%",
+          "detail": "Acuracia entre classes de trafego BENIGN, UDP, UDPLag e SYN."
+        },
+        {
+          "label": "Inferencia",
+          "value": "~300 ms",
+          "detail": "Inferencia local de baixa latencia com uso moderado de CPU, RAM e GPU."
+        }
+      ],
+      "artifacts_title": "Artefatos",
+      "artifacts": [
+        {
+          "title": "TCC completo",
+          "description": "Versao completa em PDF do TCC do GenGuardian, com fundamentacao, metodologia, ambiente experimental, resultados e trabalhos futuros.",
+          "href": "/TCC_Pedro_Pizzi_final.pdf",
+          "kind": "paper"
+        },
+        {
+          "title": "Repositorio GenGuardian",
+          "description": "Repositorio do projeto com preparacao de dados, notebooks de fine-tuning e recursos de implementacao para deteccao de DDoS com LLaMA.",
+          "href": "https://github.com/P3dream/detect-dos-attacks-with-llama",
+          "kind": "code"
+        }
+      ]
+    },
     "about_title": "Sobre Mim",
     "about_desc": "Perfil: Engenheiro de Computação, Desenvolvedor Fullstack",
     "about_desc2": "Sou engenheiro de computação com 5 anos de experiência, sendo 4 trabalhando com desenvolvimento full stack, construindo aplicações escaláveis e de alto desempenho.",
@@ -40,35 +95,35 @@
         "id": "dos_detection",
         "title": "Detecção de ataques DoS com LLMs",
         "description": "Classificação de ataques DoS usando LLMs, com fine-tuning via QLoRA para inferência eficiente e escalável. Projeto de TCC no Cefet/RJ.",
-        "image": "/assets/project-dos-image.jpg",
+        "image": "/assets/projects/project-dos-image.jpg",
         "path": "https://github.com/P3dream/detect-dos-attacks-with-llama"
       },
       {
         "id": "performance_monitoring",
         "title": "Monitoramento de desempenho",
         "description": "Monitoramento de desempenho usando Grafana, Prometheus e Nest.js",
-        "image": "/assets/project-prometheus.jpg",
+        "image": "/assets/projects/project-prometheus.jpg",
         "path": "https://github.com/P3dream/performance-monitoring"
       },
       {
         "id": "nestjs_backend",
         "title": "Back-end usando NestJS",
         "description": "Projeto base de back-end utilizando NestJS, TypeORM e PostgreSQL. Autenticação JWT, envio de e-mail e operações com entidades.",
-        "image": "/assets/nest-project.jpg",
+        "image": "/assets/projects/nest-project.jpg",
         "path": "https://github.com/P3dream/nest-back-end-project"
       },
       {
         "id": "pacman_assembly",
         "title": "Pacman em Assembly P3",
         "description": "Pacman desenvolvido por mim, em Assembly P3, na disciplina de Arquitetura de Computadores no CEFET/RJ, curso de Engenharia de Computação.",
-        "image": "/assets/pacman-project.jpg",
+        "image": "/assets/projects/pacman-project.jpg",
         "path": "https://github.com/P3dream/PacmanAS"
       },
       {
         "id": "library_system",
         "title": "Sistema de Biblioteca com Listas Encadeadas",
         "description": "Sistema para Linux desenvolvido em C utilizando listas encadeadas para gestão eficiente de memória. Controla alunos/livros/infraestrutura com operações de complexidade O(n).",
-        "image": "/assets/library-project.jpg",
+        "image": "/assets/projects/library-project.jpg",
         "path": "https://github.com/P3dream/Sistema_biblioteca"
       },
       {
@@ -82,7 +137,7 @@
         "id": "portfolio",
         "title": "Projeto de Portfólio Pessoal",
         "description": "Um portfólio pessoal apresentando minhas habilidades e projetos usando React, TypeScript, Vite e i18n.",
-        "image": "/assets/portfolio.png",
+        "image": "/assets/projects/portfolio.png",
         "path": "https://github.com/P3dream/portifolio"
       }
     ],
@@ -234,6 +289,9 @@
     }
     ],
     "academic_experience_title": "Pesquisa e Formação Acadêmica",
-    "academic_experience_desc": "Principais pesquisas, projetos e experiências acadêmicas durante minha graduação."
+    "academic_experience_desc": "Principais pesquisas, projetos e experiências acadêmicas durante minha graduação.",
+    "research_cta_title": "Projeto de pesquisa GenGuardian",
+    "research_cta_desc": "Veja a página dedicada de Research & Engineering com TCC, código-fonte, arquitetura e resultados experimentais.",
+    "research_cta_button": "Abrir GenGuardian"
   }
 }

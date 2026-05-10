@@ -1,6 +1,9 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
 import CollapsibleSection from "./CollapsibleSection";
 import { useTranslatedArray } from "../lib/useTranslatedArray";
+import { analytics } from "../analytics/events";
 
 interface AcademicExperienceItem {
   role: string;
@@ -48,6 +51,21 @@ const AcademicExperience = () => {
           )}
         </div>
       ))}
+
+      <Link
+        to="/research-engineering"
+        onClick={() => analytics.clickResearchPageLink("academic_experience")}
+        className="mt-4 flex flex-col gap-3 rounded-lg border border-cyan-400/50 bg-slate-900/50 p-4 text-gray-100 transition hover:border-cyan-300 hover:bg-slate-700/70 sm:flex-row sm:items-center sm:justify-between"
+      >
+        <div>
+          <h3 className="text-lg font-semibold">{t("research_cta_title")}</h3>
+          <p className="mt-1 text-sm text-gray-300">{t("research_cta_desc")}</p>
+        </div>
+        <span className="inline-flex items-center gap-2 text-sm font-semibold text-cyan-300">
+          {t("research_cta_button")}
+          <ArrowRight className="h-4 w-4" aria-hidden="true" />
+        </span>
+      </Link>
     </CollapsibleSection>
   );
 };

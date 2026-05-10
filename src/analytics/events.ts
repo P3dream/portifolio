@@ -8,4 +8,10 @@ export const analytics = {
 
   clickProject: (name: string) =>
     track('click_project', { name }),
+
+  clickResearchArtifact: (name: string) =>
+    track('click_research_artifact', { name }),
+
+  clickResearchPageLink: (source: string) =>
+    track('click_research_page_link', { source }),
 };

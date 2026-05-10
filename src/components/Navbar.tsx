@@ -19,6 +19,9 @@ const Navbar = () => {
         <Link to="/projects" className="hover:text-white hover:underline transition">
           {t("projects_title")}
         </Link>
+        <Link to="/research-engineering" className="hover:text-white hover:underline transition">
+          {t("research_nav_title")}
+        </Link>
         <Link to="/certificates" className="hover:text-white hover:underline transition">
           {t("certificates_title")}
         </Link>
