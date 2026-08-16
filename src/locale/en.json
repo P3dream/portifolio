@@ -196,17 +196,25 @@
     },
     "workExperience": [
       {
-        "role": "Fullstack Software Developer",
-        "company": "GE Aerospace",
-        "period": "May 2023 - August 2025",
+        "role": "Software Engineer",
+        "company": "BTG Pactual",
+        "period": "May 2026 - Present",
         "location": "Rio de Janeiro, Brazil",
         "description": [
-          "Implemented features across multiple applications, ensuring performance, scalability, and security.",
-          "Rewrote backend of a system with over 1,000 users, reducing vulnerabilities from 800 to 0 and transforming it into a global tool.",
-          "Implemented secure authentication using OAuth 2.0 and optimized SAP HANA queries for better performance.",
-          "Configured system monitoring with Grafana and Prometheus for real-time metrics and logging."
+          "Develop and maintain full stack applications for financial and regulatory reporting using React, .NET/C#, SQL, and AWS, supporting back office operations for BTG Pactual and Banco PAN.",
+          "Optimize SQL queries and Amazon Athena workloads to process financial and regulatory reports containing millions of records daily, improving performance and efficiency across data intensive applications.",
+          "Develop asynchronous and distributed data processing workflows using Windows Services, Amazon SQS, and Amazon S3 for the ingestion and transformation of financial data."
         ],
-        "stack": ["Vue.js", "Nest.js", "React.js", "Python", "Flask", "Postgres", "SAP HANA", "SQLite"]
+        "stack": [
+          "React",
+          ".NET",
+          "C#",
+          "SQL",
+          "AWS",
+          "Amazon Athena",
+          "Amazon SQS",
+          "Amazon S3"
+        ]
       },
       {
         "role": "Fullstack Software Developer",
@@ -222,7 +230,20 @@
         "stack": ["AdonisJS", "Angular", "RxJS"]
       },
       {
-        "role": "Software Developer",
+        "role": "Fullstack Software Developer",
+        "company": "GE Aerospace",
+        "period": "May 2023 - August 2025",
+        "location": "Rio de Janeiro, Brazil",
+        "description": [
+          "Implemented features across multiple applications, ensuring performance, scalability, and security.",
+          "Rewrote backend of a system with over 1,000 users, reducing vulnerabilities from 800 to 0 and transforming it into a global tool.",
+          "Implemented secure authentication using OAuth 2.0 and optimized SAP HANA queries for better performance.",
+          "Configured system monitoring with Grafana and Prometheus for real-time metrics and logging."
+        ],
+        "stack": ["Vue.js", "Nest.js", "React.js", "Python", "Flask", "Postgres", "SAP HANA", "SQLite"]
+      },
+      {
+        "role": "Fullstack Software Developer",
         "company": "Advice Compliance Solutions",
         "period": "December 2021 - January 2023",
         "location": "Remote",

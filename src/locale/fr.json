@@ -196,17 +196,25 @@
     "recommendations_desc_open": "Dans cette section, je partage quelques lettres de recommandation rédigées par des professeurs du CEFET/RJ qui ont suivi de près mon parcours académique. Je suis reconnaissant pour les conseils et le soutien que j'ai reçus au fil des ans. Ces lettres constituent une partie importante de mon parcours et sont disponibles ici pour ceux qui souhaitent en savoir plus.",
     "workExperience": [
       {
-        "role": "Développeur Fullstack",
-        "company": "GE Aerospace",
-        "period": "Mai 2023 - Août 2025",
+        "role": "Ingénieur Logiciel",
+        "company": "BTG Pactual",
+        "period": "Mai 2026 - Présent",
         "location": "Rio de Janeiro, Brésil",
         "description": [
-          "Implémentation de fonctionnalités sur plusieurs applications, assurant performance, scalabilité et sécurité.",
-          "Réécriture du backend d'un système avec plus de 1 000 utilisateurs, réduisant les vulnérabilités de 800 à 0 et le transformant en outil global.",
-          "Mise en place d'authentification sécurisée avec OAuth 2.0 et optimisation des requêtes SAP HANA pour de meilleures performances.",
-          "Configuration de la surveillance du système avec Grafana et Prometheus pour les métriques en temps réel et le logging."
+          "Développement et maintenance d'applications full stack pour les rapports financiers et réglementaires avec React, .NET/C#, SQL et AWS, en support des opérations de back office de BTG Pactual et Banco PAN.",
+          "Optimisation des requêtes SQL et des charges de travail sur Amazon Athena pour traiter des rapports financiers et réglementaires contenant des millions d'enregistrements par jour, améliorant ainsi les performances et l'efficacité des applications.",
+          "Développement de flux de traitement de données asynchrones et distribués avec Windows Services, Amazon SQS et Amazon S3 pour l'ingestion et la transformation de données financières."
         ],
-        "stack": ["Vue.js", "Nest.js", "React.js", "Python", "Flask", "Postgres", "SAP HANA", "SQLite"]
+        "stack": [
+          "React",
+          ".NET",
+          "C#",
+          "SQL",
+          "AWS",
+          "Amazon Athena",
+          "Amazon SQS",
+          "Amazon S3"
+        ]
       },
       {
         "role": "Développeur Fullstack",
@@ -222,7 +230,20 @@
         "stack": ["AdonisJS", "Angular", "RxJS"]
       },
       {
-        "role": "Développeur de logiciels",
+        "role": "Développeur Fullstack",
+        "company": "GE Aerospace",
+        "period": "Mai 2023 - Août 2025",
+        "location": "Rio de Janeiro, Brésil",
+        "description": [
+          "Implémentation de fonctionnalités sur plusieurs applications, assurant performance, scalabilité et sécurité.",
+          "Réécriture du backend d'un système avec plus de 1 000 utilisateurs, réduisant les vulnérabilités de 800 à 0 et le transformant en outil global.",
+          "Mise en place d'authentification sécurisée avec OAuth 2.0 et optimisation des requêtes SAP HANA pour de meilleures performances.",
+          "Configuration de la surveillance du système avec Grafana et Prometheus pour les métriques en temps réel et le logging."
+        ],
+        "stack": ["Vue.js", "Nest.js", "React.js", "Python", "Flask", "Postgres", "SAP HANA", "SQLite"]
+      },
+      {
+        "role": "Développeur Fullstack",
         "company": "Advice Compliance Solutions",
         "period": "Décembre 2021 - Janvier 2023",
         "location": "À distance",
