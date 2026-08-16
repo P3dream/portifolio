@@ -275,18 +275,6 @@
           "J'ai fourni la base pour le projet de mémoire de fin d'études GenGuardian, axé sur la détection des attaques DDoS."
         ],
         "stack": ["Python", "Modèles LLaMA", "Quantification", "Fine-tuning", "IA Générative", "LLMs"]
-      },
-      {
-        "role": "Participant au Capture The Flag (CTF) en Cybersécurité",
-        "company": "Cefet/RJ",
-        "period": "Mars 2026 - Présent",
-        "location": "Rio de Janeiro, Brésil",
-        "description": [
-          "Je participe à une équipe de Capture The Flag (CTF) axée sur la découverte et l'exploitation de vulnérabilités.",
-          "Je résous des défis liés à la sécurité web, l'ingénierie inverse, l'analyse réseau, l'exploitation binaire et la cryptographie.",
-          "Je collabore avec les participants pour analyser les systèmes, identifier les vulnérabilités et développer des stratégies d'exploitation."
-        ],
-        "stack": ["Cybersécurité", "CTF", "Analyse de Vulnérabilités"]
       }
     ],
     "academic_experience_title": "Recherche et Expérience Académique",

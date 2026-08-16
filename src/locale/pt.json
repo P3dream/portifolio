@@ -277,18 +277,6 @@
         "Forneci a base para o projeto de TCC de graduação GenGuardian, focado na detecção de ataques DDoS."
       ],
       "stack": ["Python", "Modelos LLaMA", "Quantização", "Fine-tuning", "IA Generativa", "LLMs"]
-    },
-    {
-      "role": "Participante de Capture The Flag (CTF) em Cibersegurança",
-      "company": "Cefet/RJ",
-      "period": "Março 2026 - Presente",
-      "location": "Rio de Janeiro, Brasil",
-      "description": [
-        "Participo de uma equipe de Capture The Flag (CTF) focada na descoberta e exploração de vulnerabilidades.",
-        "Resolvo desafios envolvendo segurança web, engenharia reversa, análise de redes, exploração binária e criptografia.",
-        "Colaboro com participantes para analisar sistemas, identificar vulnerabilidades e desenvolver estratégias de exploração."
-      ],
-      "stack": ["Cibersegurança", "CTF", "Análise de Vulnerabilidades"]
     }
     ],
     "academic_experience_title": "Pesquisa e Formação Acadêmica",
