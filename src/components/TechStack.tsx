@@ -2,7 +2,7 @@ import { Code2, Database, Layers3, ServerCog } from "lucide-react";
 
 const techSections = {
     Backend: ["Nest.js", "Node.js", "Microservices", ".NET", "RESTful APIs", "Python"],
-    Frontend: ["React.js", "Vue.js", "Angular", "Redux", "TypeScript"],
+    Frontend: ["React.js", "Vue.js", "Angular", "TypeScript"],
     DevOps: ["AWS", "Docker", "CI/CD", "Grafana", "Prometheus", "Cybersecurity","Certificates"],
     Databases: ["PostgreSQL", "MySQL", "MongoDB","SQLite","SQL Server","Sap Hana"]
 };
