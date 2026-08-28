@@ -5,9 +5,9 @@ import { SUPPORTED_LANGUAGES } from "../lib/i18n";
 
 const RESUME_FILES: Record<string, string> = {
   en: "pedro-pizzi-en.pdf",
-  es: "Pedro-Pizzi-es.pdf",
-  fr: "Pedro-Pizzi-fr.pdf",
-  pt: "Pedro-Pizzi-pt.pdf",
+  es: "pedro-pizzi-es.pdf",
+  fr: "pedro-pizzi-fr.pdf",
+  pt: "pedro-pizzi-pt.pdf",
 };
 
 const Resume = () => {
