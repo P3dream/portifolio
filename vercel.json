@@ -1,6 +1,26 @@
 {
   "rewrites": [
     {
+      "source": "/about",
+      "destination": "/about/index.html"
+    },
+    {
+      "source": "/projects",
+      "destination": "/projects/index.html"
+    },
+    {
+      "source": "/research-engineering",
+      "destination": "/research-engineering/index.html"
+    },
+    {
+      "source": "/resume",
+      "destination": "/resume/index.html"
+    },
+    {
+      "source": "/certificates",
+      "destination": "/certificates/index.html"
+    },
+    {
       "source": "/((?!.*\\.(?:js|css|png|jpg|jpeg|gif|svg|pdf|woff|woff2|ttf|eot|ico|txt|json|webmanifest)).*)",
       "destination": "/index.html"
     }

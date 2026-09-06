@@ -1,20 +1,21 @@
-import { useEffect, useState } from "react";
+import { lazy, Suspense, useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import { FaLinkedin, FaGithub, FaEnvelope /* , FaYoutube */ } from "react-icons/fa";
 import { Globe } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import Navbar from "./components/Navbar";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Resume from "./pages/Resume";
-import YoutubeChannel from "./pages/YoutubeChannel";
-import CertificatesPage from "./pages/Certificates";
-import ResearchEngineering from "./pages/ResearchEngineering";
 import { Analytics } from "@vercel/analytics/react";
 import PageTracker from "./analytics/PageTracker";
 import PageMetadata from "./components/PageMetadata";
 import { analytics } from "./analytics/events";
 import "./App.css";
+
+const About = lazy(() => import("./pages/About"));
+const Projects = lazy(() => import("./pages/Projects"));
+const Resume = lazy(() => import("./pages/Resume"));
+const YoutubeChannel = lazy(() => import("./pages/YoutubeChannel"));
+const CertificatesPage = lazy(() => import("./pages/Certificates"));
+const ResearchEngineering = lazy(() => import("./pages/ResearchEngineering"));
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -91,15 +92,27 @@ function App() {
         <Navbar languageSelector={languageSelector} />
 
         <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
-          <Routes>
-            <Route path="/" element={<Navigate to="/about" replace />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/research-engineering" element={<ResearchEngineering />} />
-            <Route path="/youtubeChannel" element={<YoutubeChannel />} />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="/certificates" element={<CertificatesPage />} />
-          </Routes>
+          <Suspense
+            fallback={
+              <div
+                className="flex min-h-48 items-center justify-center text-sm text-gray-300"
+                role="status"
+              >
+                <span className="h-5 w-5 animate-spin rounded-full border-2 border-slate-500 border-t-gray-100" aria-hidden="true" />
+                <span className="ml-3">{t("loading_page")}</span>
+              </div>
+            }
+          >
+            <Routes>
+              <Route path="/" element={<Navigate to="/about" replace />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/research-engineering" element={<ResearchEngineering />} />
+              <Route path="/youtubeChannel" element={<YoutubeChannel />} />
+              <Route path="/resume" element={<Resume />} />
+              <Route path="/certificates" element={<CertificatesPage />} />
+            </Routes>
+          </Suspense>
         </main>
 
         <footer className="mt-12 border-t border-slate-700 px-4 py-6 text-center text-sm text-gray-400">

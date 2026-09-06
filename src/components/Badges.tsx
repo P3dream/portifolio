@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { Award } from "lucide-react";
 
@@ -25,11 +24,9 @@ const Badges = ({ badges }: BadgesProps) => {
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
         {badges.map((badge) => (
-          <motion.div
+          <div
             key={badge.id}
-            whileHover={{ y: -2 }}
-            transition={{ type: "spring", stiffness: 250, damping: 12 }}
-            className="flex w-full gap-4 rounded-lg border border-slate-600/80 bg-slate-700/70 p-4 shadow-md transition duration-300 hover:border-slate-400/80 hover:bg-slate-700/90 hover:shadow-xl"
+            className="flex w-full gap-4 rounded-lg border border-slate-600/80 bg-slate-700/70 p-4 shadow-md transition duration-300 hover:-translate-y-0.5 hover:border-slate-400/80 hover:bg-slate-700/90 hover:shadow-xl"
           >
             <div className="flex-shrink-0">
               <img
@@ -53,7 +50,7 @@ const Badges = ({ badges }: BadgesProps) => {
                 {t(`badges.${badge.id}.description`)}
               </p>
             </div>
-          </motion.div>
+          </div>
         ))}
       </div>
     </section>

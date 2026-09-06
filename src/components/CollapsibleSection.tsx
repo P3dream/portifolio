@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 
 interface CollapsibleSectionProps {
@@ -66,19 +65,7 @@ const CollapsibleSection = ({
         </span>
       </button>
 
-      <AnimatePresence initial={false}>
-        {isOpen && (
-          <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.4 }}
-            className="mt-5 overflow-hidden space-y-4"
-          >
-            {children}
-          </motion.div>
-        )}
-      </AnimatePresence>
+      {isOpen && <div className="mt-5 space-y-4">{children}</div>}
     </section>
   );
 };

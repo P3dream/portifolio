@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import Certificate from "../model/Certificate";
 
 type CarouselProps = {
@@ -12,6 +13,7 @@ const CertificateCarousel = ({
   certificates,
   autoPlayInterval = 2000,
 }: CarouselProps) => {
+  const { t } = useTranslation();
   const [currentIndex, setCurrentIndex] = useState(0);
   const intervalRef = useRef<number | null>(null);
 
@@ -49,7 +51,7 @@ const CertificateCarousel = ({
           <motion.img
             key={certificates[currentIndex].id}
             src={certificates[currentIndex].imageUrl}
-            alt=""
+            alt={t(certificates[currentIndex].titleKey)}
             className="h-full w-full rounded-md object-contain"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -60,7 +62,7 @@ const CertificateCarousel = ({
         <button
           type="button"
           onClick={prevSlide}
-          aria-label="Previous certificate"
+          aria-label={t("certificate_previous")}
           className="absolute left-3 top-1/2 -translate-y-1/2 rounded-md border border-slate-500/80 bg-slate-900/75 p-2 text-white shadow transition hover:bg-slate-800"
         >
           <ChevronLeft className="w-6 h-6" aria-hidden="true" />
@@ -68,7 +70,7 @@ const CertificateCarousel = ({
         <button
           type="button"
           onClick={nextSlide}
-          aria-label="Next certificate"
+          aria-label={t("certificate_next")}
           className="absolute right-3 top-1/2 -translate-y-1/2 rounded-md border border-slate-500/80 bg-slate-900/75 p-2 text-white shadow transition hover:bg-slate-800"
         >
           <ChevronRight className="w-6 h-6" aria-hidden="true" />
@@ -79,7 +81,7 @@ const CertificateCarousel = ({
           <button
             key={cert.id}
             type="button"
-            aria-label={`Go to slide ${index + 1}`}
+            aria-label={t("certificate_go_to", { number: index + 1 })}
             aria-current={index === currentIndex}
             className={`h-2.5 rounded-full transition-all ${
               index === currentIndex
@@ -96,7 +98,7 @@ const CertificateCarousel = ({
             key={cert.id}
             type="button"
             onClick={() => goToSlide(index)}
-            aria-label={`Show certificate ${index + 1}`}
+            aria-label={t("certificate_show", { title: t(cert.titleKey) })}
             aria-current={index === currentIndex}
             className="p-0 border-0 bg-transparent"
           >
