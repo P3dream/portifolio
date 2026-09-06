@@ -198,15 +198,15 @@
     "work_experience_desc": "Clique para expandir e ver mais sobre minhas experiências profissionais.",
     "workExperience": [
       {
-        "role": "Software Engineer",
+        "role": "Engenheiro de Software",
         "company": "BTG Pactual",
         "period": "Maio 2026 - Presente",
         "location": "Rio de Janeiro, Brasil",
         "description": [
-          "Desenvolvimento e manutenção de aplicações full stack para relatórios financeiros e regulatórios, utilizando React, .NET/C#, SQL e AWS, apoiando operações de back office do BTG Pactual e Banco PAN.",
-          "Otimização de queries SQL e workloads no Amazon Athena para processamento de relatórios financeiros e regulatórios com milhões de registros diariamente, melhorando a performance e eficiência das aplicações.",
-          "Desenvolvimento de fluxos assíncronos e distribuídos para processamento de dados utilizando Windows Services, Amazon SQS e Amazon S3, realizando a ingestão e transformação de dados financeiros."
-        ],
+          "Desenvolvo e mantenho aplicações full-stack de relatórios financeiros e regulatórios usando React, .NET/C#, SQL e AWS, dando suporte às operações de back-office do BTG Pactual e do Banco PAN.",
+          "Otimizo consultas SQL e workloads no Amazon Athena para processar relatórios financeiros e regulatórios com milhões de registros diários, melhorando performance e eficiência em aplicações de alto volume de dados.",
+          "Desenvolvo workflows de processamento de dados assíncronos e distribuídos usando Windows Services, Amazon SQS e Amazon S3, para ingestão e transformação de dados financeiros críticos para o negócio."
+        ],  
         "stack": [
           "React",
           ".NET",
@@ -219,7 +219,7 @@
         ]
       },
       {
-        "role": "Desenvolvedor de Software Fullstack",
+        "role": "Engenheiro de Software",
         "company": "DUONEX",
         "period": "Dezembro 2025 - Janeiro 2026",
         "location": "Valladolid, Castilla y León, Espanha",
@@ -232,7 +232,7 @@
         "stack": ["AdonisJS", "Angular", "RxJS"]
       },
       {
-        "role": "Desenvolvedor de Software Fullstack",
+        "role": "Engenheiro de Software",
         "company": "GE Aerospace",
         "period": "Maio 2023 - Agosto 2025",
         "location": "Rio de Janeiro, Brasil",
@@ -245,7 +245,7 @@
         "stack": ["Vue.js", "Nest.js", "React.js", "Python", "Flask", "Postgres", "SAP HANA", "SQLite"]
       },
       {
-        "role": "Desenvolvedor de Software Fullstack",
+        "role": "Engenheiro de Software",
         "company": "Advice Compliance Solutions",
         "period": "Dezembro 2021 - Janeiro 2023",
         "location": "Remoto",
@@ -256,12 +256,12 @@
         "stack": ["C#", ".NET", "SQL", "JavaScript", "HTML", "REST APIs"]
       },
       {
-        "role": "Estágio",
+        "role": "Local Delivery Manager North America",
         "company": "Orange Business Services",
         "period": "Novembro 2020 - Novembro 2021",
         "location": "Remoto",
         "description": [
-          "Trabalhei na equipe LDM/NAM lidando com pedidos de circuitos, agendamento de instalações e gestão de pedidos para a América do Norte."
+          "Estagiei no time de LDM/NAM (Local Delivery Manager, North America) na Orange Business Services, em que meu escopo de trabalho era o ordenamento de circuitos, agendamento de instalações e gerenciamento de pedidos para região da América do Norte."
         ],
         "stack": ["Operações", "Gestão de Pedidos"]
       }

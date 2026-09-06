@@ -217,7 +217,7 @@
         ]
       },
       {
-        "role": "Desarrollador de Software Fullstack",
+        "role": "Ingeniero de Software",
         "company": "DUONEX",
         "period": "Diciembre 2025 - Enero 2026",
         "location": "Valladolid, Castilla y León, España",
@@ -230,7 +230,7 @@
         "stack": ["AdonisJS", "Angular", "RxJS"]
       },
       {
-        "role": "Desarrollador de Software Fullstack",
+        "role": "Ingeniero de Software",
         "company": "GE Aerospace",
         "period": "Mayo 2023 - Agosto 2025",
         "location": "Río de Janeiro, Brasil",
@@ -243,18 +243,18 @@
         "stack": ["Vue.js", "Nest.js", "React.js", "Python", "Flask", "Postgres", "SAP HANA", "SQLite"]
       },
       {
-        "role": "Desarrollador de Software Fullstack",
+        "role": "Ingeniero de Software",
         "company": "Advice Compliance Solutions",
         "period": "Diciembre 2021 - Enero 2023",
         "location": "Remoto",
         "description": [
-          "Pasantía desarrollando sistemas en C#, .NET, SQL, JavaScript, HTML y APIs REST.",
+          "Práctica profesional desarrollando sistemas en C#, .NET, SQL, JavaScript, HTML y APIs REST.",
           "Desarrollé habilidades en desarrollo fullstack e integración de APIs."
         ],
         "stack": ["C#", ".NET", "SQL", "JavaScript", "HTML", "REST APIs"]
       },
       {
-        "role": "Pasantía",
+        "role": "Local Delivery Manager para América del Norte",
         "company": "Orange Business Services",
         "period": "Noviembre 2020 - Noviembre 2021",
         "location": "Remoto",

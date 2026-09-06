@@ -217,7 +217,7 @@
         ]
       },
       {
-        "role": "Fullstack Software Developer",
+        "role": "Software Engineer",
         "company": "DUONEX",
         "period": "December 2025 - January 2026",
         "location": "Valladolid, Castilla and Leon, Spain",
@@ -230,7 +230,7 @@
         "stack": ["AdonisJS", "Angular", "RxJS"]
       },
       {
-        "role": "Fullstack Software Developer",
+        "role": "Software Engineer",
         "company": "GE Aerospace",
         "period": "May 2023 - August 2025",
         "location": "Rio de Janeiro, Brazil",
@@ -243,7 +243,7 @@
         "stack": ["Vue.js", "Nest.js", "React.js", "Python", "Flask", "Postgres", "SAP HANA", "SQLite"]
       },
       {
-        "role": "Fullstack Software Developer",
+        "role": "Software Engineer",
         "company": "Advice Compliance Solutions",
         "period": "December 2021 - January 2023",
         "location": "Remote",
@@ -254,12 +254,12 @@
         "stack": ["C#", ".NET", "SQL", "JavaScript", "HTML", "REST APIs"]
       },
       {
-        "role": "Internship",
+        "role": "Local Delivery Manager for North America",
         "company": "Orange Business Services",
         "period": "November 2020 - November 2021",
         "location": "Remote",
         "description": [
-          "Worked in the LDM/NAM team handling circuit ordering, facility scheduling, and order management for North America."
+          "I was a intern in the Local Delivery Manager team at Orange Business Services, where my scope of work was circuit ordering, facility scheduling, ordering circuit parts and management of orders for the North American region."
         ],
         "stack": ["Operations", "Order Management"]
       }
