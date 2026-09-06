@@ -11,6 +11,28 @@
     "projects_title": "Projets",
     "projects_desc": "Vous trouverez ici mes projets académiques, professionnels et personnels.",
     "research_nav_title": "Research & Engineering",
+    "seo": {
+      "about": {
+        "title": "Pedro Pizzi | Ingénieur logiciel",
+        "description": "Pedro Pizzi est ingénieur logiciel, spécialisé en développement full stack, architecture logicielle, sécurité, DevOps et IA appliquée."
+      },
+      "projects": {
+        "title": "Projets | Pedro Pizzi",
+        "description": "Découvrez les projets sélectionnés de Pedro Pizzi en full stack, observabilité, cybersécurité et ingénierie logicielle."
+      },
+      "research": {
+        "title": "Recherche et ingénierie GenGuardian | Pedro Pizzi",
+        "description": "GenGuardian est la recherche de Pedro Pizzi en IA appliquée et cybersécurité sur la détection de DDoS avec des modèles LLaMA ajustés."
+      },
+      "resume": {
+        "title": "CV | Pedro Pizzi",
+        "description": "Consultez ou téléchargez le CV de Pedro Pizzi en anglais, portugais, espagnol ou français."
+      },
+      "certificates": {
+        "title": "Certificats | Pedro Pizzi",
+        "description": "Découvrez les certificats professionnels et les bourses internationales obtenus par Pedro Pizzi."
+      }
+    },
     "research": {
       "eyebrow": "IA appliquee, cybersecurite et ingenierie des systemes",
       "title": "Research & Engineering",

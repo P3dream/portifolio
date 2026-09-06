@@ -4,7 +4,7 @@ const techSections = {
     Backend: ["Nest.js", "Node.js", ".NET", "RESTful APIs", "Python"],
     Frontend: ["React.js", "Vue.js", "TypeScript"],
     DevOps: ["AWS", "Docker", "CI/CD", "Grafana", "Prometheus", "Cybersecurity"],
-    Databases: ["PostgreSQL", "MySQL", ,"SQLite","SQL Server","S3","AWS Athena"]
+    Databases: ["PostgreSQL", "MySQL", "SQLite", "SQL Server", "S3", "AWS Athena"]
 };
 
 const sectionIcons = {

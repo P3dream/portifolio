@@ -11,6 +11,28 @@
     "projects_title": "Proyectos",
     "projects_desc": "Aquí encontrarás mis proyectos académicos, profesionales y personales.",
     "research_nav_title": "Research & Engineering",
+    "seo": {
+      "about": {
+        "title": "Pedro Pizzi | Ingeniero de Software",
+        "description": "Pedro Pizzi es Ingeniero de Software especializado en desarrollo full stack, arquitectura de software, seguridad, DevOps e IA aplicada."
+      },
+      "projects": {
+        "title": "Proyectos | Pedro Pizzi",
+        "description": "Explora los proyectos seleccionados de Pedro Pizzi en full stack, observabilidad, ciberseguridad e ingeniería de software."
+      },
+      "research": {
+        "title": "Investigación e Ingeniería GenGuardian | Pedro Pizzi",
+        "description": "GenGuardian es la investigación de IA aplicada y ciberseguridad de Pedro Pizzi sobre detección de DDoS con modelos LLaMA ajustados."
+      },
+      "resume": {
+        "title": "Currículum | Pedro Pizzi",
+        "description": "Consulta o descarga el currículum de Pedro Pizzi en inglés, portugués, español o francés."
+      },
+      "certificates": {
+        "title": "Certificados | Pedro Pizzi",
+        "description": "Consulta los certificados profesionales y becas internacionales obtenidos por Pedro Pizzi."
+      }
+    },
     "research": {
       "eyebrow": "IA aplicada, ciberseguridad e ingenieria de sistemas",
       "title": "Research & Engineering",

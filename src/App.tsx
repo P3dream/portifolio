@@ -12,6 +12,7 @@ import CertificatesPage from "./pages/Certificates";
 import ResearchEngineering from "./pages/ResearchEngineering";
 import { Analytics } from "@vercel/analytics/react";
 import PageTracker from "./analytics/PageTracker";
+import PageMetadata from "./components/PageMetadata";
 import { analytics } from "./analytics/events";
 import "./App.css";
 
@@ -85,6 +86,7 @@ function App() {
   return (
     <Router>
       <PageTracker />
+      <PageMetadata baseUrl="https://www.pedropizzi.com" />
       <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-gray-100 font-sans">
         <Navbar languageSelector={languageSelector} />
 

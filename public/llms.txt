@@ -16,10 +16,10 @@ His professional experience spans full stack development (Vue.js, React, Angular
 
 ## Resume (PDF, multilingual)
 
-- [English](https://www.pedropizzi.com/curriculum/Pedro-Pizzi-en.pdf)
-- [Portuguese](https://www.pedropizzi.com/curriculum/Pedro-Pizzi-pt.pdf)
-- [Spanish](https://www.pedropizzi.com/curriculum/Pedro-Pizzi-es.pdf)
-- [French](https://www.pedropizzi.com/curriculum/Pedro-Pizzi-fr.pdf)
+- [English](https://www.pedropizzi.com/curriculum/pedro-pizzi-en.pdf)
+- [Portuguese](https://www.pedropizzi.com/curriculum/pedro-pizzi-pt.pdf)
+- [Spanish](https://www.pedropizzi.com/curriculum/pedro-pizzi-es.pdf)
+- [French](https://www.pedropizzi.com/curriculum/pedro-pizzi-fr.pdf)
 
 ## Professional Experience
 
